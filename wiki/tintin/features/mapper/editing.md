@@ -1,5 +1,21 @@
-Editing the Map
-===============
+Map Editing
+===========
+
+
+Overview
+--------
+Creating maps is a complicated process. The *automapper* makes this process *much* faster, however it doesn't work in all cases, and a lot of *manual* editing of map files is necessary to make them work correctly. There are several tricks to improve the behavior of the automapper and the mapper display as well.
+
+
+See also:
+
+- [Mapper](index.md)
+- [Helpfile](helpfile.md)
+- [Automapper](automapper.md)
+- [Metadata](metadata.md)
+- [Editing](editing.md)
+- [Display](display.md)
+
 
 Dynamic Mapping
 ---------------
@@ -10,6 +26,7 @@ As covered in fundamentals, we need to disable the static flag to allow rooms to
 Once this is disabled, the mapper will automatically create rooms in the map as it interprets your movement.
 
 NOTE: Dynamic mapping requires the #pathdir settings to be configured. The default are good when starting, but more can be done with these.
+
 
 Manual Mapping
 --------------

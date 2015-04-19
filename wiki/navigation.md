@@ -7,8 +7,10 @@
   * [Cookbook](/tintin/cookbook/index.md)
   * [Debugging](/tintin/debugging/index.md)
   * [Pitfalls](/tintin/pitfalls/index.md)
-  * [Tmux Layouts](/tintin/tmux/index.md)
+  * [Terminal Colors](/tintin/termcolor/index.md)
+  * [Layouts](/tintin/layouts/index.md)
   * [Python Integration](/tintin/python/index.md)
+  * [TinTin Source Code](/tintin/ttsrc/index.md)
 
 [NannyMUD]()
 

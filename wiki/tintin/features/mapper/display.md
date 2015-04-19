@@ -1,5 +1,22 @@
+Map Display
+===========
+
+
+Overview
+--------
+
+See also:
+
+- [Mapper](index.md)
+- [Helpfile](helpfile.md)
+- [Automapper](automapper.md)
+- [Metadata](metadata.md)
+- [Editing](editing.md)
+- [Display](display.md)
+
+
 Displaying the Map in a Separate Terminal
-=========================================
+-----------------------------------------
 Rather than displaying in a split, we can get a much more enjoyable experience by displaying the map in a separate window.
 
 The easiest way to do this is to have the MAP ENTER ROOM event write the map to a separate file, like this::

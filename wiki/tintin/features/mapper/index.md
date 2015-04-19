@@ -1,10 +1,26 @@
-Getting Started
-===============
+Mapper
+======
+
+
+Overview
+--------
+The mapper is arguably the most valuable (and advanced) feature included in TinTin++. It allows us to create a persistent world 'map' (database). The mapper is very complicated and is probably the most asked about feature on the forums. I've 
+
+See Also:
+
+- [Mapper](index.md)
+- [Helpfile](helpfile.md)
+- [Automapper](automapper.md)
+- [Metadata](metadata.md)
+- [Editing](editing.md)
+- [Display](display.md)
+
+TODO: Get the current mapper location.
 
 
 Creating a Map
 --------------
-To create a map, use::
+To create a map, use:
 
     #map create <size>
 
@@ -125,3 +141,19 @@ We can disable this flag with the command::
     #map flag static off
 
 Now if you move around, you'll see that new rooms are created.
+
+
+References
+----------
+
+- [Map](http://tintin.sourceforge.net/manual/map.php)
+
+
+<!-- Bookmarks -->
+
+[How to get the farthest room?]:                        http://tintin.sourceforge.net/board/viewtopic.php?t=2272
+[Starting with Mapper - Basic Questions]:               http://tintin.sourceforge.net/board/viewtopic.php?t=2109
+[Can anyone explain VTGraphics?]:                       http://tintin.sourceforge.net/board/viewtopic.php?t=2108
+[Mapper: Testing and Recovering from Broken Paths]:     http://tintin.sourceforge.net/board/viewtopic.php?t=2038
+[Automatically write roomname & roomarea descriptors]:  http://tintin.sourceforge.net/board/viewtopic.php?t=1961
+[Getting area: to display when doing a #map list]:      http://tintin.sourceforge.net/board/viewtopic.php?t=1796

@@ -6,8 +6,7 @@ Overview
 --------
 While the TinTin++ scripting language is great (for what it's designed to do), it's still just a *"toy"* language and not nearly as robust as languages like python or ruby.  I spent a significant amount of time building *very* complex TinTin++ scripts before I finally decided that the TinTin language wasn't going to be able to handle everything I wanted to do.
 
-Getting started with external script integrations is a little tricky, so I've built this guide to walk through the
-process.
+Getting started with external script integrations is a little tricky, so I've built this guide to walk through the process.
 
 TinTin provides three distinct commands for interacting with external resources & scripts:
 
@@ -17,8 +16,7 @@ TinTin provides three distinct commands for interacting with external resources 
 
 The 'System' Command
 --------------------
-Of the three commands, `#system` is the most straight forward. This *does not* return a value to TinTin - it simply
-executes a command in the parent shell and the output is dumped straight to console. Some command examples that I use:
+Of the three commands, `#system` is the most straight forward. This *does not* return a value to TinTin - it simply executes a command in the parent shell and the output is dumped straight to console. Some command examples that I use:
 
     #alias {clear} {#system clear}
     #alias {ls}    {#system ls}
@@ -74,15 +72,12 @@ We can now write python in our python session: `print('echo with python')` - and
 
 Note: In a regular tintin session, and preceding whitespace before the `#` character is stripped out. In a `#run python python` session this does not happen and results in an intepretter error.
 
-We can leave the python session running in the background and send commands to it (just like normal) which contain
-python code that will be executed:
+We can leave the python session running in the background and send commands to it (just like normal) which contain python code that will be executed:
 
     #gts
     #python print("hello from #gts session")
 
-Note: While we don't see the output in #gts, we can switch back to the python session (`#python`) and scroll through the
-history buffer to see that the command was actually executed.
-
+Note: While we don't see the output in #gts, we can switch back to the python session (`#python`) and scroll through the history buffer to see that the command was actually executed.
 
 
 

@@ -1,0 +1,3 @@
+[submodule "tintin"]
+	path = tintin
+	url = git@github.com:tintinplusplus/tintin.git
