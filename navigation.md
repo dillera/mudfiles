@@ -28,7 +28,7 @@
 
 [Server](/server/index.md)
 
-[PYRE](/pyre/index.md)
+[Pyre](/pyre/index.md)
 
 [gimmick:theme (inverse: false)](yeti)
 [gimmick:Disqus](mudfiles)
