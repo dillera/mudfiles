@@ -1,0 +1,3215 @@
+Quests
+======
+
+
+Overview
+--------
+Sharing quests is against the rules, but it's been done pretty much forever (in secret). Over the years, I've been given
+a couple lists, and found a couple more, so I've dumped them here - and NannyMUD has been *mostly* abandoned at this
+point - so I've dumped them here. The content is pretty outdated now as well.
+
+The raw quest lists are here:
+
+- [Questlist 1](/resources/quests/list1.txt)
+- [Questlist 2](/resources/quests/list2.txt)
+- [Questlist 3](/resources/quests/list3.txt)
+
+Note: The points vary based on the number of people that have solved the quest. The points for each quests haven't been
+updated in *years* so it's likely they're off.
+
+
+## Quests without Solutions
+
++ Get the gems (?? points, by ??)
++ The quest for supreme good and evil (50 points, by Gurk)
++ Free yourself! (50 points, by Quant)
++ Help Mishra get rid of Urza (66 points, by Mishra)
++ Odin's Picture (80 points, by Ledough)
++ Resurrect the young Squire (82 points, by Vincent)
++ Defeat the evil kings and release the princess (83 points, by Sadyc)
++ Join the Carpet Rider's Society (90 points, by Vincent)
++ Steal the Golden Dragon Egg (130 points, by Readis and Firelight)
++ Inspire Zeus and Discover Revenge (139 points, by Panic)
++ Raid a castle (150 points, by Qqqq)
++ Slay lag (152 points, by Randalar)
+
+0-25 Points
+-----------
+
+
+### Bells of St Mary (1 point, by Banshee)
+
+Note: This quest can only be completed between 17:00 and 18:00 Nannytime.
+
+    green: 4e, s, w
+    When The Abbess appears:
+    listen (listen to bells)
+
+
+### Visit the Tourist Information Office (1 point)
+
+    green: 2e, 2s, e
+    say «wizard» (name of any wizard with an area, e.g. Banshee)
+
+
+### Keep the MUD tidy! (1 point)
+
+    Find an item of some worth
+    green: 3e, n
+    toss «item» in bin
+
+
+### Buy the Book of Quests (1 point)
+
+    green: 2e, 2n, w, s
+    buy book of quests
+
+
+### Find a rare object for the recycler of things (2 points)
+
+    Find a rare item, then:
+    green: 4w, 2s, w, 2s, 3sw, 2s, e, 3s, w, n
+    sell item
+
+
+### Help the boy escape from the spider's net (3 points, by Dz)
+
+    green: 4w, n, 5w, n, Find the spider in this maze (not too hard), kill spider, release boy
+
+
+### Sacrifice a male corpse to Bacchus (5 points)
+
+Note: To do this quest, you must first become female
+Note: Bring a light source.
+
+    green: 3e, d, e
+    buy shovel
+    Now find a male monster and kill him, get corpse
+    green: 3w, 5n, e, n
+    dig mosaic
+    d
+    sacrifice corpse
+
+
+### Help Moi perfect his collection (10 points, by Aphextwin)
+
+Note: Bring a light source.
+
+    green: 4w, 5n, w, 3n, nw
+    Now follow the mountain, until you get to the top (might have to drop some eq
+    for the last step)
+    enter hut, say quest
+    Get the item Moi wants (it should be somewhere around: 4w, 5n, w, 3n, ne, e,
+    enter, n, d from green)
+    Then go back to Moi:
+    give «item» to moi
+
+
+### Give the Orc slayer to Leo (10 points)
+
+    green: 7w, n
+    kill orcs
+    n
+    kill shaman, get all from corpse
+    2s, 7e, n
+    open door
+    w
+    close door,
+    d,
+    open door,
+    e
+    give sword to leo
+
+
+### Sacrifice! (12 points, by Taren)
+
+    green: 9w, 7s, 2w, s
+    clue
+
+    Go to the place where it says:
+
+    Cold dark place: n, 4w, 5n, w, lift lid, enter lid, 2w, 5s, 2e, n
+    Where even I can sleep: n, 4w, 3n, w, u, enter door 1
+    You must search high : n, 2e, climb mountain
+    Hidden in the wood where the Darkelfs dwell: 6n, enter tree
+    The smell of the surroundings: n, 4w, 5n, w, enter door
+    What you seek is hidden in the wood where the Darkelves dwell.
+
+    get bag
+    Go back to church.
+    s, 4e, 3n, 2d, w, 2d, s, e
+    catch champion
+    w, n, 2u, e, 2u, 3s, 13w, 7s, 2w, s
+    put bag on altar, sacrifice champion
+
+
+### Help Peter to find Tootoolah (13 points, by Ziphoid)
+
+    green: 6n, sw
+    enter palace
+    n, e
+    get kitten (it is somewhere around here), open fridge, get all from fridge
+    w, s
+    out
+    w
+    enter house
+    n
+    pour milk in bowl, drop kitten
+
+
+### Help Sir Obliterator in his evil work (15 points, by Brom and Padrone)
+
+Note: keep saying 'follow me' to Sir Obliterator, as he often goes walkabout otherwise.
+
+    green: 6w, 2s, e, 3s (Sir Obliterator should be here)
+    say follow me
+    3n, w, 2n, 49e (should be a cow, or in the description: some things a cow has
+    left)
+    s
+    Find Prince Violens (walking around somewhere here)
+
+
+### Smoke a pipe (16 points, by Rand)
+
+Note: Bring a light source.
+
+    green: 3e, d, e
+    buy shovel
+    w, u, 3w, 8s, 2w, d, s, 2e
+    move leaf
+    2n
+    get pipe (if it is here)
+    2s, 2w, 2s, 2e, 2s, e
+    get tabac
+    w, 2n, 5w, n
+    get bag
+    s, 2w, 3s, 2e
+    exa man, kill man (if he has a pipe), get all from corpse
+    Get back to where the tinker was, then:
+    2w, 4n, nw, 3n, 2ne, s
+    dig, get all
+    n, 2sw, 8n
+    Find Nynaeve (somewhere in the tower up from here).
+    give bag to nynaeve
+    fill pipe, light striker, light pipe, smoke pipe
+
+
+### The golden ring (17 points, by Celeborn)
+
+Note: the ring can be virtually anywhere on Tol Pelear, just examine and search everything, follow the old lady about if needs be.
+
+    green: 9s
+    enter ship, sail tol pelear, out
+    w, n
+    kill nako, get all from corpse (pearl)
+    s, 2w
+    exa road, get ring (if it is here)
+    n
+    enter fountain, exa bottom, get ring (if it is here), out
+    s, w
+    exa barrels, get ring (if it is here), put pearl in ring
+    Find the old lady.
+    give ring to lady
+
+
+### Help the Apothecary (18 points, by Bixby)
+
+    green: 9s, 2e, se, 2e, ne, 4e, s
+    Find the beggar (somewhere around here).
+    give 12 to beggar, say jar
+    Go to the place he says, and do what he says.
+    «dir» (if necessary), get all, out (if necessary)
+    Go back to where the beggar was.
+    show jar to scholar
+    Go to the place she says, and do what she says.
+    «dir» (if necessary), get all, out (if necessary)
+    Go back to where you were before you found the beggar.
+    2n, e
+    say water
+    w, 2s
+
+    Repeat the following until you have the desired amount of water in the small
+    jar:
+    fill small jar from pump, pour small jar into big jar, fill small jar from pump
+    pour small jar into big jar, empty big jar, pour small jar into big jar
+
+    2n, e
+    give small jar to apothecary
+
+
+### A tree has fallen across a path (20 points, by Padrone)
+
+    Get a few friends together who haven't done the quest (combined str should be
+    high), then:
+
+    green: 6w, 2s, e, 5s, 3w
+    lift tree
+
+
+### The quest of the candles (21 points, by Kingen)
+
+Note: These dirs aren't exact, but more or less correct, the area is very small anyway.
+Note: Bring a light source.
+
+    green: 9s, 2e, se, e, se, e, ne, 2e, ne, e, 5n, 3e, s, u, n
+    search carpet, move carpet, get key (if it is here)
+    2e, 2n, e,
+    close bible, get key (if it is here)
+    w, 2s, w,
+    unlock black door, open black door
+    n, d
+    search rack, move pot, search rubbish, get candle
+    u, s, 2e, 2s, w
+    open wardrobe, get package
+    e, n, w
+    exa bookmark (remember the letter)
+    e, n, w
+    open door
+    s
+    search «letter from bookmark», get candle
+    n, w, s, d, n, 2w, n
+    enter path, give package to boys, leave
+    2w, enter
+    give cigarette to man
+    out, e
+    enter, dig, exa sand, search sand, etc (until a sandmonster appears), kill
+    monster, get candle, out
+    2e, s, 3e
+    enter altar, put candles in candlestick, get match from matchbox, light candles
+
+
+### Put the skeleton back together (22 points, by Aita)
+
+Note: don't drop the bones, as they will break
+
+    green: 9s, w
+    push rock
+    In all the following rooms: get bones (if they are here):
+    d, s, e
+    kill goblins
+    e, 2w, s
+    pull lever
+    s, 2e, 4w, s, 2e, n
+    You should know have found: skull, leg bones, arm bones, a pile of bones.
+    s, w
+    search leaves (until you find a vertebrae), get all
+    e, s
+
+    move 24 down, move 10 down, move 19 left, move 17 down, move 32 up, move 15
+    right, move 24 up, move 5 down, open door
+
+    OR
+
+    move 26 down, move 12 down, move 21 left, move 19 down, move 36 up, move 17
+    right, move 26 up, move 6 down
+
+    e
+    get bones (if they are here)
+    w, 2n, 2w
+    exa lock, press (number of unpressed buttons - 63), press 2 (until you can't)
+    press 1, open door
+    n
+    get bones
+
+
+### Hunt and slay a monster (23 points, by Brom)
+
+Note: you may have to pay 2 coins to get into the castle, if the guard won't let you past, just pay (or kill him)
+
+    green: 36e (should be in castle yard)
+    n
+    sign up, read paper
+    Find the monster that is described on the paper
+    kill «monster»
+
+
+### Make a trophy (23 points, by Brom)
+
+Note: A good place to find animals: green: `4n, 3e, d, 3s, 4e, u` (bring a light source).
+
+    green: 35e (should be a pentagram on the floor)
+    n, u, e
+    exa hook
+    Find the monster that you should make a trophy of.
+    kill «monster», get corpse
+    Go back to where you were.
+    2e
+    give corpse to zanik
+    2w
+    hang trophy on hook
+
+### Vamilio the merchant wants you (24 points, by Qqqq)
+
+Note: Do not attack vamilio, or anything that does not attack you or vamilio.
+
+    green: The quest can start at four different places:
+
+    1) 4w, n, e, 3n, 2e, s
+    2) 4w, n, e, 5s, 3e
+    3) 4w, n, e, 2s, 7e, 3n, w
+    4) 4w, n, e, 3n, e, 9n, w
+
+    When you have found Vamilio:
+    say yes
+    Wait for him to ask: What do you say, «name»?
+    say yes
+    Follow Vamilio wherever he goes.
+    If he asks you to give him something, do so.
+    If he tells you that monsters attack, kill them.
+    If an inspector comes: bribe inspector with 500
+    If a log is blocking the path: move log (until the path is clear)
+    When you have arrived, wait until you get the qp.
+
+
+### Build a new guitar for the old musician (24 points, by Nib)
+
+Note: this quest is EASY, provided you follow this rule: ALWAYS examine and search EVERYTHING.
+
+    green: 4w, 5n, 5w, n, 4w, n, 2w, nw, sw, w, nw, n
+    read sign
+
+    On a normally tuned guitar, what string do you find twice? : e
+    In what orcestra section would you find a piano? : string
+
+    answer «answer», cut wire, look under table, move carpet, search peat
+    e
+    get book
+    w, n
+    delve into furnishings, remove string
+    n, e
+    smash chair, open seat, count strings, enter, cut wire, out
+    w, 2n
+    give key to mortimer
+    w
+    search hole, smell flower
+    e, 4s
+    Find the random room at one of the three following places:
+
+    1) n, pull pullcord
+    2) 2u, e, n, push kink
+    3) 2u, e, 2n, move chest
+
+    In hidden room:
+    remove paneling, get pot
+    Go back to where you were.
+    4n
+    heat pot
+    Go back to the random room.
+    make guitar
+    Go back to where you were.
+    2n, e
+    play guitar
+
+
+### Find Padrone's walking castle (25 points, by Padrone)
+
+    green: s, e, u, n
+    enter mirror
+    n, e, s, w, 2s
+    kill pirates
+    Go to green by moving joystick (move joystick «dir») and exa view to see where
+    you are. Once at green:
+    move joystick: 6w, 2s, e, 3s, 2e
+    2n, d, n, 2d
+
+
+### Message in a bottle (25 points, by Banshee)
+
+    green: 9s, 2e, se, e, se, e, ne, 2e, ne, 2e, s
+    say yes
+    Go to the place you are told:
+    get bottle
+    Go back to the seaman:
+    give bottle to baines
+
+
+### Take a bath (25 points, by Gore)
+
+    green: 14w, 3n, 2w, 4n, ne, se, e, n, nw, n
+    open door
+    n, w, n
+    get soap
+    s, 3e
+    get bubbles from cupboard (if it is here)
+    2w, n, d, e, s
+    get salt
+    n, w, 2u, 2e, s, e, n, 4u
+    open window, climb, break branch (until no branches are left), in
+    4d, s, w, n, w, s
+    get soap
+    n, w, u
+    If the bubbles were not in the cupboard: Find Jeeves, tip jeeves
+    Go back to where you were, unlock door with key
+    open door,
+    u, w, n,
+    get bubbles from chest,
+    s, d, w
+    open shutter, put branch in shutter (until the temperature is good)
+    e, d, w, n
+    get soap
+    Drop all soaps but the one you need (if you use the wrong soap you will change
+    sex and get no qp): male = green, female = pink, neutral = brown
+    fill tub, turn tap, put salt in tub, put bubbles in tub, enter tub, wash myself
+
+
+26-50 Points
+------------
+
+
+### Free the Fabled Beast (26 points, by Maelstorm)
+Note: Bring a light source.
+
+    green: 9s
+    enter ship, sail caerleon, out
+    2e, 3n, 4w, n, d
+    kill octopus, get all from corpse, open chest, get all from chest
+    u, n, e
+    get oil
+    Find flap (walking around somewhere here).
+    kill flap, get all from corpse
+    Go back to where you were.
+    2s, e, 2s
+    kill hellhound, get all from corpse
+    n, w, s
+    kill kangaroo, get all from corpse
+    n, w, s
+    kill bigfoot, get all from corpse
+    n, 2w
+    exa blood, exa «dir» wall, move «trophy/brazier/brick»
+    exa lock, unlock lock with key «nr», kill zookeeper, «dir»
+    oil lock, unlock lock with key «nr», open lock
+
+
+### Find the missing sword (27 points, by Anna and Rohan)
+Note: Find a sword (worth between 100 and 999, not magical)
+
+    green: 9s
+    enter ship, sail morc, out
+    5n, 2e, s
+    give sword to ezra (if ezra won't accept your sword, examine the collection, and
+    see what sword is missing, and go and get that)
+
+
+### Help the poor wolf cub (28 points, by Kerish)
+Note: It took me a few attempts to find the wolf cub, i think there must be some other places where it can be.
+Note: Bring a light source.
+
+    green: 3w, 5n, w
+
+    The wolf cub can be in the following places:
+
+    1) 2nw,
+    enter den
+
+    2) 3nw,
+    search bush,
+    3e,
+    open door,
+    e,
+    open south door,
+    s,
+    open window,
+    s,
+    search bush, enter hole
+
+    3) 3nw,
+    search bush,
+    3e, n, e, 3n, 2w, 2n,
+    search bushes, enter hill,
+    2w
+
+    4) 3nw,
+    search bush,
+    3e, n, e, 3n, 2w, 2n,
+    search bushes, enter hill,
+    w, 2ne
+
+    Find a small monster and kill it, go back to the wolf and give the corpse to it.
+    Repeat doing this with larger and larger monsters as the wolf grows until you
+    get qp.
+
+    There may be a point where it wants a big treat, in this case, find a moose or
+    something, and kill that for it.
+
+
+### Donate something to the armoury in Solo (29 points, by Meta)
+Note: Bring a light source.
+
+    green: 6e, d, n, u
+    Find the false wall (e or w or 2w, then n or s).
+    2n
+
+    open door, whisper guard white
+    3n, e
+    enter ruin
+    n
+    get knife
+    s, e, w
+    Examine things in the house until you find a key.
+    get key from «thing»
+    move desk, unlock drawer, open drawer, get all from drawer
+    e, nw, 2w, 3s, 2w
+    give letter to ruric
+    2e, 4n, w
+    climb tree, enter
+    d, 2n, nw, 2n
+    report
+    2s, se, 2s, u
+    out
+    d, 3n, ne, nw, 3s
+    report
+    n, w, s, d
+    donate knife
+
+
+### Bring a knife and a corpse for the ceremony. (31 points, by Brom)
+-----------------------------------------------------------------
+Note: Bring a light source.
+
+    green: 39e (somewhere around here that you can go north)
+    n, w, d, 2s
+    search wall
+    The thief starts here, but might be walking around the area, also the thief runs
+    away when you hit him.
+    kill thief, get all from corpse, get corpse, read paper
+    Go the place that is described on the paper, but be quick, there is a time limit
+    for this part.
+    search (until you find a knife), get knife
+    Go back to where you weren (or straight to the priest if you know the way)
+    u, 2n, u, e, s, 4w, s, 2e, n
+    give corpse to priest, give knife to priest
+
+
+### Help Billy collect butterflies (32 points, by Vincent)
+Note: Bring a light source.
+
+    green: 4n, 3e, d, 3s, 4e, 2n
+    get curled leaf (not obvious)
+    Find your way out of this random maze, back to the warning sign
+    s, 5w
+    get mat
+    w, 2s, e, n
+    drop mat, wipe feet on mat, open door
+    n, 2u
+    search cobwebs
+    d, n, e, s
+    open closet, get mothballs from closet
+    n, w, s, d, n, w
+    unlock door, open door
+
+    s
+    get jar, open jar, put mothballs in jar, crush leaf
+    When you sense movement in the jar:
+    put cocoon in jar, close jar
+    Wait until you see the butterfly fall to the bottom of the jar.
+    open jar, get butterfly from jar
+    Find Billy, wandering around in this area somewhere
+    give butterfly to billy
+
+
+### Enter Heaven (33 points, by Brom)
+Note: The chemist is very tough, so an easier way is to become saintly by killing naughty monsters, then get a friend to kill Peter.
+
+    green: 4w, n, e, 3n, 2e, s
+    open door
+    s, d, n
+    kill chemist, get all from corpse
+    s, u, 2n, 2w, 3s, w, s, 43e, s, w, u, n, e, u, s, w, u, n, u
+    climb pole
+    3u
+    kill peter, drink potion (alignment potion), open gate
+
+
+### Return Bertha's lost parrot (34 points, by Vincent)
+Note: Bring a light source.
+
+    green: 4n, 3e, d, s, e, s
+    give 30 to guard, out, knock gate
+    e, n
+    open door
+    nw
+    Find the package (somewhere on the battlements).
+    get package
+    Go back to where you were.
+    se, s, 3w, 2s, w
+    get mat
+    w, 2s, e, n
+    drop mat, wipe feet on mat, open door
+    n, 2u
+    search cobweb
+    d, n
+    open door
+    n
+    get cage
+    2s, d, n, w
+    get plate from table, get knife from plate, unlock door, open door
+    s
+    get jar, drop jar, get wire, fix latch with wire, open package with knife
+    n, e, s
+    Find Polly, the parrot (walking around somewhere in the area)
+    get cracker from package, get cracker from package, give cracker to polly
+    drop cage, put cracker in cage, close cage (when parrot has entered the cage),
+    get cage
+    Go back to where you were.
+    give cage to bertha
+
+
+### HelpServant (35 points, by Brom)
+
+    green: 43e
+    milk cow
+    w, 2n, w
+    get potion, search jars (until you find a drop of poison)
+    e, 2s, 3w, n, w, d, s, e
+    get wine
+    w, n, d
+    get crystal, put crystal in potion, put wine in potion, put poison in potion
+    2u, e, 2s, d
+    put milk in potion, say cook potion
+    u, n, 4w, s, 2e, n
+    say bless potion
+    s, 2w, n, 4e, s, w, u, n, e, u, s, w, u, n, e
+    give potion to servant
+
+
+### Find the lost apples. (36 points, by Naketa)
+
+    green: 5w, s, 2w, s, w
+    help dwarf (until you succeed), get tools
+    4e, s, 2e
+    kill ogre
+    e
+    kill ogre, exa drawer, get all, exa map
+    4w, s
+    climb mountain, enter nest, enter building, kill nipo, out, out, climb down
+    n, w, 3s
+    Wander about until it says in the description of the room that you think you
+    recognise a tree from the map (must be holding map, not in pack)
+    enter tree, kill nipo, get all from corpse
+    e, 5n, e
+
+
+### Give a cold beer to a tired worker (37 points, by Vincent)
+Note: Bring a light source.
+
+    green: 4n, 3e, d, 3s, w
+    get mat, get all
+    w, u
+    in, get key, out
+    d, w, 2s, e
+    unlock door with short key, open door
+    e
+    get pick, wield pick
+    w, n
+    drop mat, wipe feet on mat, open door
+    2n, e
+    open east door, open north door
+    n
+    get beer (if it is here)
+    s, e
+    get beer (if it is here)
+    2w, s, d
+    search box, get parka, wear parka
+
+    2u, n
+    open door
+    n
+    get beer (if it is here)
+    2s, d, 2s, 2w, sw
+    Walk through the random maze by using the dirs se, s and sw.
+    u, w, u (until you can't go up more, take your time though)
+    break ice, get all
+    d (until you can't go down more, again taking your time), e, d, ne
+    Walk through the random maze by using the dirs ne, n and nw.
+    2e, n
+    wipe feet on mat
+    2n, w
+    break ice, open icebox, put ice in icbox, put beer in icebox
+    Wait a few minutes
+    open icebox, get bottle from icebox, exa beer (the beer should be ice-cold, if
+    not, put it back in and close the icebox)
+    e, 3s, w, 2n, 3e
+    give beer to worker
+
+
+### Four in a row (38 points, by Banshee)
+Note: The 'roll ball «dir»' bits might be incorrect, when i did it, i had to go in different direction, and sometimes the wooden ball gets chipped, just go and say ball again. as long as you make sure you keep filling the holes, and put the balls where the holes were, you'll get the qp.
+
+    Church: Find an object made of metal and go back to the church.
+    s, 3e, d, e
+    buy shovel
+    w, u, n
+    buy bottle (if there are no empty bottles, go and find one)
+    from shop: s, e, 2s, 2e, 6s, w, s, w, 3s, 2w, 2n, w
+    give bottle to gnome, say ball
+    Wait until the ball is finished.
+    4n
+    enter hole (until you get a ball)
+    4e
+    give «metal object» to dwarf, say ball (Note: this thick dwarf does not know
+    many metals)
+    Wait until the ball is finished.
+    4s
+    say ball
+    Wait until the ball is finished.
+    3w, n
+    fill hole
+    n
+    fill hole
+    n
+    fill hole
+    n
+    fill hole
+    w
+    roll ball e
+    w, 4s
+    When the camper is not north of here: roll ball n, roll ball e
+
+    3n, 3e
+    roll ball w, roll ball w, roll ball w, roll ball s
+    3e, 3s
+    roll ball n, roll ball n, roll ball w, roll ball w, roll ball w
+
+
+### Make so the citizens of Bogor can return home (39 points, by Nib)
+
+    green: 4w, 5n, 5w, s
+    search fireplace
+    2n, 7w, ne, u, sw
+    open window
+    ne, d, sw, 7e, s, e
+    return bird
+    2w, s
+    say yes, yes
+    n, 8w, 4n
+    say help
+
+    A toy that girls like to play with: 4s, 2e, 2n, search grave, get all
+    A toy that boys like to fight with: 4s, 11e, 2s, lift bench, get all
+    A toy that babies like: 4s, 10e, 2s, e, search bed, get all
+    A toy that is round: 4s, 10e, s, w, remove trash, get all
+    A toy that you can play with when you take a bath: 4s, 10e, 3s, look under tub, get all
+    A toy that can float on water: 4s, 9e, search fountain, get all
+    The body of a sticky animal: 4s, 3e, 2s, search grave, get all
+    The body of an animal that is long: s, enter hole, push stone, get all
+    The body of an animal that likes to hop: 4s, e, search bushes, get all
+    The body of an animal that is nice to have in a home: 4s, 9e, n, e, open chest
+    The body of an animal that swims in the water: 4s, 12e, s, e, stoop from jetty
+    The body of a singing animal: 2s, e, search hole
+    The body of a little animal: 4s, 12e, search leaves, get all
+    A crop that grows in a field: 4s, 13e or 14e or 13e, n or 14e, n and search field
+    A crop that grows in a gardening plot: 4s, 10e, 2s, se or se, s or se, e or se, e, s and search plot
+    A tool that you normally hit nails with: 4s, 2e, 2s, search grave, get all
+    A tool that you can screw things with: 4s, 9e, n, e, search ashes, get all
+    A tool that are trees worst enemy: 4s, 8e, s, climb tree, get all
+    A tool that is handy when you want to move earth: s, e, n, e, look under bed, get all
+    A tool that you can hit things with very hard: 4s, 11e, n, get hammer
+    A tool that you can loosen up things with: 4s, 10e, 2s, exa table, get all
+    A tool that you can fix bushes with: 4s, 12e, s, search bushes, get all
+    A book filled with wisdom: 4s, 9e, n, e, n, search shelves, get all
+    A scroll: s, e, n, e, open drawer, get all
+    A parchment: 4s, 12e, s, 2e, search trash, get all
+    A stone with text on it: search altar, get all
+    A pergament: 4s, 10e, 2s, e, open wardrobe
+
+    Go back to Hjakvar
+    5s, w
+    open chest
+    e, n, 8e, 2s
+    touch diamond, give staff to grofftar
+
+
+### Find the princess and save the kingdom (40 points, by Qqqq and Oros)
+Note: The paddling directions may be wrong, so just paddle about until you get where you need to.
+
+    green: 4w, n, e, 3n, e, 9n
+    open door
+    2n
+    say help
+    11s, e, s
+    open door
+    s, d, 3s, w
+    open door, enter cabinet
+    w, n, e
+    kill sailor, get all from corpse
+    w, s, e
+    out
+    e, 3n, u, 2n, 2w, 3s, w, n, 2w
+    enter sentry-box, kill guard, pull lever, out
+    3w, n
+    kill plumber, get all from corpse
+    2s
+    kill bill, get all from corpse
+    n, w, d, e
+    move grating
+    d
+    drop rubber, pull cord, enter boat, paddle e, paddle e, paddle e, paddle n,
+    paddle s, paddle s, paddle s, paddle s, paddle s, paddle s, out
+    e
+    wave wand, get key, unlock door, open door
+    e, s, n, 2w
+
+
+    enter boat, paddle n, paddle n, paddle n, paddle n, paddle n, paddle w, paddle
+    w, out
+    w, u, w, u, 6e, s, e, 3n, e, 11n
+
+
+### Help Alexii's disciple with his new spell (41 points, by Alexii)
+
+    green: 5e, 6s, e
+    get rope
+    2s, e
+    enter fountain, get key, out
+    w, n
+    unlock door, open door
+    Find the gardener.
+    give key to gardener
+    Go back to the door.
+    3s, 2w, n
+    enter
+    Find the honeycomb in the maze.
+    get honeycomb
+    Go to the top of the tree.
+    out, tie rope to tree
+    u, e, 2s
+    get twig
+    Go n until you come to guards, if you can't go n, go s and n again.
+    e, s, w, s
+    open door
+    d, w, u, 3w, s
+    get pot
+    n, 3e, d, e, u, n, e, s, e
+    fill pot, put twig in pot, put leaves in pot, put comb in pot
+    w, n, w, s, d, w, u, w, s, 2w
+    brew
+    n, w, u, e
+    give pot to markov
+
+
+### The quest for the orbs of information (43 points, by Ingis)
+
+    green: 3e, d, e
+    buy shovel
+    w, u, 7w, n, e, 2n
+    kiss frog
+    2s, w, s, 4e, 9s, w, n
+    kill hulk
+    3n
+    get all
+    4s, e, 9n, 4w, n, e, 3n, 3e
+    kiss girl
+    3w, 3s, w, s, 4e, 7s, e
+    climb up
+    s, w, u
+    get pole
+    d, e, n
+    drop pole
+    2w, s
+    kill ogre
+    2s
+
+    cut string, open chest, get all from chest
+    3n, 2e
+    climb down
+    w, 5n, w
+    dig (until you find an orb), get orb
+    e, s, e, n, u
+    kill gargoyle, get all from corpse
+    d, s, w, 2n, d
+    say speakeasy
+    e
+    kill doorman
+    n
+    kill boss, get all from corpse, get corpse of boss
+    s, w, u, 6s, e
+    climb up
+    s, w, 3u, e
+    give corpse to ghost
+    e
+    get orb
+    2w, 3d, e, n
+    climb down
+    w, 2s, e, u
+    say done
+
+
+### Help Lorn prepare for Pogo's visit (45 points, by Leowon)
+
+    green: 9w, 5n
+    Find Lorn (usually somewhere in the area west of here)
+    say yes, say yes
+    Go to the number of healing places needed.
+    In each healing place: buy «food/drink», make entry
+    Go back to where you were, find Lorn again.
+    give journal to lorn
+
+
+### Loot Kantele's snake pit (48 points, by Kantele)
+
+    green: 3e, d, e
+    buy rope
+    w, u, 7w, 2n, w
+    pull rope, kill servant, get all from corpse
+    s
+    kill dogs
+    2s
+    unlock door, open door
+    2s
+    kill butler
+    s, d
+    kill haunt
+    Find the monster that has a cellar key.
+    kill «monster», get all from corpse
+    Go back to where you killed the haunt.
+    2w
+    unlock door, open door
+    w, s, w OR e (where the pit is)
+    tie rope to pillar
+    d
+
+    get all
+    u
+
+
+### Help Georg to find his missing item (49 points, by Tsc)
+Note: The bottle is not always in the tent, if it isn't, try later.
+
+    green: 5e, 6s, e, 4s, 2e, 2s
+    enter hole, kill troll, get all from corpse, out, climb mountain, climb
+    mountain
+    w
+    enter tent, crawl under bed, get all, out, search clothes, out
+    e
+    climb down
+    d, 2n, 2e, n
+    buy 2, get all
+    s, e
+    enter hotel
+    n
+    ring bell, give bottle to georg
+
+
+51-75 Points
+------------
+
+
+### Help Sir Guilliotine build his machine (51 points, by Gurk)
+Note: No eq needed (apart from maybe some light).
+Note: if you can't find harry, bailiff or jennifer, offer on trade line, you'll get one of them for sure.
+
+    green: 9s
+    enter ship,
+    sail caerleon, out
+    2e, 9n, e (Sir Guillotine)
+    3n, w
+    open door
+    n, e
+    search fireplace, search chair, search piles, search trash, get key
+    n
+
+    Repeat the following until the shark is dead:
+    enter springboard, look down (until you see a shark), jump, 2u
+
+    get corpse
+    2u, s, 2w, n
+    give corpse to cook
+    s, w, n
+    search mattress, search under bed, search bed, search under
+    cupboard, get plate
+    s, d
+    unlock door, open door
+    e
+    search barrels, get wine
+    w, u, e, n
+    give wine to cook, give plate to cook, get all
+    s, w, 2d, e
+    give soup to master, turn wheel left, get rack
+    w, 2u, 3e
+
+    enter fireplace
+    2u, out, s
+    turn catapult left, turn catapult left, turn catapult left,
+    enter catapult,
+    pull lever
+    search pile, get skis (if they are here)
+    d, 3n, e
+    search box, search mattress, search pile, get all
+    2e, s, e
+    enter fireplace
+    2u, out, s
+    turn catapult left, turn catapult left, enter catapult, pull
+    lever
+    search pile, get skis (if they are here)
+    d, 3n, w
+    search bed, search under bed, search bin, search under table, get all
+    w, s, e
+    search chair, search bed, search under bed, search pile, get all
+    w, n, w, s, e
+    screw screw, get basket, enter fireplace
+    2u
+    out
+    s
+    turn catapult left, turn catapult left, turn catapult left, turn catapult left,
+    enter catapult
+    pull lever, cut hair, make rope, get rope, enter east window
+    2e, 2s
+    give rack to man, give skis to man, give blade to man, give rope to man, give
+    basket to man
+    Find Jennifer, Harry or Bailiff.
+    kill «monster», get all from corpse, get corpse
+    Go back to Sir Guillotine.
+    give corpse to man
+
+
+### Vampire Tower (52 points, by Banshee)
+Note: Bring a light source.
+Note: When you buy the garlic, you might want to buy the decoction too, as I think drinking it gets you out of the tower when you have killed Vampyra (not sure though).
+
+    green: 4e, 2s, 2e, s
+    buy sharpener
+    w, s
+    buy garlic
+    2e, n
+    buy stick, sharpen stick
+    w, n
+    kill guard, open gate, enter gate
+    2e
+    enter tower
+    kill vampire (if there is 1, kill it, if there are more, get some friends, but i
+    think monks can't heal in here)
+    Once the first room is clear of vampires, go through the tower, and in every
+    room with vampires: get capsule from box, crush garlic
+
+    When you get up to the room with Vampyra:
+    drive stick into vampyra
+
+    The best way to get out is to quit (whatever you do, DON'T attack a whole bunch
+    of vampires, you will get hurt badly, as you can't wimpy)
+
+
+### Free Mthead (53 points, by Mthead)
+
+    green: 6w, 2s, e, n, s, n, e
+    buy beard if you are female, buy lipstick if you are male
+    w, 2n, e, 2n, w, n, u
+    search altar, break staff (balls)
+    d, s, e, 2s, e
+    Kill all bar visitors except coward.
+    buy screwdriver, buy milk, give milk to coward, give balls to coward
+    2w
+    wear beard (if you are female), say x sent me
+    w
+    open door, remove weight
+    Now do the following until the game does not lean:
+    adjust legs 1 up/down, exa game
+
+    Repeat the following until you score over one million points in a single game:
+    start, play ball (until you have no balls left on this game)
+
+    After each game, you might want to adjust the legs again
+
+    fix pin, close door
+    2e
+    apply lipstick if you are male, remove beard if you are female, say worthy
+    w, 2s, w
+    unscrew door, kick door
+    s
+    wake thief, give card to thief (you might have to follow him)
+    n, e, n, w, 2n, d,
+    dive (until you find a key),
+    u (until you climb up),
+    2e, s, e
+    chop right arm off knight, chop left arm off knight, chop right leg off knight,
+    chop left leg off knight
+    e
+    Find the goblin father.
+    say help, enter cottage, kill wife, kill son, out
+    e
+    burp (until a box falls down), get all, put cube in square opening
+    put pyramid in triangular opening, put ball in round opening
+    5w, s, w, 2n
+    say 2
+    s
+    free mthead
+
+
+### The Magical Topaz (57 points, by Gogo)
+Note: I think you can't get help with the last 2 kills.
+
+    green: 6n, e, ne, n, w, n, 2w, s, e, s, e, 2s
+
+    kill orcs
+    e, s
+    kill orc
+    w
+    get all
+    e, n, w, 2n, w, n, w, n, 2e, s, e, 2s, w
+    kill priest
+    d, s
+    decipher, intone «password», get key, out
+    n, u
+    out
+    4s ,w
+    kill guard
+    s
+    kill man, get all from corpse
+    n, e, 4n, e
+    search, unlock door, open door
+    d, e, s, w, s
+    kill thieves
+    d, s
+    kill thieves
+    2s, 2d, w, s
+    kill dogs
+    w
+    get rope (if it is here)
+    2e
+    get rope (if it is here)
+    w, s, e, d, s, sw
+    kill thief
+    e
+    kill boss, unlock chest, open chest, exa chest, get topaz from chest, enter
+    passage
+    w, e, 2w, n
+    out
+    2e, s
+    give topaz to ailoth
+
+
+### Find the words of natural power (60 points, by Asyvan)
+
+    green: s, d
+    kill rat, get corpse (now be quick)
+    u, n, 4w, n, 2w, n
+    raise ladder, climb ladder, get ladder
+    n, w OR s, w
+    raise ladder, climb ladder
+    give corpse to eagle, get key from nest (quickly)
+    jump d
+    e, s OR e, n
+    w
+    unlock gate, open gate
+    w, s
+    kill man, get plank
+    d, n
+    kill guard, get key
+    d, w
+
+    At this point you may want to heal, as once you go onto the next part, there is
+    no way back, and nobody can come to help you until the man with plank resets.
+
+    drop plank
+    w
+    open sarcophagus, kill mummy, get all from corpse, enter sarcophagus
+    kill spirits, unlock sarcophagus, open sarcophagus, enter sarcophagus
+    tie wrapping to phallus
+    d
+    press plaque, get all from chest, read words, shout «words»
+
+
+### A Kentish quest about a botanist and his flora (65 points, by Chino)
+Note: I think there is a bug in this quest - the fairies hardly ever let you get the page.
+
+    green: 3e, d
+    jump in, out
+    n, w, n
+    say please (stupid fairies - if you don't find a page and belt, try again later)
+    2s, 2w
+    enter closet, kill monster, get all from corpse, out, give bed-warmer to lady
+    2e, n, e, s, 2w
+    sit, kill monster, get all from corpse
+    4w, s
+    listen bumble-bee
+    n, 2e
+    climb fountain, say «password from bumble-bee», climb fountain, kill neck, get
+    all from corpse, out
+    2w
+    climb tree, give 27 to magpie
+    d, s, w
+    sit, kill monster, get all from corpse
+    e, n, 2e, n
+    open whiskas, give whiskas to pussy
+    s, 2w, 3s
+    exa wall, drink water
+    3n, 2e, 2n, e
+    enter car, unlock locker, open locker, get all from locker, out
+    s
+    search hay (until you find a wheel-barrow), get wheel-barrow
+    n, w, 2s, 2w, 3s, w
+    exa plant
+    read stinging nettle page and say the true name of the plant (maybe Urtica
+    dioica L.)
+    w
+    get all
+    e, n, 3e, s, u
+    jump «dir» until you get a page
+    Go back to the pagoda.
+    d, 3s, e
+    give pencil to man, give paper to man, give wheel-barrow to man
+    w, n
+    open kitekat, give kitekat to jimmy
+    n
+    exa flowers, exa pages to see what flowers it is, say «latin name of the flowers
+
+    (read pages)», get crumbs
+    2e, n
+    give crumbs to swan
+    s, 2w, 5n, 3e, s, e
+    put pages in flora, give flora to man
+
+
+### Rescue a besieged refugee in a deep place (67 points, by Caution)
+
+    green: w
+    enter caravan, make bunk, get key, unlock door, open door
+    n
+    get trunks (bikini for women), wear trunks, out, enter aquarium
+    2d, n
+    kill triton
+    e
+    get net from anchor
+    w, 2s, e
+    catch fish with net (until you catch them, otherwise you can just kill the fish,
+    it's more fun), enter
+    e, n, u, n, e
+    kill triton, knock, enter
+    e, u
+    say follow me
+    d, w
+    enter
+    w, s, d, s, 3w, 3n
+
+
+### Free the Demon Lord (68 points, by Brom)
+Note: Find an item worth 2000+ coins.
+
+    green: 44e (should be a tent here)
+    enter, buy scroll, out
+    3w, s, e
+    exa board (Note the 3 names down EXACTLY)
+    s, 2w, n
+    pray to «all 3 gods from board, one at a time»
+    d
+    say barter «item», get axe, wield axe
+    e
+    mine (until you find a chunk), get chunk
+    2w
+    mine (until you find a diamond), get diamond
+    e, s
+    mine (until you find a nugget), get nugget
+    n
+    give diamond to caragum, give chunk to lurnagh, give nugget to robik
+    w, 2d
+    exa walls, search «dir» wall
+    «dir»
+    unlock chest, open chest, get all from chest, drop chest, unlock chest, open
+    chest, get all from chest, drop chest, unlock chest, open chest, get all from
+    chest
+    «opposite dir», d
+    Drop all your items and coins, or else you will lose them (not the scroll or
+    elaborate key).
+    turn handle, break seal, Curse flames (don't forget the capital C)
+    e
+    sacrifice me
+
+
+### Catch the horse (69 points, by Anvil)
+Note: You both need a compass each, plus it's wise to bring a spare one, as the horse sometimes breaks it.
+Note: This quest requires two players. Player 2 will get the qp.
+
+    green: 3w, 5s
+    Player 1: get compass
+    e, s
+    Player 2: exa door
+    n, e
+    compass «dir» (until you find the horse)
+    Player 1: compass «dir the horse went»
+    If the horse does not enter the room where Player 2 is standing:
+    Player 2: compass «dir to Player 1», repeat the above procedure.
+    If the horse enters the room where Player 2 is standing:
+    catch horse
+    Go back to the stable.
+    give horse to mcdonald
+
+
+### The Mystery of Caymar Island (70 points, by Thargor and Nothel)
+Note: No light required and only one easy kill to perform.
+Note: It's a good idea to draw yourself a map of caymar. This may take half an Vehour or so, but it really will help.
+
+    »From green: 5e, light brazier, enter ship, sail caymar, out
+    Find a wagon around, exa wagon, exa straws, exa wheel, get bucket
+    Some w from gates to Edena and n, there are 2 corpses:
+    exa corpse 1, exa corpse 2, exa claw marks, exa bite marks (tooth or claw)
+    s, e, 2s
+    fill bucket with mud, s, exa crops, exa footprint,
+    pour mud in footprint, get footprint
+    Now, go to the shop in edena (eastern part then one south) and buy paper
+    Go to the king's advisor (from "Castle street in Edena" do: open door, s)
+    say help, say yes
+    Go to "The anteroom to the church" and then n, e,search ashes,
+    2w, search ashes, e, n, e, search ashes, 2w, search ashes (crucifix or bible)
+    e, n until you can't then: exa altar, exa inscription, clean altar,
+    exa inscription, draw inscription
+    Go again to the king's advisor and give him the paper
+    say hermit, say swamp
+    Find a room with short desc: "A road in a forest «ne sw»"
+    (between where you arrived on the island and Edena)
+    exa squirrel, se
+    Follow the path, until you find a hut
+    enter hut, give paper to hermit, give tooth or claw to hermit,
+    give footprint to hermit, give crucifix to hermit (he will give you a page)
+    Go to king's advisor again and give him the page (he will give you a letter)
+    Find a market stand somwhere in Edena ("The square in Edena «w e n s»") and buy
+    a weapon from there, then go to "The anteroom to the church",
+    e,
+
+    say help, say bless, give «weapon» to priest (he may not accept the weapon, if
+    not, come back later, when you really need it to be blessed)
+    Now, sail to Ceriand (from king's advisor: n, some e,open cage, enter ship)
+    in the ship do: get tar, get hook, out
+    2s, e, 2n, 10e, buy rope, tie rope to hook
+    w until gate guards ("Town gate") then w, n (not obvious exit), e, 2ne, throw
+    hook through window (if the hook falls into the sea, come back later when the
+    hook has reset)
+    exa workbench, get chalk (if it isn't here search around for it)
+    n, u, s, exa mirror (smash mirror), give letter to man (if he won't accept it,
+    try after you speak to him)
+    say demon, say summon, say name (until tell you about the demon lord)
+    say ready
+    wait until you are at demon lord then do:
+    say name, say promise, say i swear (write down the name. mine was:Igoshkrink)
+    When you are back at the man do:
+    say protection, say potion, and he will tell you 4 ingredients for the potion.
+
+    An ounce of ordinary tar: you pick it from the ship
+
+    A couple of rare berries called 'flameberries':
+    get out of the tower(n, 2d, 2s, or something)
+    2sw, w, pick berries
+
+    The bones of a fish (fish-skeleton):
+    get out of the tower
+    2sw, w, s, and then go to the warehouse
+    exa barrel 1, exa barrel 2, get all from barrel 1, get all from barrel 2
+
+    A fresh acorn:
+    get out of the tower
+    find a tree ("A road «e sw»") and climb it then pick acorn
+
+    A vial of holy water: (need an empty bottle)
+    find a well in Eden, exa well , turn crank (until the bucket is full, and at the
+    top)
+    fill bottle with water, go to priest, say bless, give bottle to priest
+
+    An object burned by the demon's fire: The bible/crucifix you found in the ashes
+
+    When you have the ingredients go back to the man in the tower and
+    give him the ingredients, he will give you a vial (potion)
+    give «weapon» to man,
+    say summon, say demon (until he tells you something about a pentagram)
+    n, open trapdoor, u, draw pentagram
+    wield «weapon» (the blessed one!!)
+    say «name of demon» (and prepare for fight)
+    As soon as the demon appears: drink potion, kill demon
+    Sail back to edena, and go to the king's advisor
+    say ready, then follow the advisor
+    And that's all :)
+
+    (at the end of the quest you will get a really nice helmet, try it.)
+
+
+### Perform some Necromancy (71 points, by Aphextwin)
+Note: Bring a light source.
+
+    green: 4w, 5n, w, n
+    Wait until you get through the tunnel
+    2n, ne, e, enter
+    Do the following (should find a manholekey and a beaker - take them both):
+    search cloth, search leather, search shoes
+    n, w
+    search shelf, search papers, search desk
+    2e
+    search fireplace, search cupboard, search pots
+    w
+
+    Now go down and find a room that has some washtubs in the description (random).
+    search washtubs, move washtub, remove cover,
+    d,
+    kill joseph (pretty tough, took me 4 heals or so with rank 24 khorne).
+    n,
+    Search the stuff in this room, get necromicon
+    Find a monster that has a oil-stained note (downstairs),
+    kill it, get the note
+    Find a room with a pile of trash (downstairs),
+    search trash (scroll of incineration)
+    Now get a corpse of a pretty high level monster
+    Go to black altar (8n once you get downstairs),
+    put corpse on altar, read scroll
+    Wait until ashes are down
+    put ashes in beaker (quick, before they disintegrate)
+    Go to a room that has instruments in the description
+    read note
+    pull lever «colour from note», put beaker in arm, pull lever «colour from note»,
+    pull lever «colour from note», pull lever «colour from note», get saltes
+    For the next part you need to become evil. Do so, then:
+    focus on saltes, invoke satan (quickly, before you lose your focus) and *poof*
+    you are done :)
+
+
+### Shake hands with the Master Lich (73 points, by Banshee)
+Note: Put your money into your pack, or you will lose a lot each time you pass the black knight.
+Note: If you are on a floor with a pink coffin, you will need to open and enter it (unless you want to get to the bottom floor), and open and enter the coffins inside until you are at the top again - kill what you have to. If you want to get to the bottom floor, from pink coffin: 2n, w, s, search ground (or exa ground - search or exa something anyway).
+
+    green: 4e, 2s, 2e, 6s, w, s, w, 3s, e, 2s, 4w
+    jump stream (until you get across),
+    enter monument,
+    Walk around until you fall down to the king's and queen's coffins. If you fall
+    to the bottom, there are places where you can wait for an updraught (don't worry
+    if it says you are too heavy, jus move out of the room, then move back in until
+    you get up). The coffins are on a floor near the bottom floor.
+    Kill all monsters that block your way.
+    open king's coffin,
+
+    kill spirit,
+    get all treasures,
+    Fall down to the lowest level and find the master lich.
+    handshake master lich
+
+
+### Save the village Morc from the malaria disease (74 points, by Rohan and Anna)
+
+    green: 9s
+    enter ship, sail morc, out
+    8n, 4w, 2n
+    search bush
+    2s, w, sw, w, 2n
+    give unicorn to unicorn
+    2s, e, ne, 3e, 2n
+    get rope, tie rope to horn, wear necklace
+    2s, 2e, 7n, 2e, n
+    open door
+    2e, u, s, e
+    get book, get rosary (if it is here)
+    2w
+    look under bed
+    e, n, d, s, w, n
+    push painting left
+    s, e, n, e
+    get food from cupboard
+    3w, s, 7w, n, 2e
+    open door
+    n, w
+    give food to charlie
+    e, s, 2w, s, 7e, n, 2e, 3s
+    unlock door, open door
+    d, 3w, s, d
+
+    Set an alias for kill quickling, and keep following it, until the pesky thing
+    dies. then make your way through the maze dropping coins etc, until you find a
+    pile in the description of the room.
+    [Find a pile in the random maze by walking n, s, n, e and similar dirs.]
+    search pile
+
+    Go back to where you can go up from the maze.
+    u, n, 3e, u, 3n, 2w, s, 2w, 12s, w
+    open door
+    2w (maybe one more west)
+    give staff to mage, give rosary to nun
+
+
+### Bring Out the Diadem (75 points, by Bixby)
+
+    green: 9s, 2e, se, e, ne,
+    Find weston, should be east of here somewhere
+    say help, say yes, follow weston
+    4w, u, s, w, s, 2w, 4n
+    bet 101 on black, bet 101 on red, wear helmet
+    4s, e
+    exa right painting
+    3e, 4n
+    set red dial to «nr from painting», set yellow dial to «nr», set blue dial to
+
+    «nr»
+    e, s
+    whisper lady my lady secret
+    Find Earl Hartford.
+    whisper earl your excellency secret
+    Go back to where you were.
+    3s, w
+    pull «colour» hook, tap wall, pull «colour» hook
+    w1, 2w, w1, 3w, e2, 2e, e2, 2e, 3n, 2w
+
+    Repeat the following until there are three keys on the plinth:
+    exa plinth,
+    w, e
+
+    get all from plinth, unlock bronze lock, unlock silver lock,
+    unlock gold lock,
+    get diadem
+    2e, 2s
+    pull «colour» hook, tap wall, pull «colour» hook
+    w1, 2w, w1, 3w, e2, 2e, e2, 2e, 3n, w, d, 4e
+    give diadem to weston
+
+76-100 Points
+--------------
+
+### Help the Great Pharaoh get eternal rest (76 points, by Dz)
+Note: when i did it, i didn't use the potions at all
+Note: Once you enter the pyramid, a curse will be placed upon you, it's not a nice curse, sometimes you become a ghost and drop everything, sometimes you lose sp, sometimes even your credit card changes colour, so it is in your best interests to finish this quest as soon as you can.
+
+    green: 4w, n, 4w, n
+    kill guard, kick door, enter pyramid
+    e
+    open old coffin, open wooden coffin, open white coffin, open big coffin
+    kill mummies, get all from corpse (ring of no fear)
+    now find a corpse of a rat or something, and come back here
+    e, u
+    give corpse to beast (keep getting more corpses until it drops it's stuff), get
+    all
+    n, w
+    kill demon, get all from corpse
+    2e
+    get all
+    w, s, 2d
+    wear ring of no fear, kill ghost, get all
+    u
+    unlock door with key, open door
+    n
+    kill monster (you may need life insurance to kill it, if so, go s,2w,out,s,e,s,
+    get your insurance, and come back)
+    u
+    put small pyramid in medium pyramid, exa message, say «password from message»
+    pour yellow potion on key, unlock door with key, open door
+    e
+    get all
+
+    s
+    open sarcophagus
+
+
+### Help the Secret Police with the Chaosdemon (81 points, by Padrone)
+
+    green: 3s, w, 4n
+    say yes
+    4s, e, 2n, e, u, n
+    enter mirror
+    s, e, w, e, s, e, s, w, u
+    kill dragon, get all from corpse, unlock door with moderate-security key, open
+    door
+    n
+    kill rambo i,kill rambo ii, kill rambo iii, get key from corpse
+    n
+    unlock door with maximum-security key, open door
+    n
+    kill thieves, get all from corpses (lawbringer and panzer key)
+    3s, e
+    enter mirror
+    e, s, n, w, n, w, s, w, 2s
+    kill king, get all from corpse, get all from bag (bullet-proof key)
+    2n
+    unlock door with bullet-proof key, open door
+    n
+    unlock north door with panzer key, open north door, wield lawbringer (you have
+    to be neutral to wield it)
+    Do the rest on your own, the kill is easy if you have the lawbringer wielded.
+    n
+    kill demon, get all, get all from corpse
+    2s, e
+    enter mirror
+    e, n, e, s, d, w, 2s, w, 4n
+    give chaosblade to captain
+
+
+### Make a hamburger from scratch (86 points, by Vincent)
+Note: Bring light (and a torch).
+Note: Be very patient, and double check everything, otherwise more time is wasted.
+
+    Bertha can be very useful, just give her the bun and she will tell you what's
+    missing.
+    There is also a cookbook you can use in this quest (from where you wash all
+    vegetables: n,open north door, n, get book.
+
+    from green: 4n, 3e, d, 3s, w
+    get mat, get key
+    w, 2s
+    pick lettuce, pick tomatoes (until you find some)
+    e, n
+    drop mat, wipe feet on mat, get mat, open door
+    2n, e, s,
+    wash lettuce, wash tomatoes, open cabinet, get bug-away from cabinet,
+    n, 2w,
+
+    open cabinet, get bun from cabinet, open drawer, get all from drawer (cleaver,
+    spoon), get bowl from counter, get plate from table, get knife from plate,
+    drop bun, wield knife, slice bun, drop lettuce, slice lettuce, put lettuce in
+    bun, drop tomatoes, slice tomatoes, put tomatoes in bun
+
+    All dirs from kitchen:
+
+    Ketchup: e, 3s, w
+    pick tomatoes (until you get some)
+    2n, 4e, n
+    open box, open box 2, get all from boxes
+    s (and now look for a mineral deposit only in first part of area,that means
+    before mat), get salt
+    Go back to kitchen:
+    2e, s
+    wash tomatoes
+    n, 2w
+    put tomatoes in grinder, turn handle, get paste from grinder, put paste in bowl,
+    pour corn syrup in bowl, pour vinegar in bowl, salt bowl,
+    stir bowl with spoon, get ketchup from bowl, put ketchup in bun
+
+    Mayonnaise: e, 3s, w, 2n, u
+    in, get key, out
+    u
+    get egg from nest
+    2d, 2e, s
+    pick lemon
+    n
+    Go back to Bertha
+    (n), 2u
+    search cobwebs (should have 3 keys by now)
+    2d, 2s
+    unlock door (with one of the keys), open door
+    e
+    get sickle
+    3w, sw
+    Find your way around this easy random maze, you must be able to go «w u s ne» at
+    it's end
+    w
+    wield sickle, harvest plant, get plant
+    e, ne
+    Find your way back to the warning sign
+    2e, s, e
+    put plant in machine, turn crank, get all from machine
+    w, 2n
+    Do alias for dropping mat, etc.
+    2n, w
+    put soybeans in grinder, turn handle, get oil from grinder, put oil in bowl,
+    drop lemon, wield knife, slice lemon, get lemon, squeeze lemon in bowl,
+    break egg in bowl, pour corn syrup in bowl, pour vinegar in bowl,
+    Find salt again, then back to kitchen:
+    salt bowl, stir bowl with spoon, get mayonnaise from bowl, put mayonnaise in
+    bun.
+
+    Mustard: e, 3s, w, 2n, 2e, n, w, n, 2w
+    wield sickle, harvest plant, get plant
+
+    2e, s, e, s, 2w, 2s, e, s, e
+    put plant in machine, turn crank, get all from machine
+    w, 2n
+    Do alias for drop mat, etc.
+    2n, w
+    put seeds in grinder, turn handle, get mustard from grinder, put mustard in
+    bowl, pour vinegar in bowl
+    e, 3s, w, 2n
+    jump fence, pick onions
+    w
+    pick garlic
+    e
+    jump fence
+    2s, e, n
+    Do alias for drop mat, etc.
+    2n, e, s
+    wash onions, wash garlic
+    n, 2w
+    put onions in grinder, turn handle, get paste from grinder, put paste in bowl,
+    put garlic in grinder, turn handle, get paste from grinder, put paste in bowl
+    Find salt again, then back to kitchen:
+    salt bowl, stir bowl with spoon, get mustard from bowl, put mustard in bun
+
+    Patty: Go in that random maze (e, 3s, 2w, sw from kitchen) and find an axe, get
+    axe, wield axe
+    Now find a place with a dried old log (in the same maze):
+    chop log, get firewood, find a bull in the sunny meadow just w from where you
+    went down in this area, kill bull, wield cleaver, butcher corpse, get meat,
+    Go to the kitchen:
+    open stove, put firewood in stove, light stove, put meat in grinder, turn
+    handle, get all from grinder
+    Find salt again, then back to kitchen:
+    salt meat, put meat in grill
+    Now exa grill many times (better make an alias - this is a bit tricky, you must
+    continuously check the grill, and the stove must not be more than hot, if it is
+    open it), when it is cooked get meat from grill (quick), put patty in bun
+
+    e, s
+    give hamburger to bertha
+
+
+### Pilgrimage to Canterbury (88 points, by Iceblink and Kiki)
+Note: take no eq with you, as I am not sure how to get back.
+
+    green: 2e, 3n, 3e, n
+    get manuscript, study manuscript, buy bottle, break bottle, get all
+    w, s, 11se, 2e, s
+    give mouse to prioress, get all
+    n, 2w, nw, ne, n
+    buy book, no, haggle
+    s, sw, 5nw, e, s, n, w, 3se, n, e
+
+    If sack is here: plow field, get all, w, s, 3nw, e, s
+
+    If sack is not here: w, s, 2se, ne, n, w, n, get all, s, e, s, sw, se, e, u, say
+    warrant, d, w, nw, n, e, n, give warrant to reeve, get sack, s, e, s, sw, 5nw,
+    e, s
+
+    give sack to manciple, haggle (until you have learned to haggle)
+    n, w, 5se, ne, n
+    haggle
+    s, sw, 9nw, w
+    give book to clerk, say amor vincit omnia, get book
+    e, 5se, w, nw, u
+    say love conquers all
+    You are now randomly teleported to a place within the area.
+    Dirs from the Tabard Inn:
+    w, s, 11se, 4e, n
+    give stockings to dyer, give stockings to weaver, give thread to haberdasher
+    give cloth to tapestry maker, give flag to carpenter
+    s, 4w, 8nw, s, w, n
+    give flag to shipman
+    s, e, n, 3nw, n
+    bow knight
+    s, 9se, e
+    give gold to doctor
+    If the doctor gives you tonic: w, 5nw, 2e, give tonic to pardoner (might be
+    walking around)
+    If the doctor gives you a potion: w, 5nw, 2e, nw, give potion to summoner
+    Go back to the doctor.
+    w, 2se, 3e, 3s
+    give silver to friar
+    3n, 3w, n
+    wrestle miller, get all
+    s, 5nw, w, nw, n
+    give ram to cook
+    s, se, e, 2se, n, ne, n, w
+    give stew to franklin
+    e, s, sw, s, 3se, 5e, 2n
+    drop all weapons.
+    n, 5e, u
+    pray
+    d, w, n, d
+    Find the archbishop.
+    give scroll to archbishop, study success (this didn't work, I just quit to get
+    back)
+
+
+### Discover Magic (89 points, by Panic)
+Note: For places where the dreampost can be, see Save the DemonKnight's Empire.
+
+    tell dreamkeeper post
+    Go to the place where the post is.
+    dream
+    nw, n
+    get shovel
+    s, se, 2sw, 2w
+    kill vile
+    2d
+    kill dragon
+
+    d
+    kill demon
+    s
+    dig (until you find a flint), get all
+    n, 3u, 2e, 2ne, se, 2s, w
+    climb stairs, get all, enter safety
+    se, 3s, 3e, s
+    Find the citizen that has ring of empire (somewhere south of
+    here).
+    kill citizen, get all from corpse, wear ring
+    n, 3w, 3n, 2nw, 2n, nw, n
+    enter empire
+    2n, e
+    give stone to disciple, get all
+    w, 2s
+    leave
+    s, se, 2s, 3w, 2s
+    chop tree (until you manage to chop it), get all
+    2s, e
+    enter
+    n, 2w
+    open blue
+    e
+    signal ship (if it is not already here), enter ferry, sail
+    crete, out
+    5n
+    Follow the arrows until they point at an altar.
+    pray, search mist (until you find a shard), get all, leave
+    Go back through the maze.
+    enter ferry, sail ionia, out
+    7e, se, 3s, e
+    cut reeds (until you have cut five), get all, make pipe, get all
+    w, 3n, nw, 7w
+    enter ferry, sail dreamworld, out
+    w
+    enter portal
+    2e, 2n, 2nw, 2n, nw, n
+    enter empire
+    2w
+    play music
+    4w, n
+    search swamp, get all
+    s, 3e, 2n, e, s
+    put wood in cauldron, pour oil in cauldron, strike flint
+
+
+### Discover the Lost, Enchanted Realm (91 points, by Panic)
+Note: For places where the dreampost can be, see Save the DemonKnight's Empire.
+
+    tell dreamkeeper post
+    Go to the place where the dreampost is.
+    dream
+    nw, e, n, ne
+    Walk around the area and kill six warriors, get gems from
+    corpses.
+    Walk around the area typing "explore" until you find a cave.
+
+    kill demon, get gem, journey, give gem to mage
+    Walk around the area typing "explore" until you find a cave.
+    get all, out
+    Walk around until you can go up (exit not shown as obvious).
+    give staff to glax, get wand, wave wand
+
+
+### The leaning tower of Celeborn (92 points, by Celeborn)
+
+    green: 9s
+    enter ship, sail tol pelear, out
+    4w
+    get fish
+    4e, 2n, nw
+    enter mushroom, exa bump, get key (if it is here), out
+    se, w
+    climb tree, get key (if it is here - if by now you don't have the key, try the
+    quest later)
+    d, 2e
+    give key to worl
+    2e, n, e, 2n, d
+    whisper xnatruk «answer of riddle» (if you get it wrong you'll need to kill it
+    for the gem)
+    u, 2s, w, s
+    Find the hammer (lying around in the area).
+    get hammer
+    Find the skull (lying around in the area).
+    get rod from skull
+    Go back to where you were.
+    s, e, 5s
+    put rod in hole, open door
+    e
+    get all
+    w, 2n, get all
+    n
+    push boulder n, n, push boulder n, n, push boulder e, e, push boulder n, n, push
+    boulder e, e, push boulder e, e
+    get gem from stone
+    2w, n, 2w, s
+    enter tower, open door
+    d
+    get all from bowl
+    2u
+    open chest, get key from chest, unlock door with key, open door
+    w
+    get malnaug from sack
+    e, 2u
+    open tap, wield hammer, hit barrel, get all from barrel
+    e, s, 2w
+    put candy in mixer, put ball in mixer, pull lever, get all from mixer
+    2e, n, w, 4d
+    unlock door with black key
+    s, 3d, n
+    give fish to man, get all
+    s, 3u, n, u
+    out
+    s, e
+
+    drop mix (when a mole is here)
+    w, n, 7w, nw
+    give malnaug to dragon
+    se, 7e
+    enter tower
+    3u, e, s, e
+    put gem in niche, put gem in niche, put gem in niche, put gem in niche, push
+    button, pull lever
+
+
+### A quest set in the beautiful mansion of Cherryhill in Kent. (93 points, by Chino)
+
+    green: 3e, d
+    enter coach, out
+    4w, 4s, e
+    get ladder, sit, kill book, get flier
+    Find the walking mattress.
+    kill mattress, get holder
+    Go back to where you were.
+    2n
+    lift rug, get key
+    s, u, n
+    open closet, kill monster, get all from corpse, out
+    s, d, w, n
+    drop ladder, climb ladder, give tin to dragon
+    d
+    get ladder
+    s, w, n, e
+    drop ladder, climb ladder, get soup
+    d, w
+    give soup to cook, put soup in bag
+    w
+    enter cupboard, enter secret door, get atlas
+    d
+    out
+    s
+    get kettle from sideboard, knock kettle, give atlas to jinni
+    n, u, n, 2e
+    unlock cabinet, hug creature, kiss creature, cuddle creature, squeeze creature,
+    snuggle creature
+    s, 2d, s
+    press third bouquet from the top
+    w
+    get all from compartment
+    2e, n
+    read parchment, play «instrument», whisper «word», unlock chest, open chest
+    get all from chest, put photo in holder
+    w, e, u, w, s
+    sing god save the king
+    2e
+    exa wall, exa cassettes, get package
+    2w, n, w, u, e, s
+    kill thing 3, get all from corpse, put shawl in bag, put flier in bag
+    n, e, n
+
+    put holder in bag, put package in bag, put bottle in bag, put bottle in bag,
+    give bag to bush
+
+
+### Skullcap's Treasure (94 points, by Naketa)
+Note: the magpie will not be killed; it wants to trade the key for some brass buttons, which i cannot find.
+Note: It's probably best to leave the basket of apples (from Nipo) until last, because the gardener takes them from you if you enter the room with the apples on you (and you can't put it in your pack).
+
+    Find a pair of gloves.
+    green: s, 5w, 3s, 3e
+    kill ogre
+    n
+    get axe from sack, get rope
+    s, e
+    kill ogre, exa drawer, get all
+    6w, n, w
+    help dwarf (until you succeed), get tools
+    3e, 2s
+    climb mountain, enter nest, enter building, kill nipo, out, out, climb down
+    n, w, 3s
+    enter tree, kill nipo, get all from corpse, out
+    e, 5n
+    climb tree, kill magpie (doesn't work: need to give it brass buttons), get all
+    from corpse
+    d, e
+    unlock door, open door
+    e
+    move carpet, pull handle, search pile, get gem
+    u, out
+    4w, 5s, e, n, 4e
+    climb mountain, enter cave, tie rope to framework, climb down
+    w, 4s
+    unlock door, open door
+    e
+    kill demon, get all
+    w, 4n, e
+    climb up, out
+    d, 2w, n, e, n, 3e
+    pull handle, enter painting, swim, unlock door, open door
+    e
+    kill dwarf
+    u
+    kill dwarf
+    u
+    kill dwarf
+    u
+    kill dwarf
+    u
+    smash bulb, break egg, get gem
+    4d
+    out, swim, enter portal
+    u
+    out
+    4w, 5s, e, n, 4e
+    enter cave, kill dragon, unlock door, open door
+    d
+    pick gold, get all, dig
+
+
+### Free the old Graveyard (95 points, by Krzhugngr)
+Note: Map the graveyard out, it's handy when looking for the vulture.
+
+    The area is: green: 4w, 12n, nw, 2n, d, 2e, 3n, 6e and then another 2e to get
+    into the graveyard.
+    »From inside the graveyard: 2n, 3e, 2s, e, n, d
+    say key
+    The witch will give you a recipe of things to collect to get her part of the
+    broken key. There are three parts.
+    out, s, w, 2s, 3w, s and search equipment to get a shovel. There is a torch
+    here too.
+    n, e, n,
+    dig, enter hole. The skeleton will want you to play the skull/pea game. You
+    know, where he puts the pea under the middle skull and then moves them all
+    around and you have to know if the pea is under the left, middle or right skull.
+    Make sure you read SWAP and MOVE, as they have different outcomes. You have 20
+    seconds to answer, so act fast by typing say left, say middle or say right. If
+    you guess wrong, he kicks you where it hurts, taking 100hp. If you guess right,
+    he drops a bone....get it.
+    out, 2s,
+    dig, enter hole and kill ghost (not hard).
+    get key, out,
+    n, w, 4n, w,
+    dig, enter hole, kill two autoattack orcs (hard),
+    get toy from pile, out
+    2e, s,
+    dig, enter hole, kill dragon (very hard)
+    get key, out
+    n, e, s
+    dig, enter hole, kill sheep, get ear.
+    Go out, n, e, n
+    dig, enter hole, kill cat, get eye
+    If you see the vulture, start killing it for the feather. It's hard to track. If
+    you don't see it, dig in the other graves, cuz sometimes he's buried in there.
+    He is also sometimes at the bottom of the well. Go along the perimeter path and
+    type get rocks til you find some.
+    »From just inside graveyard, go 2s, 2e, s
+    dig, enter hole, give toy to girl.
+    out, n, e, 2n, e, n, d
+    say key. DO NOT GIVE THE INGREDIENTS TO THE WITCH. She will take all the
+    ingredients, turn into a dragon and leave.
+    get key, out
+    s, e, 3s
+    dig, enter hole, say broken key and Jimmy will fix it and give it to you. The
+    key is an autoloader. If you lose the key, go back to Jimmy and say broken key,
+    and he'll replace it.
+    Now that you have completed the first part of the quest, put your eq somewhere,
+    as you won't need it until later.
+    Before going in the well, make sure you have 7k gc, a lantern, a torch and an
+    empty bottle. Read the rest of the catacombs part of the solve now to see what
+    these items are for.
+    out, 3n, 2w
+    enter well, light lantern, unlock door with key,
+    2n
+    You bump into the door and you get a huggiblu. If the doors reset on you, you
+    can type use huggiblu and be teleported back to this room again, having to start
+    unlocking all the doors again. Hopefully you won't have to use it.
+    Later you will need an empty bottle (when you examine it it should say it was
+    made by Krzhugngr), so when you see one lying around, pick it up.
+    exa wall, push button
+    n, 2e, n, w
+    exa wall, read inscription
+    e, s, 4w, n, e, 2n, w
+    answer silence
+    e, 2s, w, s, 2e, n
+    exa floor (make a note of the letter), exa wall, push button
+    s, 2e, 2n, e
+    throw bottle at button. Whatever you do, do NOT swim south, cuz the monsters are
+    really hard. However, if you do, you can swim north to get out. You can't wimpy
+    here. However, if later you get teleported here from the hall of levers, you
+    need to SWIM NORTH to escape
+    w, 2s, w,
+    fill bottle with water (the special bottle - see above)
+    3w, 2n, w, n
+    exa wall, read inscription (# to open a door, # for a part of the name) (don't
+    pull this lever)
+    n, e
+    extinguish fire, push button
+    w, s
+    exa stones, get kneecap
+    s, e, s, e, 3n
+    give kneecap to skeleton, get barrel
+    3s, w, s, 4e, 2n, 2e, 2s
+    curse demon, push wall, get shield, exa walls
+    read inscription:
+    Here you find part three of the name,
+    On your way to honour and fame,
+    To pass the evil or even do better,
+    You should really call him (write down this word).
+    You wonder why the last sentence doesn't rhyme at all ...
+    e, 2n, 2w, 2s, 2w, 2n
+    exa ground (make a note of the letter), exa columns, push button
+    2s, 2w, n, 2w, s
+    light dynamite, drop dynamite
+    n (wait for explosion)
+    s, e
+    get all, push plate
+    w, n, 2e, s, 4e, 2n, 2e, 3n, w, s
+    touch ceiling
+    n, e, 3s, 2w, 2s, 4w, 2n, w, 3n, e
+    pull nose
+    w, 3s, e, 2s, 2e, 3n,
+    exa floor (make a note of the letter), pull string
+    3s, 2e, 2n, 2e, 3n, 2w, s
+    kill bat, get blood
+
+    s, e
+    eat chain, The prisoner says: The fourth part of the name is (write down this
+    word)
+    w, 2n, 2e, 3s, 2w, 2s, 4w, n, 2w
+    give blood to skeleton, get amulet
+    2n
+    say Quotzlipeck
+    2s, 2e, s, 2e, 4n
+    push amulet, exa floor (make a note of the letter)
+    4s, 2e, 2n, 2e, 3n, w, n, e
+    push left eye
+    w, s, e, 3s, 2w, 2s, 4w, 2n, w, 2n, w
+    crawl n, crawl n
+    e
+    exa bulge, open door, buy ticket (2000k), exa dealer, buy information (5000k)
+    You will be given a piece of paper, read it: The first part of the name is
+    (write down this word)
+    2s, w, THERE ARE FOUR LEVERS IN THIS EAST/WEST CORRIDOR. You need to find the
+    configuration of up/down of these 4 levers (based on the previous clue # to open
+    a door, # for a part of the name) and after each attempt, go all e, s, push
+    button. These clues are based on a binary code. Don't fet the combination wrong,
+    different things will happen: a skeleton will jump out, steam will hit you for
+    about 100 hp, sometimes nothing happens, you might be teleported to the zatong
+    monsters (if you go there, swim north to escape)
+    You need to put the levers into position and go all e, s, and press button. You
+    have to do this twice: once to open the door (You hear a distant rumble) and
+    once for part of the name.
+    Now to figure out the config for a part of the name, convert the numbers you got
+    into binary, then 1=up and 0=down. So if your numbers were 2 and 8, the binary
+    is 0010 and 1000, so you will set the levers (from left to right) to ddud (then
+    press button) and uddd (then press button)
+    I hope this makes sense. Write down the part of the name. Once you have
+    finished:
+    get dust (in that button room)
+    n, 3w,
+    crawl s, crawl s
+    e, 2s, e, 2s, 4e, 2n, 2e, 3n, w, n, w
+    put amulet in opening
+    e, s, e, 3s, 2w, 2s, 2w, 5n
+    exa floor (make a note of the letter), push square, say the four words of the
+    name in the right order (with spaces, like say ack wham gisn lah)
+    5s, 2e, 2n, 2e, 3n, 2w, 2s, w, s
+    give dust to skeleton
+    4n
+    turn wheel 1 to (the first letter you found), turn wheel 2 to (the second letter
+    you found), turn wheel 3 to (the third letter you found), turn wheel 4 to (the
+    fourth letter you found, turn wheel 5 to (the fifth letter you found)
+    3s, e, 2n, 2e, 3s, 2w, 2s, 2w, 6n
+    wear shield, kill quotzlipeck, get all, enter field. You will be teleported to
+    the front of the crypt. You will need to fight a monster in here, so get
+    equipment first. You will also need light and a shovel.
+    Put ruby in ring
+    d, an invisible force will attack you. You can wimpy out of the crypt, keeping
+    the ruby to re-enter.
+    When it's dead, d, exa walls, exa crack, widen crack, open coffin, get all
+    (vampire heart)
+
+    u, 2w, 3s
+    dig, d, show heart to jimmy
+
+
+### Praise the Lord (96 points, by Banshee)
+Note: The quest can only be done once every Nannyday, between 17 and 18 Nannytime.
+
+    Become female first
+
+    Church: s, 4e, s, w
+    say yes
+    You will be transported into the chapel. This place is weird, you keep bumping
+    into nuns and won't have a clue where you are half the time. Just go to the
+    following places in the order given to complete the quest.
+
+    All dirs from Abbess:
+
+    Sophie: sw, 2s, sw, w, n, say help
+    Cecilia: sw, 2s, sw, w, s, say help, sing (until you get a clear voice)
+    Amanda: sw, 2s, sw, w, n, ne, sing
+    Daisey: 3se, say help
+    Victoria: sw, 2s, sw, 2s, give herbs to victoria
+    Dorothy: sw, s, 2se, say help
+    Chapel: sw, s, se, s, drink decoction, u, praise the lord
+
+
+### The quest for the Soulstone (97 points, by Charmangle)
+Note: Unsure of directions (the quest recently moved to middle-earth).
+
+    church: 5e,
+    enter ship, sail middle-earth, 3e, 2n, e
+    turn statue, crawl east, smash shutter
+    e
+    kill statues
+    e
+    turn statue
+    2e, s, e, s, w, s, e
+    kill kerberos
+    2e, d
+    kill blatifagus, get all from corpse, get all
+    u, 3w, n, u, 2w
+    crawl west
+    w, out
+    2s, 2w, nw, 2w, 2n, 3w, n, e
+    kill vampire, get all from corpse, transbat
+    w, s, 3e, s
+    climb down
+    n, 2e, n, w
+    enter hole, kill bats, exa east wall, say kitten, wield nabakos,
+    open chapel, enter chapel, get stone from body 2, out
+    w
+    leave
+    e, s, 2w, s, u, s, 3w, n, e
+    give stone to storyteller
+
+
+### Find the Ring, and seek its destruction (98 points, by Tulkas)
+
+    Get a sword and some light
+    green: s, 5e
+    light brazier (if the ship is not already here), enter ship, sail middle-earth,
+    out
+    3e, se, w
+    get key
+    6e
+    Go through the random maze until you end up in a room with a squirrel.
+    8e, 2n, 2w, n, e, n, 6e, 2s
+    You will be put in a random room in a dark maze.
+    Find a heavy golden ring radomly placed in the maze.
+    get ring
+    Find a door leading north.
+    n, e
+    get rope
+    e
+    get hook, tie rope to hook, throw hook towards boat (until the hook catches),
+    pull rope, enter boat, throw hook towards land (until the hook catches), pull
+    rope, out
+    9e, 4n, w, s
+    insert sword in crack, unlock door, open door
+    5e, d
+    get all
+    3s, 8w
+    enter boat, throw hook towards land (until the hook catches), pull rope, out
+    10w, s, w, s, 2e, 4s, e, 2s, e, s, e, n
+    say tired (note the password)
+    n, 2e, 2u, 2e
+    touch wall, say «password from dwarf»
+    u
+    You will be put in a random room in a maze.
+    Walk through the maze until you come to a room with three pebbles.
+    get all, throw pebble east, throw pebble south, throw pebble north
+    Go the way where the pebble fell on stone.
+    u, e, 2s, ne, n, 2e
+    say escort
+    e, 4u
+    say help, fill can, wield light, enter boat, go, out (after a little trip)
+    4s, e, s, e, n, e, s, w, s, e, n, 2e, 5n
+    Walk through the maze until you can go up.
+    u
+    throw ring into fire
+
+
+101-125 Points
+---------------
+
+
+### Light up the night (101 points, by Banshee and Brom)
+Note: I think there is an easier way to complete this quest: start the year of the banshee quest, then in april, get the axe, and find some trees to chop down, get them all from there.
+
+    green: 4e, 2s, 2e, 6s, w, s, w, 3s, 3e, 2n
+    enter cabin, get boots, kill woodman, get boots, wear boots, out
+    ne, nw
+    get axe from block
+    Repeat the following until you have eight logs (you might need to wait for a
+
+    reset):
+    n, drag log, chop log
+    get all
+    se, sw
+    enter cabin, look under table
+    d, 4e, u
+    Make sure it is night (exa clock 8u of here).
+    pull bar, u, exa orb (until the hydrometer says bursting)
+    refill (eight times)
+    7u
+    in, knock eye (until it says you should press a button), press button
+
+
+### Save the Sprites from their plight (104 points, by Mortis)
+Note: Bring some friends, as you can get caught in traps, and the hydra is tough too.
+Note: Bring a light source.
+
+    Find the vortex (moves around: look around 4w from green)
+    enter vortex
+    Walk around until you find an exit down or a gateway. If you are
+    caught in a trap, haven. (From gateway the dirs to the exit are s, 2e, 2s, 3w,
+    s), once you can go down, do so, then find the hydra (not too difficult to find)
+
+    kill head 8, kill head 7, kill head 6, kill head 5, kill head 4, kill head 3,
+    kill head 2, kill head 1, kill hydra (this may take a while, killing all the
+    heads)
+
+
+### Mortis' help death (105 points, by Mortis)
+Note: Bring a light source.
+
+    green: 2e, 2n, 3w, 2n
+    kill thief
+    2n, 2e, ne, n, w, n, w
+    open manhole, enter manhole
+    Find the alligator that is walking around in this maze.
+    kill alligator, gut corpse, get corpse
+    Go back to the beginning of the maze.
+    open manhole, enter manhole
+    e, s, e, 3n
+    kill monster, get all from corpse
+    s, u, s
+    unlock door, open door
+    w
+    stuff corpse
+    e, n, d, s
+    out
+    s, sw, 5w, 2n
+    give corpse to eric, out
+    s, 5e, ne, n, w, n, w
+    open manhole, enter manhole
+    s, w, s, 2w, n, w, n
+    open manhole, enter manhole, pour potion on tree, climb tree
+    4w
+    enter window, exa skeleton, get amulet, wear amulet, shout death take me, pull
+    rope
+    w, 2s, w, n, w
+    get grease from pan, exa food, get cube
+    e, n
+    get all from box
+    2s, e, n, u, n
+    grease ring, get ring, get all from cabinet
+    s, w
+    climb ivy, enter hole, get all from stand, enter hole, climb ivy
+    e, d
+    Go through all the rooms with skull designs, in each do the
+    following:
+    remove skull, get mask
+    Go back to where you were.
+    e
+    enter library
+    2n, 2w, 5s, 6e
+    exa books
+    6w, 5n, 2e, 3s, w, s
+    out
+    3e, n, e
+    dig carrot, get all
+    w, 2n, e
+    get wax from hive
+    w, n
+    polish skeleton, get all
+    4s, 5w, n, w
+    give carrot to horse, give cube to horse, get all, wear all,
+    wield scythe, mount horse
+    kill rincewind
+
+
+### Make a Wish (107 points, by Nib)
+
+    green: 4w, 5n, 5w, 4n, 2w, u, 2e, 3n, w
+    kill guards
+    w
+    kill chief
+    w
+    search hole
+    4e, 4n
+    One of the following ways are correct (if you fall down: e, w, 3u, 2n):
+
+    1) 2e, 2n, w, 2n, 2e, s, e, 2s, e
+    2) e, n, 2e, 2n, w, n, 2w, s, w
+    3) 2n, 2e, n, 2e, 2s, e
+    4) n, 2e, n, e, 2n, 2w, s, 2w
+
+    The voice in your head will ask you a question.
+
+    Question: 1, 7, 16, 46 Answer: 124
+    Question: 1, 3, 7, 11 Answer: 13
+    Question: 3, 1, 4, 1, 5 Answer: 9
+    answer «answer»
+
+    The voice in your head will ask you a question.
+
+    Question 1: Who was the first player to solve the quest Make a Wish?
+    Answer: Hrafnur
+    Question 2: Who was the first player to solve the quest Make so the citizens...
+    Answer: Lanceloth
+    Question 3: Who was the wizard that playtested Make a Wish?
+    Answer: Barbarella
+    Question 4: Who was the mortal that playtested Make a Wish?
+    Answer: Saxit
+    Question 5: Who was the wizard that playtested Make so the
+    citizens...
+    Answer: Neill
+    Question 6: Who was the mortal that playtested Make so the
+    citizens...
+    Answer: Oriole
+    answer «answer»
+
+    4n, 2w, u, 2e, 3n, e, n, 2d
+    kill monster
+    n
+    mine gold
+    n
+    mine gold
+    n
+    mine gold
+    s, e
+    mine gold
+    2w
+    mine gold
+    e, 2s, 2u, s, w, 3s, 2w, d, 2e, 3s, w, nw
+    pick flower
+    2w
+    kill rabbit, get corpse
+    2w, nw, sw, s
+    drop corpse, call eagle, get spoon
+    se, e, n
+    pick flower
+    s, w
+    enter oak, search leaves, enter hole
+    Find the beggar in the maze.
+    say follow me
+    Go to the oak.
+    out
+    nw, n, w, nw, w, 2n, w, n
+    give spoon to guard
+    s
+    unlock huge door, open huge door, enter huge door
+    3u
+    kill necromancer, search niche, open door, enter door, get coin,
+    out
+    3d
+    out
+    e, 2s, e, se, sw, nw
+    enter boat
+    n, e
+
+    search bed, get key (if it is here)
+    2w
+    move painting «1-10»
+    n, d, n
+    move tapestry, get key (if it is here)
+    n
+    get key from crack
+    e
+    kill guards, unlock door, open door
+    s
+    kill god, search altar
+    n, w, 2s, u, s, e, s
+    enter boat
+    se, s
+    enter crypt, search dust, open door
+    d, s, w, s, e, d
+    kill dragon, get all from corpse
+    u, w, n
+    push pentagram
+    2w, n, 2w, 2s
+    lift gate (until you succeed)
+    3w, n
+    kill demon
+    n
+    get child from altar
+    2s, 3e, 2n, 2e, s, 2e
+    push pentagram
+    e, n, u
+    out
+    n, e
+    pick flower
+    s, se, e, 4s, e
+    kill monk, get all from corpse
+    w, n, w, s, d
+    insert coin, pull handle
+    u, n, e, 3n, ne, e
+    pick flower
+    n
+    give doll to nina
+    e, n, 4e, n, 2w
+    give child to slekspolt
+    2e, s, 2w, s
+    give gold to smith
+    n, w, 3n
+    read sign
+    2s, 3w, nw, 2n
+    enter tower
+    2u
+    give flower to baron
+    2d
+    out
+    2s, sw, 2s, w
+    wish for «wish from sign in zoo»
+
+
+### Restore the parchment (113 points, by Asyvan)
+
+    green: 2e, n, w
+    buy 2, buy 1
+    e, s, w, 2n, w, n, 3w, d, w
+    jump creek
+    5n, u, s, e
+    enter, kill armour
+    n
+    kill armour
+    n
+    kill armour
+    2e, 2s
+    kill guard, enter tower
+    u, 3n, 3w, u
+    kill bat
+    s, e, u, n, e, s
+    drop all (except for sword and maybe armour), drink potion (frog potion)
+    u
+    kill man, get all from corpse
+    d
+    drink potion (unfrog potion), get all (your eq)
+    n, w, s, d, w, n, d, 3e, 3s, d
+    out
+    2n, 2w, 3s
+    kill armour
+    2e, d, w
+    kill keeper, get all from corpse
+    e, s, 2w
+    unlock door, open door
+    n
+    kill ghost, get all from corpse
+    s, w
+    unlock door, open door
+    n
+    kill demon, get all from corpse
+    3e, s, w
+    unlock door, open door
+    s
+    kill prisoner, get all from corpse
+    n, w
+    unlock door, open door
+    s
+    kill prisoner, get all from corpse
+    n, w
+    unlock door, open door
+    s
+    kill prisoner, get all from corpse
+    3e, 2n, u, 2w, n
+    out
+    w, n, d, 5s
+    jump creek
+    e, u, 3e, 6n, w, 2s
+    give purse to beggar (note the password)
+    2n, e, s, 3e, 2s, 2e, s, e, 2s, e
+    kill troll
+    n, e
+    climb mountain
+    2e
+    say «password from beggar»
+    n
+    search rubble, get all
+    s, 2w, d, w, s, w, 2s, 2w, s, w, 3n, 3w, 2n, w
+    enter building
+    2w, n, e
+    move bookshelf
+    e
+    kill rat, get all from corpse
+    2w, s, e, u, w, s, w
+    jump
+    n
+    get prism (should be around here somewhere)
+    2e, s
+    climb plant (if you can't climb it, go south and try again)
+    2e, 2n, e, 4n, w, 4s
+    return prisms
+    4n, e, 6s, 3e, 3s, 2e
+    enter temple
+    e
+    restore pergament
+
+
+### Black Plague (115 points, by Akilles)
+Note: the stealing is fun bit doesn't seem to work, but if you say your name, you get a message telling you to put the letters in your name on the floor.
+
+    green: w, d, n until you enter an open area
+    w to a tree with writing on it(not poster)
+    say stealing is fun
+    enter tree
+    d, d, e, n
+    kill thief, get key
+    w (enter maze)
+    This is a pretty hard one but try laying down coins and these dirs: s, w, s, w,
+    s, s, e, s, w, w, s, s, w, w, n, w, n, w, w, n
+    You need to find a door in the maze:
+    open door with key, enter door, get all,
+    Find your way out of the maze
+    exit tree,
+    Find a tent and plague pool south of tree:
+    drink water (will be ok if you have box), enter tent, give box to nurse
+    You will get autoloading antibodies for the plague again - take no one with you.
+
+
+### Year of Banshee (120 points, by Banshee)
+Note: Some dirs may be reversed (they are random).
+Note: This quest is EASY, if you examine and search EVERYTHING.
+
+    green: 4e, 3s
+    say yes
+
+    January:
+
+    e
+    get shovel
+    w
+    clear snow
+    w
+    search snow, get firework
+    e
+    light firework
+
+    February:
+    e
+    seek shelter, open door
+    Go the direction the door is in.
+    pick vegetable (until you get a carrot), out
+    w
+    give carrot to snowman
+
+    March:
+    examine the dairy and answer it's question, wander about to find the answer, or
+    if it asks what the longest day is, say vernal equinox
+
+    get back to diary
+    say «answer»
+
+    April:
+    get axe
+    n
+    get leaves
+    w
+    get twigs
+    s
+    search stones, get all
+    n, e, 2s
+    fell tree, get tree
+    e
+    put leaves in circle, put twigs in circle, put tree in circle, bang stones
+
+    May:
+    pick lilac (until you get a five-leaved one)
+    eat lilac
+
+    June:
+    w
+    pick bluebell
+    w
+    pick buttercup
+    s
+    pick bitter vetch
+    e
+    pick daisy
+    n, 2e
+    look into hole, stroke kitten, pick cat¥s foot
+    n
+    pick chervil
+    e
+    pick charlock
+
+    s
+    enter bed, put flowers under pillow, dream
+
+    July:
+    get spurs, wear spurs
+    2w
+    dive, mount horse, use spurs
+
+    August:
+    e
+    pick chantarelles
+    e, s
+    spit (wait until you can pick a puff ball), pick puff ball
+    w
+    pick agaric
+    s
+    pick mushroom
+    n, e, n, 3w
+    pick cap
+    s
+    pick ceps
+    w
+    pick cap
+    e, n, w
+    put mushrooms in cauldron, season, add sherry, cook soup, taste soup
+
+    September:
+    2s
+    get vase
+    s
+    pick rose
+    n,w
+    get tray
+    e, n, d, s
+    get oranges
+    n, u, w
+    give vase to cook, give rose to cook, give tray to cook, give oranges to cook
+    e, u, w
+    sing happy birthday, put tray on table
+
+    October:
+    s, d
+    get coal
+    u, n
+    blacken face
+    s, w
+    enter cabin, get all from hanger, get all from table, get all from bottle, out
+    2e, n, e
+    exa ashes, get box, get all from box
+    w, s, e
+    carve pumpkin, put candle in lantern
+    2s
+    knock door, say trick or treat
+
+    November:
+    w
+
+    kill turkey, get turkey
+    2e
+    scald turkey
+    e
+    pluck turkey
+    2w, s
+    use guillotine, draw turkey
+    n
+    give turkey to cook
+
+    December:
+    e
+    search pile (until no gifts are left)
+    w, s
+    enter sleigh, say banshee, enter chimney
+    d
+    put gift in stocking
+    2u
+    enter sleigh, say church
+
+
+### Hunt the Dragons! (122 points, by Brom)
+
+    church: s, 34e, u, 2n
+    kill cripple
+    n
+    get all, wield dragonbane
+
+    for places where the dreampost can be, see Save the DemonKnight's
+    empire.
+
+    DRAGONS: (all dirs from green):
+
+    Red snuggly: 9s, enter ship, sail caerleon, 2e, 9n, enter fountain, d,n,e,u
+    Transparent dragon: tell dreamkeeper post, go to the place where the post is, dream, nw, 5n, push brick
+    Shadow dragon: tell dreamkeeper post, go to the place where the post is, dream nw, w, 3n
+    Jellodragon: 12w, 4n, 2nw, n, 3w, enter cave, n
+    Aikanora: 9s, enter ship, sail tol pelear, out 2n, 4w, nw
+    Mingolad: 27w, enter ship/ferry, sail isle of hope and despair, out n, w, 4n
+    Xnatruk: 9s, enter ship, sail tol pelear, out 3n, enter mushroom, exa bump, get key (if it is here), out, s, w, climb tree, get key (if it is here), d, 2e, give key to worl, 2e, n, e, 2n, d
+    Paladine: 4w, 2n, sw, w, d, e, n, d (somewhere around here, random dirs)
+    Dragon of Efflam: 4n, 5e, enter keep, 2e, 2s, w, s, drake, n, w, n, e, 2n
+    Steel dragon: s, e, u, n, enter mirror, s, e, w, e, s, e, s, w, u
+    Sleeping dragon: 5n, 3w, 3n, 2nw, 2n, 3d, kill guard, d
+    Yevaud: 9s, enter ship, sail pendor, out s, 3w
+
+
+### Make friends with the Hermit (124 points, by Vincent)
+Note: I cannot build raft from logs, something went wrong somewhere.
+Note: Bring a light source.
+
+    green: 3e, d, e
+    buy rope, buy rope, buy rope
+    w, u, n,
+    buy bottle (if there are no empty bottles, find one, then get back to shop)
+    s, 3w, 4n, 3e, d, 4s
+    get lemon
+    n, w
+    get mat
+    w, 2u
+    get egg
+    d
+    in, search trash, get key, out
+    d, 2s, e
+    unlock door, open door
+    e
+    get ice-pick
+    w, n
+    drop mat, wipe feet on mat, get mat, open door
+    n, d,
+    search boxes, get parka
+    u, n, w
+    open drawer, open cabinet, get spoon from drawer, get all from grill
+    get bowl from counter
+    n
+    search sofa
+    e, s, e, s
+    open cabinet, get all from cabinet
+    n, w, 3s, 2w, sw
+    Walk through the random maze using the dirs se, s and sw.
+    u, 2w
+    milk goat
+    3e
+    tie rope to rock, climb rope, enter cave
+    s, 2d
+    crawl passage
+    Find a scraper in the maze.
+    get scraper
+    Find the hermit in the maze.
+    give milk to hermit, get bottle (when he is finished)
+    Find the way out of the maze.
+    2u, s
+    grab rope, climb up
+    3w
+    milk goat
+    2e, d, ne
+    Find an axe in the maze.
+    get axe, wield axe, fell tree, form pole from log
+    Go to the start of the maze.
+
+    Repeat the following 5 times: sw, fell tree, get log, «dir to get out of
+    themaze», e, 2n
+    jump fence (until you succeed),drop log, jump fence (until you succeed), 2s, w
+
+    Repeat the following 5 times: sw, fell tree, get log, «dir to get out of maze»,
+    e, 2n, 6e, s
+    drop log,
+    n, 6w, 2s, w
+
+    jump fence (until you succeed), build raft with logs, launch
+    raft, push raft n
+    push raft w, land raft, disembark
+    w
+    get bucket
+    e
+    launch raft, push raft e, push raft s, land raft, disembark,
+    jump fence (until you succeed)
+    6e, s
+    build raft with logs, launch raft, push raft s, push raft s,
+    push raft se, push raft s
+    push raft e, land raft, disembark
+    e
+    get crank
+    w
+    launch raft, push raft w, push raft sw, push raft s, land raft, disembark,
+    search debris
+    get can, launch raft, push raft n, push raft nw, push raft e, land raft,
+    disembark
+    u, e
+    pick strawberries (until you get some)
+    w, d
+    wash strawberries, launch raft, push raft w, push raft n, push raft ne, push
+    raft n
+    push raft n, land raft, disembark
+    n, 4w, n, w, 3n, 2w, nw
+    get honeycomb from tree
+    se
+    Find a mineral deposit somewhere around here.
+    get salt
+    Go back to where you were.
+
+    2e, 3s, e, s, 2w, 2s, e, n
+    drop mat, wipe feet on mat
+    2n, w
+    put strawberries in grinder, turn handle, put all from grinder in bowl, put
+    honey in grinder
+    turn handle, put honey from grinder in bowl, drop lemon, wield knife, slice
+    lemon
+    squeeze lemon in bowl, break egg in bowl, pour milk in bowl,
+    stir bowl with spoon
+    e, 3s, 2w, sw
+    Walk through the random maze using the dirs se, s, and sw.
+    wear parka
+    u, w, u (until you can't go up more)
+    wield ice-pick, break ice, break ice, open can, put all from
+    bowl in can, put scraper in can
+    close can, put can in bucket, put crank in bucket, put ice in bucket, salt
+    bucket
+    turn crank (until the ice cream is frozen), get all from bucket,
+    open can, put
+    all from can in bowl
+    d (until you can't go down more), 2e
+    climb rope, enter cave
+    s, 2d
+    crawl passage
+    Find the hermit in the maze.
+    give bowl to hermit
+
+
+126-200 Points
+--------------
+
+
+### Free Raque Island from Pengo (144 points, by Plaque and Radagim)
+Note: The kills on this quest are VERY hard, either bring some tough friends or be VERY patient.
+
+    green: 5w, 3s, call eagle, w, 3n, 3w
+    move stone, enter, get chest, out
+    3e, 3s
+    Find the monk (walking around e or w of here)
+    say ygorbeast
+    The monk will tell you what ygorbeasts like to eat. Get a corpse this monster.
+    Then go back to where the eagle drops you
+    w, 2s, 2w, s, w
+    throw corpse, jump stream
+    w
+    get key
+    e
+    jump stream
+    e, n, 2e, 2n, 6w
+    drop chest, unlock chest, get all, unlock south door with black iron key
+    unlock north door with white iron key, open south door, open north door
+    6s, w
+    kill mage
+    s, 2w
+    kill knatul, push wall
+    nw, n
+    kill priest, get all from corpse
+    s, se, 2e, n, e, 10n, w, s, u, e, s
+    kill monk, pull book
+    2w, n, u
+    enter painting
+    3d
+    kill halnar
+    3s
+    kill hurshag, get all from corpse, wield orb, wear platemail
+    3n, 3u
+    out, out, kill pengo
+
+
+### Make a collection of paintings (145 points, by Anna)
+
+    green: 9s
+    enter ship, sail morc, out
+    5n, 4e, s
+    say yes
+    Paint monsters beginning with the letters A-Z with the level, gender and
+    alignment variety that Stephen wants, only one from each area.
+    Go back to Stephen.
+    give box to artist
+
+    Suggestions:
+
+    Arthur (qqq's)
+    balrog
+    champ slaanesh
+    bozak draconian
+    everlaster
+    fleshhound
+    guardian monk (near demon caves)
+    hewey
+    village idiot (west of green past khorne area and s like 4)
+    jul (east and south of idiot)
+    dwarven king guard
+    lorna (monolith)
+    mortimer (neill's)
+    nun (morc)
+    sleeping orc (caves nw of green)
+    paladin (tower, enter through mirrors)
+    qqq's girl
+    rakshasa (behind great tiger in shadow woods)
+    monk st kuron (14w,3n,2w,n,w,sw)
+    thug
+    uintatherium (banshees park)
+    vulture (graveyard)
+    worker
+    xnatruk
+    young dragon (pendor)
+
+
+### Revive an ancient life form (151 points, by Darkmoon and Banshee)
+Note: The queen won't die easily.
+
+    green: 4e, s, w, s
+    enter hill
+    Find the queen (randomly placed).
+    kill ants, enter hole, get all
+
+    Go to outside of anthill.
+    e, s
+    say yes
+    Get the axe in April (see Year of Banshee).
+    wave flag
+    Find an item worth 2000+ coins.
+    10s, 2e, se, e, se, e, ne, 2e, ne, 2e, 3n, w, n
+    Find the spring in the random maze.
+    drink water
+    d, e, 3s, 2w, sw, 2w, sw, w, nw, w, nw, 2w, 9n, 6w, 2s, 2w, s, e
+    In the following locations: exa ground, get twigs (if they are here)
+    3s, sw, s
+    s, w
+    chop tree, get all
+    s, 2e
+    sacrifice «item»
+    pray, exa altar, get dagger, light fire, add log, add log
+    melt stone (when the fire is good for melting it)
+    revive fly
+
+
+### The New quest for evil wannabies (163 points, by Azatoth)
+Note: The guardians are tough, so you can heal by typing 'invoke'. This will teleport you somewhere else, and you can then heal, and make your way back to the Sybil, then mirror and pray again to get back.
+
+    green: 3n
+    enter yard
+    3n, d, 2w, 4s
+    kill ghoul
+    e, s, w, s, 3e, n, w, n
+    kill the ghoul that has a key, get key from corpse
+    s, e, s, 3w, n, e, n, w, 4n, e, 3s
+    bow zerkloid (until he drops a key), get key, unlock door with clay key, open
+    door
+    s
+    unlock south door with bone key, open south door
+    s
+    get all
+    2n, ne, 2n, u, 3s, w
+    dig
+    n
+    say i want a sigil, answer the questions with: your name, Azatoth_sacrifice,
+    «Answer this question yourself, usually not too hard, based on something in
+    Nanny»
+    get sigil, wear sigil, mirror, pray (need to carry stuff - not in pack)
+    d, 2e, n
+    kill guardians
+    n
+    kill guardians, get key from corpse, unlock door with steel key, open door
+    n
+    press eye on statue, get all, wield athame
+    3s, 2e
+    show sigil, place crystal in niche (If you aren't teleported, repeat getting and
+    placing crystal.)
+    forward, gender, colours, forward, forward, forward, evil
+    u
+    call Azatoth, strap virgin, sacrifice virgin, forward, give sigil to
+    nyarlathotep
+    give statue to nyarlathotep, church
+
+
+### Break into Angmar's treasury (166 points, by Angmar)
+
+    green: 7w, 2s, 2d, e, s
+    get skeleton
+    n, w, u, 2w
+    open book, get recipe, open door, enter door, close door, open door, out
+    2s, w
+    get mushroom
+    e, 3n, e
+    kill drunkard, get all from corpse
+    w, n, 2w
+    search ditch, get all
+    w, n
+    kill scarecrow, get all from corpse, get corncob, wear boots
+    s, 3e, n, 2e
+    give candy to boy, get all, fish, fish, open box, get all
+    2w, n, w, n, u
+    unlock door, open door
+    2n
+    kill dragon, get all from corpse
+    2s, d, s, e, 4s
+    enter door, close door, open door, out, read scroll, kill
+    warrior
+    get all from corpse
+    e
+    put fish in cauldron, put skeleton in cauldron, put mushroom in cauldron
+    put corncob in cauldron, put recipe in cauldron
+    e, n
+    kill thief, get all from corpse, get corpse
+    s, w
+    put corpse in cauldron, say kashmirak gorondolum, get all from cauldron
+    e, d, 2e
+    kill spirit, get all from corpse
+    2w, u, 2w
+    enter door, close door, open door, out
+    4n, w, n, u, e
+    give doomsgiver to oracle
+    w, d, s, e, 4s
+    enter door, close door, out
+    2e, n
+    open doors, say «password from oracle»
+    n
+    get all
+
+
+### Kobayashi (168 points, by Chrisp)
+
+    Get a party together (tough people). Not too many though, as the more you have, the more monsters you will have to kill.
+
+    green: 3e, d, e
+    buy shovel
+
+    e, u, 2w, 4s, 2w
+    kill guard, get key from corpse, unlock door, open door
+    w, 2u
+    kill remo
+    w
+    get all
+    e, 2d, 3e, 3n, 2w
+    kill tentacles, get katana, dig
+    d
+    kill monster, get key
+    u, 2e, s, 3w
+    mend katana, superior katana
+    3e, 4s, e (enters unknown to east), 2n
+    kill ghost, get mantle, wear mantle
+    w, n, 2w, 3u
+    kill giant
+    2d, 2w
+    pray, drink water, exa font, get wheel from font, dip «item» in font (all your
+    items)
+    2e, d, 2e, s, e (enters unknown to east), 3e, s, e
+    unlock door with key, open door
+    e
+    kill skeletons
+    2u
+    kill zombies
+    2u
+    kill wraiths
+    2u
+    kill mummies
+    2u
+    kill spectres, wield katana
+    2u
+    kill kobayashi
+
+
+### Save the DemonKnight's Empire. (183 points, by Panic)
+    Places where the dreampost can be (all dirs from green):
+
+    Highlands: 13w
+    At the coast: 9s, 2e, se, e, se, e, ne, 2e, ne, 6e
+    Old wood: 5n
+    In the desert: 4w, n, w
+    Near a deep ravine: 4w, 2s, w, 2s, d
+    In the pine forest: 3w, 4n
+    Top of mountain: 4w, 6n, 2u
+    A dark forest path: 4w, 2s, w, s
+    Small open place: 4w, 3n, 4e
+    Deep forest: 6w, 2s, 2w, s
+
+    tell dreamkeeper post
+    Go to the place where the post is.
+    dream
+    se, 3s, 3e, s
+    Find the citizen that has ring of empire (somewhere south of here)
+    kill citizen, get all from corpse
+    n, 3w, 3n, nw
+
+    Repeat the following until you get qp:
+    e
+    get all
+    w, se, 2s, w
+    move cloth
+    3d, n
+    get all
+    s, 3u
+    leave
+    e, s
+    leave
+    w, n
+    get all
+    3n, 2e, 2n, w
+    get all
+    e, 2s, 2e, d, n
+    kill warrior, get corpse
+    s, u, w, 2n, nw, n
+    enter
+    3n, nw, n, 2u
+    enter
+    give corpse to demonknight
