@@ -1,0 +1,4 @@
+This is a modified 3.1.1 driver. A few bug fixes and a few new EFUNS
+are added. Check out the beginning of func_decls.c.
+ 
+Modifier: Peter Eriksson (pen@lysator.liu.se)

@@ -1,0 +1,15 @@
+# Created by https://www.gitignore.io
+
+### OSX ###
+.DS_Store
+._*
+*~
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+
+### Project ###
+.backup

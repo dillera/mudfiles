@@ -1,0 +1,21 @@
+#nop VSoF;
+
+/*
+ * 
+ */
+
+
+
+#class pytest kill;
+#class pytest open;
+
+/* system aliases */
+#alias {clear} {#system clear}
+#alias {ls} {#system ls}
+#alias {pwd} {#system pwd}
+#alias {reload} {#read pytest/pytest.tin}
+
+#run {python} {python -iB pytest/pytest.py}
+
+#echo {loaded pytest.tin};
+#class pytest close;

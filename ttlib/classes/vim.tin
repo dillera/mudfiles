@@ -1,0 +1,22 @@
+#nop VSoF;
+
+/* 
+ * Author: Nathan Farrar <nfarrar@crunk.io>
+ * Description: Enhanced editing with vim & tmux.
+ *
+ * References:
+ * - http://tintin.sourceforge.net/board/viewtopic.php?t=2121
+ */
+
+#alias {vi %1} { 
+  #var screen_1 shut; 
+  #script {path} {tmux list-panes}; 
+  #showme {listing current tmux panes...}; 
+  #showme {$path[2]}; 
+  #if { "$screen_1" == "open" } {#sys tmux kill-pane -t 1}; 
+    #run {vi} { 
+      tmux split -h 'vi ~/ARTT/%1; 
+      tmux split-window -h -p 100 "tail -f all_but_roomname.log"; 
+      tmux select-pane -t 0;' 
+    }; 
+} 

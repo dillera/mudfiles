@@ -1,0 +1,34 @@
+3.1.0
+
+From now on, I (lars@cd.chalmers.se) will not develop new major features. I
+will only use minimum time to fix bugs. The goal is to make the game driver as
+bug free and stable as possible. I will not either incorporate new big
+features from others, as that has proven to require much time from me.
+
+Fixed a bug in the initialization code, which did become a recursive
+function call.
+
+The statment catch(exec(...)) could crash the game.
+
+3.1.1
+
+Fixed a severe bug, where this_player() returned non-zero value when the
+object was destructed. The basic idea is that it should never be possible
+to refer to a destructed object.
+
+'nomask' functions and variables wasn't checked for correctly. 'private'
+functions were fixed, so that they can no be called through call_other().
+
+This is a short summary of how special types are handled:
+
+    'static' variables: Will not be saved at save_object(), nor modified at
+    restore_object(). 'static' functions can not be called through
+    call_other(). 'static' inheritance will make all inherited definitions
+    'static'.
+
+    'private' variables and functions: Can not be accessed by a sub class
+    'public' variables and functions can be redefined by a sub class, even if
+    they have been inherited 'private'ly. 'public' inheritance will make all
+    inherited definitions 'public'. 
+
+    The type 'protected' is reserved, but does not mean anything currently.

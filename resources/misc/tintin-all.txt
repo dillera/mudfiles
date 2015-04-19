@@ -1,0 +1,342 @@
+#nop the whole big shit aliases and stuff
+#nop /////// Connecting \\\\\\\\
+#alias {`} {#session {E} {130.236.254.159 2000}
+#alias {@} {#session {E} {130.236.254.159 2000}
+#nop /////// Universal BS \\\\\\\
+#action {You got %1 coins} {#var parai %1} {5}
+#action {You take %1 coins from}  {#var parai %1} {5}
+#action {purse will not let itself be put into} {put all from purse in pack;get all from purse;put purse in pack}
+#action {pouch will not let itself be put into} {put all from pouch in pack;get all from pouch;put pouch in pack}
+#action {sack will not let itself be put into} {put all from sack in pack;get all from sack;put sack in pack}
+#alias {uod}{unlock door;open door}
+#alias {chestl}{get key from pack;unlock chest;open chest;put all from chest in pack;get all from chest;open pouch;get all from pouch;put pouch in pack;put key in pack}
+#alias {pl} {put all from purses in pack;put purses in pack;put all from pouchs in pack;put pouchs in pack}
+#alias {spl} {party split $parai}
+#alias {looton}{#action {died.}{x;pu}}
+#alias {lootv}{#action {died.}{pu;jafp;jaf;g}}
+#alias {lootel}{#action {died.}{jaf;g}}
+#alias {lootd}{#action {died.}{jafp;jaf;get heads}}
+#alias {lootoff} {#unaction {died.}}
+#alias {qnw} {northwest}
+#alias {qne} {northeast}
+#alias {qsw} {southwest}
+#alias {qse} {southeast}
+#alias {2br} {break;break}
+#alias {bidle} {#ticksize 300;#action {#TICK!!!}{l};#tickon}
+#nop /////// Highlights \\\\\\\
+#highlight {green} {[=Leper=]%1}
+#highlight {green} {[Dark]%1}
+#highlight {green} {[Paragon]%1}
+#highlight {green} {%0Bloodline%1}
+#highlight {green} {%0Monks%1}
+#highlight {green} {[Monks Info]%1}
+#highlight {light green} {[Lars' Word]%1}
+#highlight {green} {[Khorne]%1}
+#highlight {green} {%0-Assembly-%1}
+#highlight {green} {[Simyarin]%1}
+#highlight {green} {[The Gods Speak]%1}
+#highlight {green} {[Vikings]%1}
+#highlight {cyan} {[Explorers]%1}
+#highlight {cyan} {(>Barbers<)%1}
+#highlight {cyan} {%1 says: %2}
+#highlight {yellow} {** HP:%1}
+#highlight {yellow} {** BP:%1}
+#highlight {magenta} {%1 shouts%2}
+#highlight {cyan} {%1 whispers%2}
+#highlight {brown} {The last of%0}
+#highlight {brown} {%0died.}
+#highlight {light cyan} {%0Party%1}
+#highlight {brown} {[Trade]%1}
+#highlight {yellow} {%1 tells you%2}
+#highlight {yellow} {%1 replies %2}
+#nop /////// Guilds Specific Stuff \\\\\\\
+#nop ------- Knight Guild -------
+#alias {shr} {24s3e2nw}
+#alias {shrb} {e2s3w24n}
+#alias {hh} {#10 heal}
+#alias {sh} {3w2ne;hh;w2s3e}
+#alias {gh}{3s3w2ne;hh;w2s3e3n}
+#alias {ph}{enter portal;es3w2ne;hh;w2s3enw;enter portal}
+#alias {hw}{6n4e;kh;4w6s}
+#alias {he}{6n4w;kh;4e6s}
+#alias {hsw}{qne;qne;qne;hw;qsw;qsw;qsw}
+#alias {hse}{qnw;qnw;qnw;he;qse;qse;qse}
+#alias {stp %1}{#var sktopor %1}
+#alias {pts %1}{#var portosk %1}
+#alias {coh} {$sktopor;ph;$portosk}
+#alias {atac} {#gag {Your falcon looks for someone to attack};#gag {Shell doing: f};#gag {%1 hunting falcon.};ff;wimpy 30}
+#nop -------- Khorne Guild --------
+#alias {kheal} {9w7s2w3sd;heal;u3n2e7n9e}
+#alias {iheal} {7s2w3sd;heal;u3n2e7n}
+#alias {kh} {kheal;sho}
+#alias {adv} {9w7s2w2s}
+#alias {advb} {2n2e7n9e}
+#action {Khorne aids you} {jafp;jafs;sac}
+#nop -------- Dark Guild ---------
+#alias {darks} {4w9nd2w5n}
+#alias {darksb} {5s2eu9s4e}
+#highlight {green} {You turn your mind inwards%2}
+#highlight {green} {You are the darkness. The bladedance has begun.}
+#highlight {yellow} {The mirror image flickers and breaks.}
+#highlight {yellow} {The void in your blade engulfs%2}
+#highlight {light red} {Your inner vision fails you%2}
+#alias {skill} {qne;evade balls;qne;watch water;qnw;introspect;qsw;study runes;qse;balance on rock;qse}
+#nop -------- Leper Guild ---------
+#alias {lep}{9s2ws;southwest;enter ferry;pull rope;out;3s}
+#alias {lepb} {3n;enter ferry;pull rope;out;northeast;n2e9n}
+#alias {oo} {2br;op}
+#gag {Rot who?}
+#nop -------- Monk Guild --------
+#alias {pic} {pick herb}
+#alias {pi} {pic;pic;e;pic;pic;s;pic;pic;s;pic;nw;pic;pic;n;xp}
+#alias {gar} {3s2w2n2e}
+#alias {garb} {2w2s2e3n}
+#alias {cha} {3s2w2nes;read note;s}
+#alias {chab} {2nw2s2e3n}
+#alias {picktime} {#ticksize 70;#action {#TICK!!!}{pi};#tickon}
+#nop -------- Simyarin Guild --------
+#alias {chaos} {27w;eg;4w;qnw;qnw;w;qnw;2w;qnw;dnnw}
+#alias {chaosb} {e2su;qse;2e;qse;e;qse;qse;4e;eg;27e}
+#alias {ch} {out;2e;qnw;qnw;w;qnw;2w;qnw;dnnw}
+#alias {chb} {e2su;qse;2e;qse;e;qse;qse;2w;eg}
+#alias {sim} {27w;eg;6w;eg}
+#alias {simb} {out;6e;eg;27e}
+#nop -------- Vampire Guild --------
+#alias {vam}{9w2n4w;northwest;northwest;enter;2e}
+#alias {vamb} {2w;out;southeast;southeast;4e2s9e}
+#highlight {light red} {The wild strength in your blood fades away.}
+#highlight {light red} {A strange weakness overcomes you.}
+#alias {autorip} {#action {deplorable} {rip}}
+#gag {Rip [who].}
+#nop ---< Chef >---
+#alias {chef}{5e5s5w4nu2n}
+#alias {chefb}{2sd4s5e5n5w}
+#nop ---< Cthulhu >---
+#alias {ct}{4w5nw3n;3;n;enter}
+#alias {ctb}{out;s;2;3se5s4e}
+#action {** You are compl%1 sane.}{stop trance}
+#nop ---< Vikings >---
+#gag {You must specify who you want to strike.}
+#gag {You prepare for a strike.}
+#nop /////// Pk Stuff \\\\\\\
+#alias {bfdfdb}{buy firebreather;drink firebreather;drop bottle}
+#alias {bfh}{2ene;bfdfdb;bfdfdb;bfdfdb;bfdfdb;wsww}
+#alias {ph1}{4wne3sw;buy healpotion;e3nws4e}
+#alias {sloc}{8e2s;enter;say locate %1}
+#alias {slocb}{out;2n8w}
+#alias {highb %1}{#highlight {light red}{%%1}}
+#highlight {light red} {%1 gazes at you%0}
+#highlight {light red} {You finally manage to regain%0}
+#alias {pks} {grol;4s;qsw;ws2wn;enter;nw}
+#alias {pksb} {e3s2ene;qne;4n;grolb}
+#action {You are struck by a fearful headache.}{#showme {.--[ Alert !!! ]--.};#showme {|                 |};#showme {|  Brain recived! |};#showme {|                 |};#showme {`--[ Alert !!! ]--'};drink potion}
+#highlight {magenta}{makes you glow in a bizarre colour.}
+#nop ---< Lepers >---
+#highlight {magenta}{%1 pokes you with %0}
+#alias {res}{#var rotrecived 0}
+#alias {rotsdec} {#math {rotrecived}{$rotrecived-1};#showme {--=[ Rots Decreasing: $rotrecived left. ]=--}}
+#alias {rotsinc} {#math {rotrecived}{$rotrecived+1};#showme {--=[ Rots Increasing: $rotrecived and increasing... ]=--}}
+#alias {rots} {#showme {--=[ Rots Status: $rotrecived now. ]=--}}
+#action {You barely feel the effect of the disease.}{rotsdec}
+#action {You stagger under the influence of the disease.}{rotsdec}
+#action {You shiver in pain %0}{rotsdec}
+#action {You tremble %0}{rotsdec}
+#action {Chunks of rotting flesh drop from you %0}{rotsdec}
+#action {%1 pokes you with %0}{rotsinc}
+#nop ////// Main Dirs \\\\\\\
+#nop ---< Pubs >---
+#alias {bix}{9s2e;southeast;2e;northeast;4ese}
+#alias {bixb}{wn4w;southwest;2w;northwest;2w9n}
+#alias {bsp}{bix;buy special;drink special;drop glass;bixb}
+#alias {fer}{5e;enter ferry;us;enter restaurant}
+#alias {ferb}{out;nd;enter;5w}
+#alias {hans2}{3n4w4swu}
+#alias {hans2b}{de4n4e3s;hansb}
+#alias {ia}{iana;s}
+#alias {iab}{out;ianab}
+#alias {iah}{ia;#10 {buy 1;buy 4};iab}
+#alias {smurf}{fnnr;2nd2n;qne}
+#alias {smurfb}{qsw;2su2s;fnnrb}
+#alias {cake} {4wne3se}
+#alias {cakeb} {w3nws4e}
+#alias {sun} {4wne2s7e3nw}
+#alias {sunb} {e3s7w2nws4e}
+#alias {marial} {e2nw7nw3se}
+#alias {marialb} {out;3ne7se2sw}
+#alias {greenap}{4w2sw2s;southwest;southwest;southwest;2sesw}
+#alias {greenapb}{enw2n;northeast;northeast;northeast;2ne2n4e}
+#alias {tritpub} {trit;4w;qsw}
+#alias {tritpubb} {qne;4e;tritb}
+#alias {dwbar} {2en4w;enter mirror;2w;enter mirror;es2w3s2wn}
+#alias {dwbarb} {s2e3n2enw;enter mirror;2e;enter mirror;4es2w}
+#nop ---< Shop >---
+#alias {sho}{3en;sap;s3w}
+#nop ---< Main Dirs >---
+#alias {aes} {8s2wd3s5wn;northwest;5n}
+#alias {aesb} {5s;southeast;s5e3nu2e8n}
+#alias {aesh} {aes;5n2w;say heal}
+#alias {aeshb} {2e5s;aesb}
+#alias {aest} {aes;ss;qne;qne;ses;search bush;w}
+#alias {aestb} {enwn;qsw;qsw;nn;aesb}
+#alias {andra} {23w2n;qnw;2n5en}
+#alias {andrab} {s2e2s;qse;2s23e}
+#alias {andh} {andra;9n;climb tree;e;qse;s;say heal please}
+#alias {andhb} {n;qnw;wd9s;andrab}
+#alias {angel} {5w3s;call eagle;2nwnwn2w;climb mountain;jump;2n}
+#alias {ass}{4e3n2dw2d3se}
+#alias {assb}{3n2ue2u3s4w}
+#alias {awing}{4w6n;climb mountain;ued;qne;d10e;climb rope;qne;e;qne;ride updraft;qne;n}
+#alias {awingb}{climb mountain;qsw;uw2d6s4e}
+#alias {cave}{2e5n2wuw;enter altar;pray}
+#alias {caveb}{pray;ded2e5s2w}
+#alias {char} {e7ne;qne;press block;3nu;knock knocker}
+#alias {charb} {d3s;qsw;w7sw}
+#alias {dan %1} {2en3w;enter portal %1}
+#alias {danb} {enter portal;3es2w}
+#alias {dk1} {2e3n3e2n;mount dragon;fly to telgar}
+#alias {dk2} {de6s;lower bucket;climb down rope;out;2en;open trapdoor;ue;qse}
+#alias {dk2b} {qnw;w;wash floor;open trapdoor;ds2w;out;nn;push wall;enw;mount dragon;fly to garden}
+#alias {dk1b} {d2s3w3s2w}
+#alias {dpet} {4wne3ne6nw2ne3n}
+#alias {dpetb} {3sw2se6sw3sws4e}
+#alias {drow} {7swnnen5e}
+#alias {drowb} {4wswsse7n}
+#alias {dwa}{2e15nw;climb mountain;qnw;w;qnw;move pile;d3n}
+#alias {dwab}{3su;qse;e;qse;climb down;e15s2w}
+#alias {dwarf} {2en4w;enter mirror;2w;enter mirror;es2wn}
+#alias {dwarfb} {2enw;enter mirror;2e;enter mirror;4es2w}
+#alias {elf}{2e15nw;climb mountain;e;northeast;n;northeast;jump gap;southeast;2s;southeast}
+#alias {elfb}{northwest;2n;northwest;jump gap;southwest;s;southwest;w;climb down;e15s2w} 
+#alias {fae} {24ws;join song;n2e;climb mountain;fly}
+#alias {faeb} {fly back;climb down;2ws;be silent;n24e}
+#alias {fin}{9s2e;southeast;e;southeast;e5n;enter painting;3e2n}
+#alias {finb}{2s3w;enter portal;5sw;northwest;w;northwest;2w9n}
+#alias {fin2} {9s2e;southeast;e;southeast;e5n;enter tapestry;2n;search tree;qne}
+#alias {fin2b} {qsw;2s;enter light;5sw;northwest;w;northwest;2w9n}
+#alias {flail} {9w7s6ws3d2wnds;dive pool;2n5w}
+#alias {flailb} {5e2sunus2e3un6e7n9e}
+#alias {nun}{move throne;2nwen3w2sw}
+#alias {flesh} {16w5s2ed2s;southeast;2s}
+#alias {fleshb} {2n;northwest;2nu2w5n16e}
+#alias {fnnr} {12w4n;northwest;northwest;n2w}
+#alias {fnnrb} {2es;southeast;southeast;4s12e}
+#alias {grol}{15w9s3w7s3e}
+#alias {grolb}{3w7n3e9n15e}
+#alias {grolt} {grol;n;knock gate;n4eusu}
+#alias {groltb} {dnd4w2s;grolb}
+#alias {gto1} {grol;n;knock gate;n;4eusu}
+#alias {gto1b} {dnd4w2s;grolb}
+#alias {gto2} {grol;n;knock gate;n;4eusu;qse;5n;qsw}
+#alias {gto2b} {qne;5s;qnw;dnd4w2s;grolb}
+#alias {gto3} {grol;n;knock gate;n;4eusu;qse;5n5w;qse}
+#alias {gto3b} {qnw;5e5s;qnw;dnd4w2s;grolb}
+#alias {gto4} {grol;n;knock gate;n;4eusu;qse;5w;qne}
+#alias {gto4b} {qsw;5e;qnw;dnd4w2s;grolb}
+#alias {wa1} {gto1;wunu}
+#alias {wa1b} {dsde;gto1b}
+#alias {wa2} {gto2;wusu}
+#alias {wa2b} {dnde;gto2b}
+#alias {wa3} {gto3;eusu}
+#alias {wa3b} {dndw;gto3b}
+#alias {wa4} {gto4;qne;eunu}
+#alias {wa4b} {dsdw;qse;gto4b}
+#alias {hans} {4wne3ne6nw2ne2ne;say help}
+#alias {hansb} {out;w;2sw2se6sw3sws4e}
+#alias {hrunt} {6w;enter tunnel;e4s2en;northwest}
+#alias {hruntb} {southeast;s2w4nw;out;6e}
+#alias {iana} {5w3s;call eagle;2nwnwn2w;climb mountain;jump;2n;d}
+#alias {ianab} {e;southeast;swim;2se;enter boat;9n}
+#alias {lic2}{climb mountain;s;climb mountain;s;climb mountain;qse;3n}
+#alias {lic2b}{3s;qnw;climb down;n;climb down;n;climb down}
+#alias {lic}{4wse5u;enter mirror;3e;enter mirror}
+#alias {licb}{enter mirror;3w;enter mirror;5dwn4e}
+#alias {maimer}{sun;4e;pay;ne2se3nwu3w3s}
+#alias {maimerb}{3n3ede3sw2nws4w;sunb}
+#alias {miner}{9w6neen;qne;n;qne;exa ashes;search ashes;dndw}
+#alias {minerb}{eusu;qsw;s;qsw;sww6s9e}
+#alias {zpot}{sun;4e;pay;ne2se2n}
+#alias {zpotb}{2sw2nws4w;sunb}
+#alias {nur} {;;;;;;;;unlock door;open door;s;close door;lock door;eu3s}
+#alias {nurb} {3ndw;unlock door;open door;n}
+#alias {ogre} {15w3ne4nwd}
+#alias {ogreb} {ue4sw3s15e}
+#alias {orb} {15w9s3w7s3en;knock gate;n2e3ne}
+#alias {orbb}{w3s2w2s3w7n3e9n15e}
+#alias {pearl} {4w2n;southwest;wdend}
+#alias {pearlb} {get pearl;wswnw3s;get potion;uusue;northeast;2s4e}
+#alias {san} {e3n4e;enter keep;2e2sws;drake;nwnen}
+#alias {sanb} {swses;drake;ne2n2w;out;4w3sw}
+#alias {sfang}{25w2n;qne;2e;qne;qse;4enen;climb hill;touch diamond}
+#alias {sfangb}{climb down;sws4w;qnw;qsw;2w;qsw;2s25e}
+#alias {spider}{4ws4e;enter mirror;wd2w2su}
+#alias {spiderb}{2n2eue;enter mirror;4wn4e}
+#alias {squ}{3ed;enter coach;out;n2w2uwnwnnu}
+#alias {squb}{d2sese2d2es;enter bus;sit;out;u3w;drop guide}
+#alias {strong}{4w2n;qsw;w2u}
+#alias {strongb}{2de;qne;2s4e}
+#alias {tk1} {3se3s;spi}
+#alias {tk2} {e2sw4s5e6ns}
+#alias {tkb} {6s5w4ne2nw4nw3n}
+#alias {trit} {9s2e;qse;e;qse;4s2d;enter;w}
+#alias {tritb} {out;exit;2u4n;qnw;w;qnw;2w9n}
+#alias {truth} {9w7s6ws3d2e}
+#alias {truthb} {2w3un6e7n9e}
+#alias {under}{grol;3w3n4w;enter hollow;search dust;move rock}
+#alias {underb}{out;4e3s3e;grolb}
+#alias {vinc}{e3need3s4eueesee4sees}
+#alias {vincb}{nww4nwwnwwd4w3nuww3sw}
+#alias {wero} {25w2n;qne;2e;qne;ne;qne;e;qse;qsw;s;qse;qne;qne;qne;qne;qse;qne;n;qne;qne;qse;5s;qse;es}
+#alias {werob} {nw;qnw;5n;qnw;qsw;qsw;s;qsw;qnw;qsw;qsw;qsw;qsw;qnw;n;qne;qnw;w;qsw;ws;qsw;2w;qsw;qsw;2s25e}
+#alias {wolfy} {15w5s3wsw;qnw}
+#alias {wolfyb} {qse;en3e5n15e}
+#alias {abyss1} {4e2s2e5s6en;qse;ee;qse;ee;qse;qse;enter gate}
+#alias {abyss1b} {out;qnw;qnw;ww;qnw;ww;qnw;s6w5n2w2n4w}
+#alias {soul} {abyss1;4ne;qne;enter;5dneess;qsw;qnw;qne;qse;2s}
+#alias {soulb} {2n;qnw;qsw;qse;qne;nnwws5u;out;qsw;w4s;abyss1b}
+#alias {soulg} {abyss1;5nwd4n5w6s}
+#alias {soulgb} {6n5e4sue5s;abyss1b}
+#alias {phy} {4w6n;climb up;un;qne;qne;n;qne;n;qne;nne;n;qne}
+#alias {phyb} {qsw;s;wss;qsw;s;qsw;s;d;qsw;sdd6s4e}
+#alias {valh} {4e2s2w;climb ladder;climb up;enter hole}
+#alias {valhb} {out;d;climb down;2e2n4w}
+#alias {circle} {15w9s3w7s3e4s;southwest;southwest;2wnw}
+#alias {circleb} {es2e;northeast;northeast;4n3w7n3e9n15e}
+#alias {glory} {25w2n;qne;2e;qne;qse;3e2e;qne;qse;qse;e;qse;e;sneak in;sen2e3sdn;move clock;2dsw;enter hole;e;qse;w;qsw}
+#alias {gloryb} {ew;climb bars;ne2u;push block;su3n2wswsw;pull handle;enter hole;7w3nu;qsw;qnw;qsw;2w3w;qnw;qsw;2w;qsw;2s25e} 
+#alias {hapexa} {15w3n2e2nu2e}
+#alias {hapexab} {2wd2s2w3s15e}
+#alias {peter} {37e;pay;13e;11w;swuneuswunu;climb pole;2u}
+#alias {peterb} {4dsdendwsden39w}
+#alias {trog} {4w10nw3n;open door;2w}
+#alias {trogb} {2e;open door;3se10s4e}
+#alias {sleepd} {4w2ne5n;northwest;northwest;2n4d}
+#alias {sleepdb} {4u2s;southeast;southeast;5sw2s4e}
+#alias {pal} {4e3nus2ue}
+#alias {palb} {wddnd3s4w}
+#alias {chem} {4wne3n2es;open door;sd}
+#alias {chemb} {u;open door;2n2w3sws4e}
+#alias {ankh} {e4n2u;splash in puddle;2n;concentrate on ankh;yes}
+#alias {ankhb} {life;2s;out;2d4sw}
+#alias {ogrec} {4w2sw2sds;qse;2s;qse;enter opening}
+#alias {ogrecb} {out;qnw;2n;qnw;n;climb up;2ne2n4e}
+#alias {cath} {8w7s;southeast;d;southwest}
+#alias {cathb} {northeast;u;northwest;7n;8e}
+#alias {drowc} {4w4n;northwest}
+#alias {drowcb} {southeast;4s4e}
+#alias {demon} {5w3s;call eagle;w2swsd}
+#alias {demonb} {une2nen;enter boat;9n}
+#alias {sarc} {e2nwn3e3s2e2s}
+#alias {sarcb} {2n2w3n3wse2sw}
+#alias {nest} {23w2n;qnw;3ns11n2e;push tree;crawl across tree}
+#alias {nestb} {crawl across tree;2w11sn3s;qse;2s;qse;ss23e}
+#alias {rept}{e8n;qnw;enter portal}
+#alias {reptb}{enter portal;qse;8sw}
+#alias {elro} {24e2s;qsw;s;qse;e}
+#alias {elrob} {w;qnw;n;qne;2n24w}
+#alias {harth} {9s3w;qnw;9w}
+#alias {harthb} {9e;qse;3e9n}
+#alias {ent} {soul;ww;qsw;w;qsw;qse;ee;qse;4w}
+#alias {entb} {4e;qnw;ww;qnw;qne;e;qne;ee;soulb}
+#alias {evilw} {w2se;enter mirror;ewese}
+#alias {evilwb} {sewesw2ne}
+

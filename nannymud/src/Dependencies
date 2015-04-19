@@ -1,0 +1,64 @@
+obj/lang.tab.o: lang.tab.c memory.h lint.h interpret.h object.h config.h \
+ exec.h instrs.h incralloc.h switch.h
+obj/lex.o: lex.c instrs.h lint.h lang.h config.h interpret.h exec.h lex.h \
+ efun_defs.c
+obj/main.o: main.c lint.h interpret.h object.h config.h lex.h
+obj/interpret.o: interpret.c memory.h debug.h lint.h lang.h exec.h \
+ interpret.h config.h object.h wiz_list.h instrs.h comm.h switch.h \
+ socket_efuns.h socket_err.h interpret2.h acl.h acllib.h acl_efuns.h
+obj/interpret2.o: interpret2.c memory.h debug.h lint.h lang.h exec.h \
+ interpret.h config.h object.h wiz_list.h instrs.h comm.h switch.h \
+ socket_efuns.h socket_err.h acl.h acllib.h acl_efuns.h
+obj/simulate.o: simulate.c lint.h config.h lang.h interpret.h object.h \
+ sent.h wiz_list.h exec.h comm.h acl.h acllib.h
+obj/object.o: object.c lint.h interpret.h object.h config.h sent.h \
+ wiz_list.h exec.h comm.h lang.h acl.h acllib.h
+obj/backend.o: backend.c memory.h lint.h config.h interpret.h object.h \
+ wiz_list.h exec.h comm.h acl.h acllib.h
+obj/array.o: array.c config.h lint.h interpret.h object.h wiz_list.h \
+ regexp.h exec.h
+obj/comm1.o: comm1.c memory.h config.h lint.h interpret.h comm.h \
+ socket_efuns.h object.h sent.h wiz_list.h
+obj/ed.o: ed.c lint.h regexp.h interpret.h object.h config.h exec.h comm.h \
+ acl.h acllib.h
+obj/regexp.o: regexp.c regexp.h lint.h
+obj/mapping.o: mapping.c config.h lint.h interpret.h object.h wiz_list.h \
+ regexp.h exec.h
+obj/wiz_list.o: wiz_list.c lint.h wiz_list.h interpret.h config.h
+obj/swap.o: swap.c lint.h interpret.h object.h config.h exec.h
+obj/smalloc.o: smalloc.c memory.h lint.h
+obj/call_out.o: call_out.c memory.h lint.h interpret.h object.h config.h \
+ call_out.h wiz_list.h
+obj/otable.o: otable.c lint.h config.h interpret.h object.h
+obj/dumpstat.o: dumpstat.c lint.h interpret.h object.h config.h exec.h
+obj/stralloc.o: stralloc.c config.h lint.h
+obj/hash.o: hash.c
+obj/indentp.o: indentp.c
+obj/port.o: port.c lint.h
+obj/access_check.o: access_check.c lint.h config.h
+obj/clilib.o: clilib.c config.h
+obj/parse_old.o: parse_old.c lint.h interpret.h config.h object.h \
+ wiz_list.h
+obj/parse.o: parse.c lint.h interpret.h config.h object.h wiz_list.h
+obj/simul_efun.o: simul_efun.c lint.h interpret.h object.h config.h exec.h
+obj/sprintf.o: sprintf.c config.h lint.h lang.h interpret.h object.h \
+ sent.h
+obj/dump.o: dump.c config.h lint.h lang.h exec.h interpret.h object.h \
+ instrs.h
+obj/sort.o: sort.c interpret.h
+obj/socket_efuns.o: socket_efuns.c config.h lint.h interpret.h object.h \
+ exec.h debug.h socket_efuns.h socket_err.h
+obj/socket_ctrl.o: socket_ctrl.c config.h lint.h
+obj/socket_err.o: socket_err.c socket_err.h
+obj/acl_efuns.o: acl_efuns.c memory.h debug.h lint.h lang.h exec.h \
+ interpret.h config.h object.h instrs.h comm.h acl.h acllib.h \
+ acl_efuns.h
+obj/acl_lib.o: acl_lib.c acllib.h grplib.h
+obj/acl.o: acl.c memory.h debug.h lint.h lang.h exec.h interpret.h \
+ config.h object.h instrs.h comm.h acl.h acllib.h
+obj/version.o: version.c
+obj/grp_lib.o: grp_lib.c grplib.h
+obj/config.o: config.c
+obj/bsdcompat.o: bsdcompat.c
+obj/findmalloc.o: findmalloc.c lint.h interpret.h exec.h object.h config.h \
+ call_out.h

@@ -1,0 +1,27 @@
+#nop VSoF;
+
+/*
+ * Author: Nathan Farrar <nfarrar@crunk.io>
+ * Description: Read & write encrypted data.
+ * References:
+ * - http://tintin.sourceforge.net/board/viewtopic.php?t=1622&
+ */
+
+#class open encryption;
+
+#alias {encrypt} { 
+  #system {openssl des3 -pass pass:%0 -in data.tin -out data.tin.des3}; 
+  #system {rm data.tin} 
+} 
+
+#alias {decrypt} { 
+  #system {openssl des3 -d -pass pass:%0 -in data.tin.des3 -out data.tin} 
+} 
+
+#alias {sread} { 
+  decrypt %0; 
+  #read {data.tin}; 
+  #system {rm data.tin} 
+} 
+
+#class close;

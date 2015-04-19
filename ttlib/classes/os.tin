@@ -1,0 +1,16 @@
+#nop VSoF;
+
+/* 
+ * Author: Nathan Farrar <nfarrar@crunk.io>
+ * Description: OS Integrations.
+ * References: 
+ * - http://tintin.sourceforge.net/board/viewtopic.php?t=2121
+ */
+
+#class os open;
+
+#alias  {ls} {#sys ls} 
+#alias  {ll} {#sys ls -lah} 
+#alias  {clear} {#sys clear} 
+
+#class os close;

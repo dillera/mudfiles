@@ -1,0 +1,488 @@
+These are my old Nanny quest notes that someone sent me, about 20 years ago - literally! Can't believe I was able to find them, but I guess I'd saved some old emails from 1994 and these were in there.
+
+I was able to level up a few times using them, but I wasn't interested in making wizard because I wanted to keep my character a mortal (you automatically make wiz at level 20, or at least you did back then), so I haven't done most of these. YMMV, but hey, they don't take long to try
+
+        SLAY LAG
+from church, 7s, 4e, d, kill guard, 2n, 2e, n, kill
+heatmonster, n, 2w, kill worms (about 8 of them), w,
+kill worm get all from corpse (DO NOT wield the crystal
+sword till told to do so), 3e, n, 2w, n, kill bird
+statue (2 of them), bend emerald,s, 2e, 3s, 2w, 2s, u,
+2s, 2e, open door, e, search floor, u, get watercan, w,
+s, (find and kill the servant - he will be within one
+or two rooms of here, he is a roaming NPC), come back
+to the door, unlock door with metal key, open door, s,
+2w, s, e, enter hole (let the hermit do his job), u, w,
+s, e, 2s, give water can to gardener, 2n, w, 2n, 2e,
+2n, 2w, 2n, 4w, 6n, 4w, 4n, nw, d, w, search, 2w, 2d,
+w, n, 2e, s, e, n, 2e, kill priestess, get all from
+corpse, 2w, s, w, n, 2w, s, w, s, 2w, n, kill weapon
+master, get all from corpse, s, w, n, w, kill mage, get
+all from corpse, e, s, 2e, 2s, d, unlock door with
+emerald key, open door, s, unlock south door with gold
+key, open door, s, unlock south door with ruby key,
+open door, s, unlock south door with silver key,
+open door, s, unlock south door with ebony key, open
+door, s, kill yochlol, get all from corpse, search
+altar, push button, d, kill llolth, get all from
+corpse, u, 5n, u, 2n, e, n, 2e, 2u, 2e, u, e, u, se,
+4s, 4e, 6s, 4e, 2s, 3e, search floor, 2w, n, 2w, 2n,
+2w, n, unlock door with diamond key, open door, wield
+lagslayer, w, type "slay lag"
+
+        SAVE MORC
+from church go 10s and await ship... enter ship and leave
+att island of morc.
+>From there go north until u for the second time can go
+west then go..w,w,n,n,ge
+t rope,s,s,w,w,n,n,search bush,s,s,w,sw,w,n,n,give unicorn
+to unicorn,s,s,e,ne,
+e until stop,tie rope to horn, wear necklace,go north
+until stop, go e,e,n,open
+door,e,e,s,w,n,push painting left,s,e,n,e,open door,e,go
+south until u can go
+east,go east until stop,open door,s,get key,n,w,unlock
+door with key,n,n,e,ente
+r basin,get key,out,w,s,s,west until stop,go north until
+door,go west until sto
+p,s,west until you can go up,u,open door,w,w,open
+door,w,s,open door,s,unlock d
+own door with steel key,open down door,d,east until you
+can go south,s,d,n,s,n,
+w,search rubble,now go in random directions until you can
+go up this is a six r
+oomed a bit tricky labyrint...,u,n,west until
+stop,u,n,n,e,e,e,d,east until you
+can go south, go south until the second time you can go
+west,w,open door,w,w,g
+ive rosary to nun... The quest is completed.... Good luck
+
+        FREE GUMBY
+from church,s,4w,3n,enter rabbit,4n,sit on chair,enter
+trapdoor,
+2s,2e,enter closet,get dress,out,2n,open chest,get file
+from chest,
+2s,e,s,open mirror,enter mirror,break north mirror,break
+west mirror,enter
+hole,kill troll,get all from corpse (crown,
+parchment),out,2n,2w,n,lift
+trapdoor,enter tunnel,2n,w,give crown to man,get
+shrubbery,e,2s,out,
+2n,s (you may have to wander around till you find
+him),kill member,get flask,
+go back to round table,n,ne,enter fridge,5n,e,n,n,n,(find
+old woman around
+here),give dress to woman,2n,w,n,e,3n,give shrubbery to
+knights,2n,3e,n,
+enter,grind wheat,out,s,4w,n,3w,get bottle,fill bottle
+with water,3e,s,4e,4n,
+e,give bottle,flour,file to man,w,3s,w,n,4w,2n,kill
+guard,get key,n,2e,give
+flask to guard,e,unlock door with key,open door,n,give
+bread to gumby,DONE!
+
+        ROB DEATH
+From church:s,3e,d,w until funny sign,3n,climb up,u
+s,w,get all (must be done FAST or you'll slide off)
+return to funny sign
+4s,kill murphy,u,3n,kill dorothy return to funny sign
+2n,w,2n,u,w,mn,s,e
+cast reorganizer meta-east,(Bring twoflower)
+me through hole,get sword,then randome direction until you
+get out of there (typ
+e them as fast as possible)
+
+        RESTORE THE PERMAGENT
+LOTS OF REWARDS. BRING 2 PACKS.
+From Church: S,E,N,N,W,Enter Portal
+2N,4W,S,E,Move Bookshelf
+E,Kill Troll,Take Prism
+2W,N,E,U,W,S,W,Jump N
+2W,2S,2E,N,Take Prism
+S,Climb Plant
+2E,2N,E,2S,3W,D,W,Jump Over Creek
+S,U,S,E,Open Port
+E,S,2E,U,N,U,S,E,U,E,U,E,N,Kill
+Watcher..Take All from Corpse
+S,W,D,W,D,W,N,D,S,D,W,W,N,N,N,E,E,D,S,S,W,W,S,Take Purse
+N,E,E,N,N,U,W,W,S,S,W,W,N,D,N,Jump Over Creek
+E<,U,E,E,E,N,N,N,N,N,N,W,S,S,Give Purse To Beggar (He will
+give you
+password:REMEMBER IT)
+N,N,E,S,E,E,E,S,E,E,E,S,N,W,S,S,E,S,E,E,N,E,Climb Mountain
+E,E,Say Password,N,Take All,
+S,W,W,D,W,W,W,W,N,W,N,N,N,W,W,W,N,W,S,S,S,S,Give Prisms To
+Mage, 'Return
+Prisms'
+N,N,N,N,E,S,S,S,S,S,S,S,E,E,E,N,N,E,S,E,S,S,S,W,S,E,E,E,Put
+Pergament On
+Altar
+W,W,W,W,N,N,N,W,W,W,Enter Portal,E,2S,W,DONE!
+
+        RESCUE THE REFUGEE
+church - s w
+enter door
+make bunk
+get all
+unlock cabinet with key
+open cabinet
+enter cabinet
+get trunks (bikini for women)
+wear trunks (bikini for women)
+enter door
+enter aquaruim
+d, d, n,
+kill traton
+e, get net from anchor
+w, s, s, e, catch fish with net
+enter cave
+w,
+enter cave
+e, n, u, n, e,
+kill triton
+knock on door
+enter door
+e, u,
+say follow me
+d, w,
+enter door
+w, s, d, s, w, w, w, n, n, n,
+Done!
+u, u, u,
+remove bikini
+
+        PRAISE THE LORD
+        YOU MUST BE FEMALE TO DO THIS QUEST.
+Headband will change, swimming-trunks in caravan will
+change you back
+S,4E,S,W,Say Yes
+From Abbess All Directions are From Abbess:
+Sophie: SW,S,S,SW,W,N, (Say Help Me
+wear all)
+BACK TO ABESS
+Cecilia: SW,2S,SW,W,S (Say Help Me
+Keep
+Singing Until you are 'clear as a bell')
+BACK TO ABESS
+Amanda: SW,S,S,SW,N,NW (Say Help Me
+Must Sing For her)
+BACK TO ABESSS
+Daisey: SE,SE,SE,SE (Say Help Me)
+BACK TO ABESS
+Victoria: SW,S,S,SW,S,SW (Say Help Me, Give Herbs to Her,
+Drink Whatever
+She Makes you)
+BACK TO ABBESS
+Dorothy: SW,S,SE,SE (Say Help ME)
+BACK TO ABBESS
+CHAPEL: SW,S,S,SW,N,NW,SE,S,NE,NE,S,U, 'Praise The Lord'
+This QUEST HAS A TIME LIMIT ON IT>>>WORK FAST!
+DONE!
+
+        HELP SIR OBLITERATOR
+Violins is South of cow at end of broms. bring Obliterator
+there.
+
+        SHAKE HANDS WITH THE LICH
+21 is also reasonably easy to explain. From teh vampire
+tower, go s,
+buy a dwarvish compassi and 2 torches, then all the way
+s,w,s,s to the river.
+e to the bridge, s,s to cross it (you need to pay a toll)
+then 3w (i think) till it says you can jump the creek. Do
+that.
+Now you are at the monument. when you enter it and snoop
+around, you
+break through lots of floors. The master Lich is on the
+bottom floor
+and the treasure on the second lowest. Once you reach
+bottom, go as
+far south as possible and wait for an updraught. On the
+second lowest
+floor, the treasure is far south hidden in a king's and a
+queen's
+coffin. But, those are watched by quite tough guardian
+spirits. You
+can't leave the grave easily, so better make sure you got
+good armour
+etc. When you got all the treasure, simply fall back down
+and shake
+hands with the master lich!
+
+        HELP THE OLD DRUID
+
+from frog go d,s get whistle& towel. N, blow whistle rub
+puppwith towel
+rub fleas with towel. wait. hopefully the get troll.
+get staff, give to druid in tree. lead him to lumberjack
+
+        LOOT KANTEL'S SNAKE PIT
+start with rope (can buy at seeede)
+s,w,w,w,w,n,n,w,pull rope,kill manservant,sss,unlock
+door,open door,ss,
+kill butler,s,cast light,d,wnnn,kill priest,get key from
+corpse,sssw,unlock door,
+open door,w,s,e,tie rope to pillar,d,get all
+
+        KOYABASHI
+kill remo in Castle Chrisp and get amulet from treasury
+get shovel from worker, kill tentacles in dump, dig hole,
+kill monster, get key
+and katana, go to weapon repair shop, mend katana, sharpen
+to superior, buy
+grindstone, get grindstone, (from Castle Rena) 2w,u,2w,
+pray, drink water,
+exa font, get wheel from font, dip armour and katana in
+font.
+go to unknown area s from Castle Rena.
+go s to enter unknown 1, drop 1 coin, n drop 2, n drop 3,
+n drop 4, s drop 5,
+kill ghost, get mantle, w is out, go back to font and dip
+mantle and wear it
+(back at unknown area) go e to enter unknown 2, drop 10
+coins, e drop 11, e
+drop 12, e drop 13, s drop 14, e to door, unlock door with
+key from dump
+monster
+open door, e, kill undead, 2u, kill more, keep going up
+and killing undead until
+11th floor (or so) and Koyabashi will be there with some
+more undead...kill em
+all!!! be warned when Koyabashi is low on hp he'll
+disappear and reappear
+healed...so fight hard and fast!  DONE!
+
+        KILL THE DRAGONS
+1. get dragonbane.
+s,e,e,e,e,e,e,e,e,e,u,n,kill cripple,n,accept
+2. kill 10 dragons. (must get the kill, not someone else
+in party)
+   (b4 each fight you must also do a "detect dragon")
+huge dragon
+s,e,n,n,w,enter portal,e,e,e,n,n,e,n,e,n,e,s
+draggie
+s,s,s,s,s,s,s,s,s,s,enter castle,n,n,e,u,e,open door,enter
+cage
+yevaud
+s,s,s,s,s,s,s,s,s,s,w,w,enter ship,n,n,n,e,s,enter
+boat,w,w,w
+morclain
+s,e,e,e,e,e,e,e,e,e,e,e,e,e,n,w,d,s,s,s
+stainless
+s,w,w,w,w,w,w,s,s,e,s,s,s,s,s,buy ticket,s,s,s,e,e,kill
+apprentice,take
+key,w,unlock door,open doors,u,u,u,u,u
+celestial
+s,w,w,w,w,n,n,sw,w,d,e,n,d(where you land varies(i think))
+(wander around)
+(n,e of snake) (s,e of gladius) (s,w,s,e of dark elf)
+sandon red
+s,e,n,n,n,n,n,ne,s,w,kill priest,d,n,w,w,w,n,e
+fafner
+s,w,w,w,n,mount horse,n,nw,n,n,n
+loruchl
+s,e,e,e,e,e,e,e,e,e,e,n,u,e,e,e,e,e,e
+snap dragon
+s,e,e,e,e,e,e,e,s,s,s,e,e,e,enter castle,n,n,n,w
+2 dragons in asyvan's (only huge dragons count) ## very
+easy ##
+s,e,n,n,w,enter portal,e,e,e,n,n,e,n,e,n,e,s,kill dragon
+here,n,w,
+s,s,e,s,e,e,climb mountain,e,e minidragon doesn't count
+only huge
+Glaurung
+s,s,s,s,s,s,s,s,s,w,w,w,nw,w,w,n,n,w,w,w,w,kill trolls,w,w
+
+        FIND THE KENTISH FLORA
+KENTISH FLORA QUEST 101 quest points (Chino)
+------------------------------------------------------------
+-------------------
+(s,3e,d,jump in,out)
+(all directions from bus, unless otherwise indicated)
+(talk to botanist in meadow first. (s,s,e)
+
+1. sit on settle, kill monster (w,w)
+   (cat tin "kitkat" for Jimmy)
+
+2. enter foggy meadow. say please. (n,w,n)
+   (page and belt)
+
+3. enter closet, kill closet monster, give bedwarmer to
+woman. (s,s,w,w from
+   foggy meadow)
+  (cover, coins, mortal helmet)
+
+4. climb black fountain. say "rumpelstilzchen", reclimb
+fountain.
+   kill neck.
+   (trident, amulet, page)
+
+5. climb tree in orchard. give 27 coins to magpie.
+(w,w,w,w,w,w)
+   (tin-opener)
+
+6. sit on bench, kill monster (w,w,w,w,w,w,s,w)
+   (cat tin "whiskas" for Pussy)
+
+7. open tin of whiskas, feed pussy (n of black fountain)
+    (page)
+
+8. exa wall, drink from fountain, get all
+(w,w,w,w,w,w,s,s,s)
+
+9. enter car, get all from locker in car. (w,w,w,w,n,n,e)
+   (page, gloves, goggles)
+
+10. get wheel-barrow from hay under horse (look at horse,
+hay). (s from car)
+
+11. get paper, pencil, eraser from grotto (read stinging
+nettle page and
+   say true name). (w from fountain in wall)
+
+12. climb pegoda, "jump south" (n,e,e,e,e,s,u) from grotto
+   (page and helmet)
+
+13. give pencil and paper to gardiner assistant (e after
+jump)
+   give wheel-barrow to assistant.
+   (ankle-chain, page)
+
+14. open tin of kitkat, feed jimmy (w,n of assistant)
+    (page)
+
+15. find page that gives the desc of flowers. say "true
+name" get crumbs (n jimmy)
+
+16. feed swan. (n,e,e,n,n of crumbs)
+    (page, ring)
+
+17. put pages in flore, give flora to botanist. (s,s,e)
+
+        AXIL'S FUNNY HOUSE
+Funny house (s,3e,d,5w,n)
+------------------------------------------------------------
+-------------------
+open box
+move sheets
+go under bed
+out
+enter bed
+get ladder
+out
+enter fireplace
+lean ladder against wall
+climb ladder
+get bell
+down
+pull cloth
+n
+tie bell to rope
+pull rope
+get keycard
+go under table
+touch lizard
+insert keycard in lock
+unlock trap-door
+open trap-door
+----------
+
+        YEAR OF THE BANSHEE
+1. Search Snow, Drop fireworks, light fireworks.
+
+2. Seek Shelter, pick vegetables, give carrot to snowman.
+
+3. e,e,get handkerchief, give handkerchief to Sneeze, say
+vernal equinox
+
+4. get axe, w, get leaves, s, get twigs, n, e, e, fell
+tree, get tree,
+   s, drop tree in circle, drop twigs in circle, drop
+leaves in circle,
+   throw fireball into circle.
+
+5. pick lilacs until 5-leaved lilac, e, eat 5-leaved lilac
+
+6. pick (lower case) flowers (look at wall, hole, stroke
+kittens), (look at
+   chapel), (look at kennel), etc., enter bed, put flowers
+under pillow, dream.
+
+7. get spurs, s, search bottom, dive, wear spurs, mount
+seahorse, use spurs
+
+8. pick mushrooms (pee on puff ball spores), (remove
+needles), etc., follow
+   recipe:
+      It is a recipe for Banshee's famous mushroom soup.
+It says:
+      For Banshee's mushroom soup you need:
+        chantarelles
+        ceps
+        saffron milk caps
+        hedgehog mushrooms
+        ink cap
+        puff ball
+        fly agaric
+        Boiling veal broth
+      Pick the mushrooms and put them in the broth.
+      Season. Add the sherry. Cook soup
+
+9. get vase, rose, tray, four oranges, give oranges, rose,
+tray to cook.
+   go upstairs, sing happy birthday. (Messeur is too
+powerful to get key)
+
+10. get coal, blacken face in mirror.  get cape from
+hanger in cabin.
+    get metal box from from ashes in fireplace of burnt
+house (hat,
+    wand, cover). get candle in cabin (it is on the bottle)
+
+11. Search preents until one fits with Santa's riddle.
+Enter sleigh, say banshee. enter chimney, put pres in
+stocking
+
+        WORDS OF NATURAL POWER
+s,e,2n,w, enter domains(portal)
+w, till down
+d, w, jump w
+n, get ladder
+raise ladder
+climb ladder
+get all
+n, w, raise ladder
+climb -
+s, kill eagle
+get key from nest
+n, d, get all
+e, s, drop ladder
+w, unlock gate with key
+open gate
+w, drop weapon
+s, get all
+d, n, kill guard
+get key
+d, w, drop plank
+j =jump e
+w, get rope from sarcophagus
+pull lever
+d, kill spirit
+unlock sarcophagus with key
+open sarcophagus
+enter sarcophagus
+tie rope to pin
+climb rope
+push sign
+get all from chest
+read words
+shout sentance
+u, u, jump e
+e, e, e, climb down
+s, jump e
+e, u, e, e, ....
+
+        SAVE THE VALLEY FROM FLOODING
+Need Torch
+from church 9s,3e,2s,w,2s,2e, light torch,
+throw torch on debris

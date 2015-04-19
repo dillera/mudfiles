@@ -1,0 +1,13 @@
+#nop VSoF;
+
+/* 
+ * Author: Nathan Farrar <nfarrar@crunk.io>
+ * Description: Main start file.
+ * 
+ * References: N/A
+ */
+
+
+#read os.tin;
+#read tmux.tin;
+#read vim.tin;

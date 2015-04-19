@@ -1,0 +1,20 @@
+Addition of string literals is now performed when an object is loaded,
+e. g. an expression like
+	"foo" + "bar"
+is replaced by
+	"foobar"
+
+This was done earlier too - but only for string literals in
+the cases in switch statements!
+
+A test of this simple and elegant, yet masterfully implemented,
+improvement, showed a decrease in memory usage by an astonishing 17%!
+
+All changes done in postlang.y (the old one in postlang.y.before-stringconc):
+
+-rw-rw-r--  1 pen      mud  51950 Feb 16 16:28 postlang.y.orig
+-rw-rw-rw-  1 padrone  mud  52688 Jun 27 18:45 postlang.y.before-stringconc
+-rw-rw-r--  1 pen      mud  54055 Jun 27 18:56 postlang.y
+
+
+		-- Mats, Padrone, June 27, 1992

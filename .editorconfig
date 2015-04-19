@@ -1,0 +1,32 @@
+# EditorConfig is awesome: http://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# All files encoded in utf-8 and use unix-style newlines with a newline ending every file
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+
+# TinTin++, YAML, and Bash files use 2-space indentation
+[*.{tin,tt,yaml,yml,sh,bash}]
+indent_style = space
+indent_size = 2
+
+# Python files use 4 space indentation
+[*.py]
+indent_style = space
+indent_size = 4
+
+# Python files use 4 space indentation
+[*.py]
+indent_style = space
+indent_size = 4
+
+# Tab indentation (no size specified)
+[Makefile]
+indent_style = tab
+
+[*.md]
+trim_trailing_whitespace = false

@@ -1,0 +1,50 @@
+#!/usr/bin/env bash
+# Author: Nathan Farrar
+# Email: nfarrar@crunk.io
+# Website: https://github.com/nfarrar/mudfiles
+# Version: 0.0.1
+# Description: An advanced tintin++ startup script. This script 'builds out' the
+# tintin environment on a fresh system and starts the tintin interface.
+#
+set -e
+
+# --- [ SETTINGS ] --------------------------------------------------------- #
+# Configurable settings that build the necessary environmental resources and
+# files.
+VENV=tintin
+
+TTEXT='.tin'
+TTLIB='classes/'
+STARTCLASSES=( settings os )
+
+LOGEXT='.txt'
+LOGDIR='data/logs/'
+LOGNAMES=( combat debug history map messages sessions )
+
+# --- [ LOGFILES ] --------------------------------------------------------- #
+# In TinTin, log files have a special use case. They don't aren't just piles of
+# historical data - we extract specific data from our sessions (typically using
+# the mapper or actions) and we write that data to specific log files. An
+# example of this would be an action using a regular expression that captures
+# all 'combat' text from a session, hides it from the main interface and logs
+# it to a separate file (for example .logs/combat.txt).
+#
+# To leverage our log files, we leverage tmux to create a pane layout interface
+# in a single window - then we tail each file in the panes.
+if [[ ! -d "$LOGDIR" ]]; then
+  mkdir -p "$LOGDIR"
+fi
+
+for LOGNAME in "${LOGNAMES[@]}"; do
+  LOGFILE=${LOGDIR}${LOGNAME/%/$LOGEXT}
+  if [[ ! -f $LOGFILE ]]; then
+    touch "$LOGFILE"
+  fi
+done
+
+
+# --- [ STARTUP ] ---------------------------------------------------------- #
+# Convert class list to read file arg string & string tintin.
+STARTFILES=( ${STARTCLASSES[@]/%/.tin} )
+READFILES=( ${STARTFILES[@]/#/-r $TTLIB} )
+# tt++ "${READFILES[@]}"

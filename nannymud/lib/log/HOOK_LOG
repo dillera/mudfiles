@@ -1,0 +1,6 @@
+Fri Mar 29 13:11:00 1996 Hook: kill_hook in Object:
+obj/beggar_outside_pub(beggar)
+Hooked to Object: obj/beggar_outside_pub Call made by: obj/beggar_outside_pub
+Fri Mar 29 13:11:00 1996 Hook: kill_hook in Object:
+obj/beggar_outside_pub#29(beggar)
+Hooked to Object: obj/beggar_outside_pub#29 Call made by: obj/beggar_outside_pub#29

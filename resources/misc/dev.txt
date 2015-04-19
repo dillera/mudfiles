@@ -1,0 +1,52 @@
+Development Notes
+=================
+
+Aliases
+-------
+### Periods in Names
+You can use periods in alias names and things will work as expected:
+
+    #alias {test} {test.help};
+
+Comments
+--------
+If you don't terminate a #nop statement with a semicolon it will "absorb" the following line:
+
+    #nop I'm just a comment
+    #script {
+        ....
+    }
+
+... in this case breaking the script.
+
+
+Lists
+-----
+While you can create associative arrays and you can create multidimensional arrays, they become increasingly difficult to work with:
+
+1. It does not appear possible to search an associative array for an index name, though you can attempt to access it directly.  Without error handling this becomes worthless.
+2. The find and foreach commands will not work correctly with multidimensional arrays.
+
+I am not sure how other people maintain large data sets.
+
+http://tintin.sourceforge.net/board/viewtopic.php?t=1930
+
+Sessions
+--------
+When creating a new session - the state of the current session (all variables, aliases, classes, etc) are passed into that new session.
+
+These values are separate instances and modifying the value in one session will not modify the value in another.
+
+Strings
+-------
+When working with strings, quotes sometimes matter. For example:
+
+    #showme "Test";         # yeilds "Test"
+    #showme Test;           # yields Test
+
+Variables
+---------
+### Periods in Names
+Periods in variable names are treated as a "list subitem".
+
+    #var {testvar.item} {itemvalue}     #yields: {testvar}={{item}{itemvalue}}

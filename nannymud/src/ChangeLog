@@ -1,0 +1,277 @@
+Mon Apr 17 11:17:30 1995  Fredrik Hubinette  <hubbe@lysator.liu.se>
+
+	* Added a peephole optimizer which removes some dead code and
+	does other simple tricks. New opcodes F_RETURN_ZERO, F_RETURN_ONE,
+	F_POP_VALUE2, F_ASSIGN_AND_POP
+
+Wed Apr  5 21:55:36 1995  Fredrik Hubinette  <hubbe@lysator.liu.se>
+
+	* simulate.c: Fixade till s|kningen efter en add_action i
+	player_parser till att anv{nda pekarj{mf|relser om m|jligt.
+
+Tue Apr  4 21:14:24 1995  Fredrik Hubinette  <hubbe@lysator.liu.se>
+
+	* smalloc.c: Fixade en lite tabell f|r free_list, nu ska malloc
+	g} lite snabbare.
+
+Sun Apr  2 00:40:08 1995  Fredrik Hubinette  <hubbe@lysator.liu.se>
+
+	* backend.c (write_bytes): Fixade en bug som gjorde att filen inte
+	st{ngdes ibland.
+
+Sat Apr  1 23:32:03 1995  Fredrik Hubinette  <hubbe@lysator.liu.se>
+
+	* simulate.c (free_all_sent): sentences alloceras nu i chunks om
+	128 stycken
+
+	* call_out.c: chunks freeas nu vid shutdown
+
+	* comm1.c (call_function_interactive): fixade s} att input_to
+	till andra objekt inte kan anropa statiska funktioner.
+	fixade lite minnesl{ckor i present(), map_array(), filter_array(),
+	query_ip_port(), inherit_list(), map_mapping(), filter_mapping()
+	och call_all_other
+
+Sat May 21 07:03:45 1994  Fredrik Hubinette  (hubbe@astrid)
+
+	* interpret.c (apply_low): Fixade apply-cachen igen, den gjorde en
+	som jag ser det mycket on|dig check som om|jliggjorde cachning av
+	funktioner i inheritade program. Numera fixat, vi verkar {ntligen
+	f} 90% cache hits.
+
+Mon May 16 03:03:50 1994  Fredrik Hubinette  (hubbe@bodil)
+
+	* interpret.c: Fixade apply-cache, samt satte upp den till
+	  16384 entries.
+
+Mon Apr 18 22:40:01 1994  Jones Desougi  (axel_f@kajsa)
+
+	* postlang.y: Fixade {nnu en Amylaarbug
+	  Str{ngar som caselabels adderade referenser
+	  till shared strings som aldrig freeades
+
+Thu Nov  4 04:50:54 1993  \rjan Rosenblom  (orjan@konrad)
+
+	* version.c (driver_version): Ny efun: _rusage().
+	  returnerar en array med lite l{mplig processinfo.
+	  Se {ven mudlib:/include/rusage.h
+
+	* sysmalloc.c (init_malloc): Bytte till systemets malloc. F}r se
+	  om vi swappar lite mindre nu.
+
+Wed Oct  6 22:05:18 1993  Jones Desougi  (axel_f@birka)
+
+	* Kompilerade drivern under Solaris 2.2  *pust*
+
+Thu Sep 30 03:51:08 1993  Fredrik Hubinette  (hubbe@bodil)
+
+	* interpret.c,post/prelang.y: Gjorde F_LAND & F_LOR till
+	  instruktioner i interpret.c (ist{llet f|r dup, jump_if_zero, pop)
+	  Samt fixade s} att de 256 f|rsta str}ngarna i ett program accessas
+	  via en byte ist}llet f|r en short. Sammanlagt verkar dagens hack
+	  ha sparat n{stan 10% bytekoden.
+
+Wed Sep 29 23:06:34 1993  Fredrik Hubinette  (hubbe@bodil)
+
+	* interpret.c: ny efun: _next_clone() tar ett object och returnerar
+          n{sta object med samma program. Returnerar aldrig 0 utan returnerar
+          ist{llet f|rsta objectet. (dvs. den letar cirkul{rt, se upp f|r
+	  o}ndliga loopar)
+	* pre/postlang.y: Flyttade runt lite tokens f|r att ge plats }t fler
+	  efuns och lade till fler tokens f|r att l{gga in integers i koden
+	  s} att sm} integers tar mindre plats i koden.
+
+Tue Sep 28 04:55:26 1993  Jones Desougi  (axel_f@bodil)
+
+	* simulate.c (check_file_name): Tog bort utskriften
+	  av "Bad file name."
+
+Sat Sep 25 03:41:57 1993  \rjan Rosenblom  (orjan@konrad)
+
+	* interpret.c: La till functionen _cache_stats()
+	  som visar lite info om antalet tr{ffar i call_other
+	  cachen. [ndrade storleken p} cachen till 2048 (den var
+	  64 f|rut).
+
+Fri Sep 17 00:04:04 1993  \rjan Rosenblom  (orjan@astrid)
+
+	* sprintf.c: Fixade en bug i sprintf som jag trodde jag 
+	  fixat f|r l{nge sen *sigh*. Buggen var %O och negativt
+	  argument.
+
+Wed Sep 15 08:21:03 1993  Fredrik Hubinette  (hubbe@tistel)
+
+	* postlang.y: S}g till att referenser i program frias vid syntax
+	 error el. dyl.
+
+Sat Sep 11 01:59:26 1993  Fredrik Hubinette  (hubbe@maskros)
+
+	* object.c: Gjorde en _mycket_ snabbare save_object()
+	* prelang.y: optimerade ins_short & ins_long en aning
+	* interpret.c: fixade s} man kan ha switch() efter 32Kb-gr{nsen i
+	  bytekoden.
+
+Wed Sep  8 21:50:10 1993  Fredrik Hubinette  (hubbe@astrid)
+
+	* mapping.c: Gjorde en snabbare add mapping
+
+	* interpret.c: Tog bort f|rs|ket att stoppa minnesl{ckan som inte
+	 fanns eftersom den krashade mudden.
+
+Mon Sep  6 11:03:53 1993  \rjan Rosenblom  (orjan@konrad)
+
+	* interpret.c (eval_instruction): Gjorde ett f|rs|k
+	  att stoppa en minnesl{cka i F_SUBTRACT. 
+
+Thu Sep  2 01:56:56 1993  \rjan Rosenblom  (orjan@robert)
+
+	* sprintf.c (string_print_formatted): Fixade Yet Another
+	  Sprintf Bug!
+
+Wed Sep  1 02:31:18 1993  \rjan Rosenblom  (orjan@lysita)
+
+	* GNUmakefile (install): Fixade s} att 'make install' r}knar
+	  upp locallvel automagiskt och l}nkar om till den nya bin{ren.
+
+	* call_out.c: Ladde till ett sj{tte element i wiz_list_info.
+	  Returnerar den sparade command_giver.	 
+
+Fri Aug 27 17:02:25 1993  \rjan Rosenblom  (orjan@astrid)
+
+	* Gjorde en GNUmakefile. Alla .o filer hamnar i obj
+	  nu.
+
+	* Tre nya efuns. _set_prompt(), _tgetent() och _query_ed()
+
+	* St{dade bort en massa gamla filer. Sk{ll p} mig om det var
+	  n}got som ni ville ha kvar :)
+	
+Wed Aug 25 17:06:36 1993  Thomas Padron-McCarthy  (padrone@robert)
+
+	* object.c (save_object): Nu kan man inte spara objekt
+	  p} ett filnamn som inneh}ller str{ngen "../".
+
+Mon Apr 26 01:52:11 1993  Fredrik Hubinette  (albert_e@bodil)
+
+	* Alla escape ers{tts numera med space.
+
+Wed Apr 21 17:13:43 1993  \rjan Rosenblom  (orjan@robin)
+
+	* Adderade _file_stat och _object_stat.
+
+Wed Mar 10 20:19:16 1993  Jones Desougi  (axel_f@konrad)
+
+	* Hackade in en ny sscanf som klarar sig utan dummyvariabler om
+	  man inte {r intresserad av v{rdet. Om man s{tter en '*' efter
+	  procenttecknet (%*s eller %*d) s} kastas v{rdet i bithinken men
+	  det r{knas med i det returnerade antalet matchningar.
+
+Wed Mar  3 03:29:31 1993  \rjan Rosenblom  (orjan@godot)
+
+	* Hackade in MudOS sockets. Samt en massa sm} hack :)
+	  Locallevel 32.
+
+Sat Jan 30 15:36:41 1993  \rjan Rosenblom  (orjan@bodil)
+
+	* Fixade get_type_name i postlang.y s} att det inte krashar
+	  n{r det blir typfel med en float inblandad. F|rs|kte ox}
+	  klura ut vad float g|r i v}r driver, men misslyckades 
+	  totalt.  *poke lpd*
+
+Mon Jan 18 03:26:36 1993  \rjan Rosenblom  (orjan@robert)
+
+	* Patchade in Amylaars fast fit i smalloc. Den anv{nder
+	  AVL-tr{d ist}llet f|r en den l{nkade listan som {r 	
+	  standard.
+
+Sun Jan 17 05:36:31 1993  \rjan Rosenblom  (orjan@varg)
+
+	* St{dade upp lite i mudlib rooten. Flyttade WIZLIST och
+	  ACCESS.ALLOW till etc. lpmud.log och kajsa.debug.log
+	  till syslog. OBJ_DUMP hamnade visst i syslog ox}.
+
+	* Flyttade ut ident till hname.
+
+Tue Jan 12 13:21:18 1993  Peter Eriksson  (pen@lysator)
+
+	* Lite mera fixar. Nu kan man anropa onerror() (I drivern allts})
+	  s} att man kan f} saker utf|rda vid error(). Tex nollas nu
+	  O_IN_DESTRUCT-flaggan om en error() h{nder. Kolla i
+	  odestruct_flag() hur man b|r anv{nda den. OBS! Man m}ste
+	  g|ra remove_onerror() om allt gick ok!
+
+Mon Jan 11 20:41:39 1993  Peter Eriksson  (pen@lysator)
+
+	* Gjorde s} att destruct() alltid anropar _exit() i
+	  objectet som ska f|rst|ras s} man kan detektera
+	  en destruct() p} ett vettigt s{tt. Satte {ven
+	  stopp f|r eventuella recursiva destructs() genom
+	  en ny flagga i object-structen (O_IN_DESTRUCT).
+
+	* Lade in en koll i move_object() s} att det inte g}r
+	  att flytta in object i ett annat object som h}ller p}
+	  att destruct():as.
+
+Mon Dec 21 03:56:00 1992  \rjan Rosenblom  (orjan@maskros)
+
+	* Patchade in Linus str{ngoptimering plus lite
+	  andra str{ngpatchar. (postlang.y, prelang.y
+	  interpret.c och array.c)
+
+Sun Nov 22 04:08:38 1992  Jones Desougi  (axel_f@konrad)
+
+	* Fixade en bug i preprocessorn som kunde krasha mudden (lex.c)
+	* Adderade kollar om command_giver {r destructad i ed() och
+	  shout() (interpret.c & simulate.c)
+	* Fixade en bug i restore_object() vid restorande av mappings och
+	  arrayer. (object.c)
+	* Fixade s} att testmudden f}r en unik swapfil genom att anv{nda
+	  portnumret. (swap.c)
+
+Wed Nov  4 17:36:27 1992  NannyMUD(orjan)  (nannymud@lysator)
+
+	* Flyttade swapfilen till /local2/nannymud/LP.SWAP.3
+	  Locallevel L28  blev det ox}..
+
+Sat Oct 31 01:18:59 1992  \rjan Rosenblom  (orjan@robin)
+
+	* Gjorde undo p} super_invis och /obj/daemon patchen
+
+Thu Oct 29 00:02:27 1992  \rjan Rosenblom  (orjan@robin)
+
+	* Gav object i /obj/daemon samma r{ttigheter som
+	  master.c (check_file_name i simulate.c)
+
+Sun Oct 25 07:32:37 1992  \rjan Rosenblom  (orjan@ruben)
+
+	* Fixade en bugg i player_parse som hade med sentence att g|ra
+	  La till variabeln super i sentence strukten
+
+Thu Oct 22 08:22:07 1992  Peter Skov  (scs@lysator)
+
+	* la till O_SUPER_INVIS i objectstrukten. La ocksa in efunen
+	  _super_invis(void|int), som gor sa att vi 23++ kan bli osynliga
+	  for alla andra wizards. La in patchar sa att detta funkar i
+	  object.c, object.h, interpret.c, array.c, simulate.c och
+	  func_spec.c. De gamla filerna finns i <filnamn>.old. 
+	  Hur man kan anvanda super invis, se ett inlagg i internals.
+	  
+
+Wed Sep 30 01:47:03 1992  Fredrik Hubinette  (albert_e@robert)
+
+	* Implementerade _object_cpu() .. returnerar hur mycket eval cost
+	  ett object har anv{nt.
+
+Mon Sep 28 17:10:33 1992  Fredrik Hubinette  (albert_e@mauritz)
+
+	* La till -fomit-frame-pointer & -funroll-loops i makefilen, om
+  	  det visar sig att det blir sv}rt att debugga s} f}r vi ta bort den
+	  f|rsta.
+
+Sun Sep 13 01:07:46 1992  \rjan Rosenblom  (orjan@robert)
+
+	* Kompilerat med mudwho plus {ndrat lite i infot som
+	  skickas iv{g till servern.
+
+	* Fixade division by zero buggen i #if
+

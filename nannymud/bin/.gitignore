@@ -1,0 +1,3 @@
+# Include this directory, but not executables.
+*
+!.gitignore

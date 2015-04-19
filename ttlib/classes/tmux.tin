@@ -1,0 +1,71 @@
+#nop VSoF;
+
+/* 
+ * Author: Nathan Farrar <nfarrar@crunk.io>
+ * Description: TinTin++ enhancements using tmux.
+ *
+ * References:
+ *  - http://tintin.sourceforge.net/board/viewtopic.php?t=2121
+ */
+
+
+#class tmux open;
+#var screens;
+
+/* #macro <F4> */ 
+/* #sys tmux select-pane -t 1 */ 
+/* end */ 
+
+/* #macro <F5> */ 
+/* #sys tmux select-pane -t 0 */ 
+/* end */ 
+
+/* get the screen dimensions */
+#format {screen_width}  {%C} {} 
+#format {screen_height} {%R} {} 
+
+/* Determine the split sizes */
+#math {tmux_split} {$screen_width - 81} 
+#math {tmux_half} {$screen_width / 2} 
+
+/* ensure tmux is installed */
+#act {tmux %1} {#var tmux on} 
+#script {path} {tmux -V} 
+#showme {$path[1]}
+      
+/* check for open tmux panes and split accordingly */
+#act {0: [%1x%2] [history %3/%4, %5 bytes] %%%6 (active)} { 
+  #var screen_0_height %1; 
+  #var screen_0_width %2; 
+  #if { "$screen_1" != "open" } { 
+    #if { "$tmux_split" >= "$tmux_half" } { 
+      #sys {tmux split-window -h -p 50 "tail -f all_but_roomname.log"}; 
+      #sys {tmux select-pane -t 0}; 
+    } { 
+      #sys {tmux split-window -h -l $tmux_split "tail -f all_but_roomname.log"}; 
+      #sys {tmux select-pane -t 0}; 
+    }; 
+  };
+}
+
+#act {1: [%1x%2] [history %3/%4, %5 bytes] %%%6} { 
+  #var screen_1 open; 
+  #var screen_1_height %1; 
+  #var screen_1_width %2; 
+} 
+
+#script {path} {tmux list-panes} 
+#showme {listing current tmux panes...} 
+#showme { } 
+#showme {$path[2]} 
+#showme {$path[1]}
+
+
+#nop redundant? 
+#act {1: [%1x%2] [history %3/%4, %5 bytes] %%%6} { 
+  #var screen_1 open; 
+  #var screen_1_height %1; 
+  #var screen_1_width %2; 
+}
+
+#class tmux close;

@@ -1,0 +1,31 @@
+session_name: tintin
+windows:
+
+- window_name: tintin
+  start_directory: /Users/nfarrar/Dropbox/Projects/mudfiles
+  layout: d3bb,272x67,0,0{60x67,0,0[60x33,0,0,1,60x33,0,34,2],150x67,61,0[150x3,61,0,3,150x63,61,4,4],60x67,212,0[60x33,212,0,5,60x33,212,34,6]}
+  focus: 'true'
+  panes:
+  - clear && tail -f .tmp/map.txt
+  - clear && tail -f .tmp/debug.txt
+  - clear && tail -f .tmp/sessions.txt
+  - shell_command: echo 'main'
+    focus: 'true'
+  - clear && tail -f .tmp/messages.txt
+  - clear && tail -f .tmp/combat.txt
+
+- window_name: src
+  start_directory: /Users/nfarrar/Dropbox/Projects/mudfiles
+  panes:
+  - vim **/*.tin
+
+- window_name: wiki
+  start_directory: /Users/nfarrar/Dropbox/Projects/mudfiles/wiki
+  panes:
+  - vim **/*.md
+
+- window_name: srv
+  start_directory: /Users/nfarrar/Dropbox/Projects/mudfiles/wiki
+  panes:
+  - python -m SimpleHTTPServer
+

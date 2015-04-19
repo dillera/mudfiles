@@ -1,0 +1,106 @@
+#alias {qse} {southeast}
+#alias {qsw} {southwest}
+#alias {qne} {northeast}
+#alias {qnw} {northwest}
+#alias {xx} {3en;sell all;sap;s3w}
+#alias {tbk} {travel basalt keep;#alias {xx} {nw;sell all;sap;es}}
+#alias {tm} {travel mainland;#alias {xx} {3en;sell all;sap;s3w}}
+#alias {sbk} {sail basalt keep;#alias {xx} {nw;sell all;sap;es}}
+#alias {sm} {sail mainland;#alias {xx} {3en;sell all;sap;s3w}}
+#alias {gorb} {grol;knock gate;3n2e2ne;buy 5;secure orb;w3s2w2s;grolb}
+#alias {dwarf} {2en4w;enter mirror;2w;enter mirror;es2wn}
+#alias {dwarfb} {s2enw;enter mirror;2e;enter mirror;4es2w}
+#alias {flesh} {16w5s2ed2s;southeast;2s}
+#alias {fleshb} {2n;northwest;2nu2w5n16e}
+#alias {hrunt} {6w;enter tunnel;e4s2en;northwest}
+#alias {hruntb} {southeast;s2w4nw;out;6e}
+#alias {iana} {5w3s;call eagle;2nwnwn2w;climb mountain;jump;2n;d}
+#alias {ianab} {e;southeast;swim;2se;enter boat;9n}
+#alias {minot} {4w5n5w4n2wu2e3n}
+#alias {minotb} {3s2wd2e4s5e5s4e}
+#alias {ogre} {15w3ne4nwd}
+#alias {ogreb} {ue4sw3s15e}
+#alias {orb} {16w5s4esen2en2e;northeast;northeast;4n2e3ne}
+#alias {orbb} {w3s2w4s;southwest;southwest;2ws2wswn4w5n16e}
+#alias {hans} {4wne3ne6nw2ne2ne;say help}
+#alias {hansb} {out;w;2sw2se6sw3sws4e}
+#alias {hansh} {out;w2sw2se6sw3sws5w7s2w3sd;heal;u3n2e7n5ene3ne6nw2ne2ne;say help}
+#alias {strike} {4w5n5wnw;northwest;4w;northwest;southwest;w;southwest;northwest;enter canoe;nw}
+#alias {strikeb} {es;enter canoe;southeast;northeast;e;northeast;southeast;4e;southeast;es5e5s4e}
+#alias {towerb} {northeast;dnd3e2s;grolb}
+#alias {orb1} {15w9s4e7s4w2n2e3ne}
+#alias {orb1b} {w3s2w2s4e7n4w9n15e}
+#alias {grol} {15w9s4e7s4w}
+#alias {grolb} {4e7n4w9n15e}
+#alias {penta} {4w5n5wn3wn3w;northwest;southwest;w;southwest;s;enter crypt;search dust;open trapdoor;dsw;press pentagram;2wn2ws;lift gate;3wn}
+#alias {pentab} {press pentagram;enu;out;n;northeast;e;northeast;southeast;3es3es5e5s4e}
+#alias {crypt} {4w5n5wn3wn3w;northwest;southwest;w;southwest;s;enter crypt;search dust;open trapdoor;dswse}
+#alias {cryptb} {wnenu;out;n;northeast;e;northeast;southeast;3es3es5e5s4e}
+#alias {fin}{9s2e;southeast;e;southeast;e5n;enter painting;3e2n}
+#alias {finb}{2s3w;enter portal;5sw;northwest;w;northwest;2w9n}
+#alias {pearl} {4w2n;southwest;wdend}
+#alias {pearlb} {get pearl;wswnw3s2usue;northeast;2s4e}                        
+#alias {lu} {12w4n;northwest;northwest;n2w2nw;enter;wnwnwn2uw;enter;enter}
+#alias {lub} {out;out;e2dsesesese2s2es;southeast;southeast;4s12e}
+#alias {fnnr} {12w4n;northwest;northwest;n2w}
+#alias {fnnrb} {2es;southeast;southeast;4s12e}
+#alias {flail} {9w7s6ws3d2wnds;dive pool;2n5w}
+#alias {flailb} {5e2sunus2e3un6e7n9e}                                          
+#alias {ogre} {15w3ne4nwd}
+#alias {ogreb} {ue4sw3s15e}                                                   
+#alias {king} {w2sw;read 1;stand;2n3u;jump}                                    
+#alias {troll1} {4w5n5wn4wswsw;southwest;wn}
+#alias {troll1b} {se;northeast;enen4es5e5s4e}
+#alias {troll2} {troll1;northwest;n}
+#alias {troll2b} {s;southeast;troll1b}
+#alias {elf} {2e13nw;climb mountain;e;northeast;n;northeast;jump gap;southeast;2s;southeast}
+#alias {elfb} {northwest;2n;northwest;jump gap;southwest;s;southwest;w;climb down;e13s2w}
+#alias {lic}{4wse5u;enter mirror;2e;enter mirror;n}
+#alias {licb}{s;enter mirror;2w;enter mirror;5dwn4e}
+#alias {lic2}{9w10nw;climb mountain;s;climb mountain;s;climb mountain;qse;3n;enter}
+#alias {lic2b}{3s;qnw;climb down;n;climb down;n;climb down;e10s9e}
+#alias {gate} {2e13nw;climb mountain;northwest;w;northwest;d}
+#alias {gateb} {u;southeast;e;southeast;climb down;e13s2w}
+#alias {dk1} {2e3n3e2n;mount dragon;fly telgar}
+#alias {dk2} {denw6n;enter well;w2n;open trapdoor;un;southeast;northeast}
+#alias {dk3} {un;northwest;northwest;northwest;enter bowl;press handle}
+#alias {mika} {4e2s2w;climb ladder;u;crawl hole;3n}
+#alias {mikab} {3s;out;2d2e2n4w}
+#alias {drago} {5e6nw2u}
+#alias {dragob} {2de6s5w}
+#alias {hive} {wn10w;#4 qnw;5n4e3n}
+#alias {hiveb} {3s4w5s;#4 qse;10ese}
+#alias {ant} {9ses;#3 touch globe}
+#alias {antb} {nw9n}
+#alias {k4} {4n3ed3s4eu}
+#alias {k4b} {d4w3nu3w4s}
+#alias {aes} {8s2wd3s5wn;northwest;5n}
+#alias {aesb} {5s;southeast;s5e3nu2e8n}
+#alias {dwa} {2e15nw;climb mountain;qnw;w;qnw;move pile;d3n;read rune}
+#alias {dwab} {3su;qse;e;qse;climb down;e15s2w}
+#alias {drow} {7sw2nen4e}
+#alias {drowb} {4wsw2se7n}
+#alias {sent} {8w7s;southeast;down;southwest;2s}
+#alias {sentb} {2n;northeast;up;northwest;7n8e}
+#alias {yard}{3s2w2ne}
+#alias {yardb}{w2s2e3n}
+#alias {mass} {yard;2s}
+#alias {massb} {2n;yardb}
+#alias {angel} {5w3s;call eagle;2nwnwn2w;climb mountain;jump;2n}
+#alias {tk1} {3se3s;say please in}
+#alias {tk2} {e2sw4s5e6ns}
+#alias {tkb} {6s5w4ne2nw4nw3n}
+#alias {wero} {25w2n;qne;2e;qne;ne;qne;e;qse;qsw;s;qse;qne;qne;qne;qne;qse;qne;n;qne;qne;qse;5s;qse;es}
+#alias {werob} {nw;qnw;5n;qnw;qsw;qsw;s;qsw;qnw;qsw;qsw;qsw;qsw;qnw;n;qne;qnw;w;qsw;ws;qsw;2w;qsw;qsw;2s25e}
+#alias {wolfy} {15w5s3wsw;qnw}
+#alias {wolfyb} {qse;en3e5n15e}
+#alias {truth} {9w7s6ws3d2e}
+#alias {truthb} {2w3un6e7n9e}
+#alias {dan %1} {2en3w;enter portal %1}
+#alias {danb} {enter portal;3es2w}
+#alias {ionel} {6w7see}
+#alias {ionelb} {2w7n6e}
+#alias {cclub} {15w3n2e2nunw;push brick}
+#alias {cclubb} {out;esd2s2w3s15e}
+#alias {fez} {27s4w;qsw;qsw;4w;qsw;qsw;3w2n2ws}
+#alias {fezb}{2e2s3e;qne;qne;4e;qne;qne;4e27n}
