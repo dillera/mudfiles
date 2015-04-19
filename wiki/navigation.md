@@ -30,5 +30,7 @@
 
 [Pyre](/pyre/index.md)
 
+[Source](https://github.com/nfarrar/mudfiles)
+
 [gimmick:theme (inverse: false)](yeti)
 [gimmick:Disqus](mudfiles)
