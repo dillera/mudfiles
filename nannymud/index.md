@@ -17,6 +17,11 @@ Basic connection settings:
     Port: 2000
 
 
+NannyMUD Player Days
+--------------------
+Every so often, a "NannyMUD player day" is scheduled on the [Facebook Group](https://www.facebook.com/groups/nannymud/) - and *lots* of players will log in to play at the same time. Very *nostalgic*. Monitor the [Facebook Group](https://www.facebook.com/groups/nannymud) to see when these are scheduled.
+
+
 Links
 -----
 A collection of NannyMUD resources.

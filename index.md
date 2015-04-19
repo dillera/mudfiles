@@ -4,7 +4,7 @@ MUDFiles
 
 Overview
 --------
-Some time ago, I started working on 'modularizing' my tintin code. In the process, I stood up the [Unofficial TinTin++ User's Group](https://github.com/tintinplusplus) and dumped some POC code there. I got frustrated working with the TinTin++ language, and started working on a pure python client, but ran out of time. I stopped playing/working on these projects and let the repos fall into desrepair.
+Some time ago, I started working on 'modularizing' my tintin code. In the process, I stood up the [Unofficial TinTin++ User's Group](https://github.com/tintinplusplus) and dumped some POC code there. I got frustrated working with the TinTin++ language, and started working on a pure python client, but ran into time constraints with work and stopped working on these projects (for a time) and let them fall into desrepair.
 
 I've just started reorganizing my codebase/projects and have centralized them here in a single repository. I've been slowly updating them and am working on a new approach to building modular, reusable TinTin++ code - it's a hybrid solution that leverages a TinTin -> Python API and will hopefully allow advanced TinTin++ users to share their codebases and built more advanced features.
 
@@ -25,6 +25,12 @@ The wiki is built using [MDWiki][] and served statically via [Github Pages][]. I
 Much of the data in the [NannyMUD Wiki Section](http:/crunk.io/mudfiles/#!/nannymud/index.md) is incomplete and/or outdated. I'm currently working on Python Integrations with TinTin++ that generate large tables of data in the NannyMUD section (specifically the atlas/realm, healing, item, npc, and quest data) from live client data.
 
 I've also migrated the content from the original [Unofficial TinTin++ Unofficial Documentation](http://tintinplusplus-unoffical-documentation.readthedocs.org/) that I wrote using rst/sphinx to markdown and added it into this wiki (much easier to maintain/update). I've added lots of new content as I've been working on the python integrations and have no intention of updated the original guide.
+
+The wiki can be run locally by downloading the source & starting up any local webserver in the `wiki` directory:
+
+    git clone https://github.com/nfarrar/mudfiles.git
+    cd mudfiles
+    python -m SimpleHTTPServer
 
 
 <!-- References -->
