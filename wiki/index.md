@@ -19,4 +19,4 @@ My MUDFiles source repository contains several sections/projects:
 - [PYRE](https://github.com/nfarrar/mudfiles/pyre) (A Pure Python Programmable Mud Client)
 - [Wiki](https://github.com/nfarrar/mudfiles/wiki)
 
-Note: If you're viewing this file as the root README.md on github, you can view the wiki at [mudfiles.crunk.io](https://mudfiles.crunk.io).
+Note: If you're viewing this file as the root README.md on github, you can view the wiki at [crunk.io/mudfiles](http://crunk.io/mudfiles).
