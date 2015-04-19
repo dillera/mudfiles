@@ -1,6 +1,7 @@
-PYRE
+Pyre
 ====
-An ongoing project to create a programmable, python mud client. Need to import source & docs.
+An ongoing project to create a programmable, python mud client.
+TODO: Import source & documentation.
 
 
 Libraries
