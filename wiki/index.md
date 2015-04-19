@@ -4,14 +4,14 @@ MUDFiles
 
 Overview
 --------
-This page serves as the primary informational page on the [source repository](https://github.com/nfarrar/mudfiles), as well as the [wiki index page](http://mudfiles.crunk.io).  Based on which resource your viewing, some of the content *may* seem out of context.
-
 My MUDFiles source repository contains several sections/projects:
 
 - [My TinTin++ Codebase](https://github.com/nfarrar/mudfiles/tree/master/ttlib)
 - [NannyMUD Server Source](https://github.com/nfarrar/mudfiles/tree/master/nannymud)
 - [Pyre](https://github.com/nfarrar/mudfiles/tree/master/pyre) (A Pure Python Programmable Mud Client)
 - [Wiki](http://crunk.io/mudfiles) ([source](https://github.com/nfarrar/mudfiles/tree/master/wiki))
+
+Note: This page serves as the primary informational page on the [source repository](https://github.com/nfarrar/mudfiles), as well as the [wiki index page](http://mudfiles.crunk.io).  Based on which resource your viewing, some of the content *may* seem out of context.
 
 
 Status
@@ -23,7 +23,7 @@ I've just started reorganizing my codebase/projects and have centralized them he
 
 Installation
 ------------
-My mudfiles environment utilizies tintin++, tmux & python. Depending on your platform these instructions will vary.
+Setup & usage instructions:
 
     curl -O https://raw.github.com/pypa/pip/master/contrib/get-pip.py
     python get-pip.py
@@ -36,6 +36,9 @@ My mudfiles environment utilizies tintin++, tmux & python. Depending on your pla
 
     cd ttlib
     ./startin
+
+Note: My mudfiles environment utilizies tintin++, tmux & python. Depending on your platform these instructions will vary.
+
 
 Wiki
 ----
