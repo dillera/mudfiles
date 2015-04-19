@@ -2,14 +2,11 @@ Features
 ========
 Supplementary documentation on features that are 'built-in' to TinTin++.
 
-- [Sessions](sessions.md)
-- [Datatypes](datatypes.md)
-- [Command Files](command-files.md)
-- [Loops](loops.md)
-- [Colors](colors.md)
-- [Tab Completion](tab-completion.md)
-- [Shell Integration](shell-integration.md)
-- [Mapper](mapper.md)
-    - [Mapper Editing](mapper-editing.md)
-    - [Mapper Display](mapper-display.md)
-    - [Mapper Metadata](mapper-metadata.md)
+- [Sessions](sessions/index.md)
+- [Datatypes](datatypes/index.md)
+- [Command Files](command-files/index.md)
+- [Loops](loops/index.md)
+- [Colors](colors/index.md)
+- [Tab Completion](tab-completion/index.md)
+- [Mapper](mapper/index.md)
+- [Shell Integration](shell-integration/index.md)

@@ -1,10 +1,19 @@
 Pitfalls
 ========
-Issues that commonly trip up users.
+
+
+Overview
+--------
+Coverage of issues that commonly trip up users.
+
+See also:
+
+- [Debugging](/tintin/debugging/index.md)
 
 Data Types
 ----------
 The data type documentation is significantly lacking. The table data type is completely undocumented. I highly recommend making sure you understand them thoroughly first, as the parser is extremely particular about how data is stored and referenced - and will fail silently if anything is out of place.
+
 
 If Statement Terminations
 -------------------------
@@ -20,6 +29,7 @@ The previous code works fine - most of the time. However, if this code is in an 
         commands
     };
 
+
 Silent Failures
 ---------------
 When issuing #read commands from an alias, all debugging output is silenced, regardless of::
@@ -31,6 +41,7 @@ You will not see error messages from these files. This present a significant pro
 You can force verbose output by prefixing the #read commands with #line verbose.
 
 TODO: Test how #line log works with #line verbose.
+
 
 Variable Collisions
 -------------------
@@ -47,6 +58,7 @@ These values are not equivalent. Typically, strings remain unquoted.
 Note: This has tripped me up several times when passing data between the shell and tintin using #script.
 Note: In some contexts, for example `switch statements <http://tintin.sourceforge.net/board/viewtopic.php?t=2214>`_, strings MUST be quoted.
 
+
 Switch Statements
 -----------------
 Arguments in switch statements must be quoted, otherwise you'll get insane alias argument stack frame behavior. See "Quoted Strings" above.
@@ -61,6 +73,7 @@ If you don't terminate a #nop statement with a semicolon it will "absorb" the su
     }
 
 In this example, the script tag will be commented out and silently fail to execute.
+
 
 Command Files
 -------------

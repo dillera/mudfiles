@@ -1,5 +1,22 @@
-Metadata
-========
+Mapper Metadata
+===============
+
+
+Overview
+--------
+
+
+See also:
+
+- [Mapper](index.md)
+- [Helpfile](helpfile.md)
+- [Automapper](automapper.md)
+- [Metadata](metadata.md)
+- [Editing](editing.md)
+- [Display](display.md)
+
+The mapper stores it's data in a simple, flat, plaintext database.
+
 The mapper also has the capabilities for storing metadata about each room that can be used in an infinite amount of ways. The command #map info shows you some of these fields:
 
     Room area:
