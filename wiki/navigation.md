@@ -2,13 +2,13 @@
 
 [TinTin]()
 
-  * [Overview](tintin/index.md)
-  * [Features](tintin/features/index.md)
-  * [Cookbook](tintin/cookbook/index.md)
-  * [Debugging](tintin/debugging.md)
-  * [Pitfalls](tintin/pitfalls.md)
-  * [Tmux Layouts](tintin/tmux/index.md)
-  * [Python Integration](tintin/python/index.md)
+  * [Overview](/tintin/index.md)
+  * [Features](/tintin/features/index.md)
+  * [Cookbook](/tintin/cookbook/index.md)
+  * [Debugging](/tintin/debugging.md)
+  * [Pitfalls](/tintin/pitfalls.md)
+  * [Tmux Layouts](/tintin/tmux/index.md)
+  * [Python Integration](/tintin/python/index.md)
 
 [NannyMUD]()
 
