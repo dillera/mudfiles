@@ -6,14 +6,13 @@ Overview
 --------
 
 
-See also:
+**See also:**
 
-- [Mapper](index.md)
-- [Helpfile](helpfile.md)
-- [Automapper](automapper.md)
-- [Metadata](metadata.md)
-- [Editing](editing.md)
-- [Display](display.md)
+- [Mapper](/tintin/features/mapper.md)
+- [Helpfile](/tintin/features/mapper/helpfile.md)
+- [Automapper](/tintin/features/mapper/automapper.md)
+- [Editing](/tintin/features/mapper/editing.md)
+- [Display](/tintin/features/mapper/display.md)
 
 The mapper stores it's data in a simple, flat, plaintext database.
 

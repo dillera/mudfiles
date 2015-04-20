@@ -1,5 +1,10 @@
 Tab Completion
 ==============
+
+
+Overview
+--------
+
 Tab completion does not work for commands with whitespace, the following script demonstrates this behavior::
 
     #nop Our "nested" tab completions.;

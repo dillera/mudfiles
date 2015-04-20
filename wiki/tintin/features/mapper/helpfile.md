@@ -5,15 +5,13 @@ Overview
 --------
 A mirror of the 'in-client' mapper documentation (not available online, and viewing all this documentation in the client is tedious). Extracted from [help.c](http://git.io/vvhjx) on 2015/14/19.
 
+**See also:**
 
-See also:
-
-- [Mapper](index.md)
-- [Helpfile](helpfile.md)
-- [Automapper](automapper.md)
-- [Metadata](metadata.md)
-- [Editing](editing.md)
-- [Display](display.md)
+- [Mapper](/tintin/features/mapper.md)
+- [Automapper](/tintin/features/mapper/automapper.md)
+- [Metadata](/tintin/features/mapper/metadata.md)
+- [Editing](/tintin/features/mapper/editing.md)
+- [Display](/tintin/features/mapper/display.md)
 
 
 "In-Client" Mapper Help

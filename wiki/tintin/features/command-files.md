@@ -1,6 +1,10 @@
 Command Files
 =============
-Commands can be placed in files (known as command files).
+
+
+Overview
+--------
+TinTin commands can be placed in files (known as command files).
 
 
 Reading Command Files

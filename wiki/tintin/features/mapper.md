@@ -6,7 +6,7 @@ Overview
 --------
 The mapper is arguably the most valuable (and advanced) feature included in TinTin++. It allows us to create a persistent world 'map' (database). The mapper is very complicated and is probably the most asked about feature on the forums. I've 
 
-See Also:
+**See also:**
 
 - [Mapper](index.md)
 - [Helpfile](helpfile.md)

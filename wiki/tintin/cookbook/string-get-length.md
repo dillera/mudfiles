@@ -1,5 +1,9 @@
 Find the Length of a String
 ===========================
+
+
+Overview
+--------
 Find the length of a string::
 
     #var thestring {something here}

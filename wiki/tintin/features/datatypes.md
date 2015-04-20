@@ -1,5 +1,9 @@
 Data Types
 ==========
+
+
+Overview
+--------
 There are several different data types in tintin, several of which are undocumented. They must be used in specific ways that vary by context, so it can get tricky:
 
 - Simple variables: The basic building block for all data types.

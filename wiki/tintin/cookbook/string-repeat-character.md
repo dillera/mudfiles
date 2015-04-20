@@ -1,5 +1,9 @@
 Repeating Characters
 ====================
+
+
+Overview
+--------
 To repeat a character a dynamic number of times::
 
     #var cnt 30;

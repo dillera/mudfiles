@@ -1,5 +1,9 @@
 Read Verbose with Flag
 ======================
+
+
+Overview
+--------
 Even with #CONFIG VERBOSE ON and #DEBUG ALL enabled, this output is still suppressed if #read is called from within an alias.
 We can get around this by prefixing the #READ command with #LINE VERBOSE. Unfortunately, if you have lots of files being read, 
 then each time you want to enable this globally, you have to modify it throughout your entire configuration.

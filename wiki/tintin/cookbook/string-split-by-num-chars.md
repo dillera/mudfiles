@@ -1,5 +1,9 @@
 Splitting a string by a set number of characters
 ================================================
+
+
+Overview
+--------
 Split a string into an array based on a set string length::
 
     #format {test} {%w} {string} 

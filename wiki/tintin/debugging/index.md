@@ -7,8 +7,7 @@ Overview
 Debugging in TinTin is like hitting yourself in the face over, and over, and over. It hurts. And makes you feel dumb.
 These are some debugging tricks I've learned along the way that help make it a little less painful.
 
-
-See also:
+**See also:**
 
 - [Common Pitfalls](/tintin/pitfalls/index.md)
 

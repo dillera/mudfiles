@@ -1,4 +1,4 @@
-Building Layouts
+Terminal Layouts
 ================
 
 
@@ -6,6 +6,19 @@ Overview
 --------
 TinTin++ is a 'single window' console application and and a very simple API for *splitting* windows (through the `#split` API). These splits are horizontal only (you cannot split a window vertically in TinTin) and are *very* basic. It's highly desirable to build more advanced interfaces (the primary reason lots of users end up with GUI applications).
 
+**See also:**
+
+- [Building a tmux API](/tintin/advanced/terminal-layouts/tmux-api.md)
+- [Building a tmuxp API](/tintin/advanced/terminal-layouts/tmuxp-api.md)
+- [Mapper Display](/tintin/features/mapper/display.md)
+- [Chat Protocol](/tintin/advanced/chat.md)
+- [Netcat Pipes](/tintin/advanced/netcat.md)
+
+Note: This section is currently incomplete.
+
+
+Use Cases
+---------
 The most common use case scenario is to display the map in a separate window (rather than a `#SPLIT`). This is *especially* useful when using a wide terminal, since `#SPLIT` will only create a horizontal divider and occupy an extremely large amount of unnecessary space. Another common use case is to pipe specific types of messages into separate windows by the content type - i.e. having a 'primary' window running tintin, piping all combat data into a separate window, and all communications into a separate window.
 
 This has lots of additional applications:
@@ -15,13 +28,6 @@ This has lots of additional applications:
 - Multiplaying Displays (playing multiple characters simultaneously)
     - Displaying a list of sessions 
     - Viewing data from multiple sessions simultaneously
-
-
-See also:
-
-- [Mapper Display](/tintin/features/mapper/display.md)
-
-Note: This section is currently incomplete.
 
 
 Terminal Multiplexers
@@ -59,9 +65,6 @@ Out of these options, I use [tmuxp][], because it provides an API for interactin
 Note: The `window-layout` string exports *exact* sizes, tailoring the layout to a specific window size/resolution. If you're running your tintin environment on displays on varying sizes, you'll probably want to build layouts for each platform. In this case, you'll most likely want to setup an additional wrapper for starting the environment where the layout can be specified (see [startin][] for an example of this).
 
 
-Building a TinTin/Tmux API
---------------------------
-Note: TODO.
 
 
 Building a TinTin/Tmuxp API

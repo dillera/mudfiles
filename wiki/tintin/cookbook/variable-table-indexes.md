@@ -1,5 +1,9 @@
 Retrieving Table Indexes from a Variable
 ========================================
+
+
+Overview
+--------
 Retrieve a list of indexes from any reference point within a nested variable you must use the table index operator "[]"::
 
     #var MODULES {
