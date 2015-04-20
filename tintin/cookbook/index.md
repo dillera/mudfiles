@@ -1,6 +1,14 @@
 Cookbook
 ========
-Recipes for commonly asked questions (from the TinTin++ forums).
+
+
+Overview
+--------
+Recipes for *(simple)* commonly asked questions from the TinTin++ forums.
+
+
+Contents
+--------
 
 - [Class Guards](class-guards.md)
 - [Clear Console](clear-console.md)

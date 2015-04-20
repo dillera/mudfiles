@@ -1,14 +1,16 @@
-Pitfalls
-========
+Common Pitfalls
+===============
 
 
 Overview
 --------
-Coverage of issues that commonly trip up users.
+Issues that commonly trip up users.
 
-See also:
+
+**See also:**
 
 - [Debugging](/tintin/debugging/index.md)
+
 
 Data Types
 ----------

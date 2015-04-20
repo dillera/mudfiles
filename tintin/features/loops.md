@@ -1,5 +1,9 @@
 Loops
 =====
+
+
+Overview
+--------
 There are six commands in tintin for implementing different sorts of "loop" behavior:
 
 1. Foreach: For each item in the specified list, retrieve the value and execute some command(s).

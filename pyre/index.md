@@ -1,7 +1,12 @@
 Pyre
 ====
+
+
+Overview
+--------
 An ongoing project to create a programmable, python mud client.
-TODO: Import source & documentation.
+
+Note: Import source & documentation.
 
 
 Libraries

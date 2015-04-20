@@ -7,14 +7,13 @@ Overview
 Creating maps is a complicated process. The *automapper* makes this process *much* faster, however it doesn't work in all cases, and a lot of *manual* editing of map files is necessary to make them work correctly. There are several tricks to improve the behavior of the automapper and the mapper display as well.
 
 
-See also:
+**See also:**
 
-- [Mapper](index.md)
-- [Helpfile](helpfile.md)
-- [Automapper](automapper.md)
-- [Metadata](metadata.md)
-- [Editing](editing.md)
-- [Display](display.md)
+- [Mapper](/tintin/features/mapper.md)
+- [Helpfile](/tintin/features/mapper/helpfile.md)
+- [Automapper](/tintin/features/mapper/automapper.md)
+- [Metadata](/tintin/features/mapper/metadata.md)
+- [Display](/tintin/features/mapper/display.md)
 
 
 Dynamic Mapping

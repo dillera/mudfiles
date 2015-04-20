@@ -2,6 +2,10 @@ Sessions
 ========
 
 
+Overview
+--------
+
+
 The Startup Session
 -------------------
 The startup session is created at default. It's named gts (per #help session) and can be referenced with #gts, just as you would reference a character's session. Any code from command files loaded on startup is executed in this session.

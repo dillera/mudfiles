@@ -1,5 +1,9 @@
 Testing for the Existence of a Variable
 =======================================
+
+
+Overview
+--------
 To test for the existence of a variable::
 
     #if {&MYVAR} { #showme $$MYVAR EXISTS         };

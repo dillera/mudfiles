@@ -1,5 +1,9 @@
 TinTin++
 ========
+
+
+Overview
+--------
 TinTin++ is one of the oldest, most robust mud clients available. It's cross-platform (Windows, OSX, Linux), programmable (impliments it's own scripting engine/language), provides an API for system interaction/integration, runs on the command line (with a curses interface), and is *really* fast (written in Pure C).
 
 Unfortunately, TinTin's documentation is in a sorry state. It essentially exists in three disparate locations:
@@ -12,14 +16,50 @@ Out of these three, the [TinTin Forums][] are by far contain the most informatio
 
 The content is organized into the following sections:
 
-- [Features](features/index.md): Covers the built-in features of TinTin++ in a logical flow.
-- [Cookbook](cookbook/index.md): Provides *simple* recipes for performing some of the most common tasks that are frequently asked about on the forums.
-- [Debugging](debugging/index.md): Discusses methods for debugging tintin scripts.
-- [Pitfalls](pitfalls/index.md): Discusses some of the difficulties that are commonly encountered when writing intermediate & advanced tintin scripts.
-- [Terminal Colors](termcolor/index.md): A comprehensive guide to understanding terminal colors.
-- [Layouts](layouts/index.md): A discussion of various methods to build 'modular' interfaces (not natively supported by tintin).
-- [Python Integration](python/index.md): Provides comprehensive information on using python with tintin to perform advanced computation & automation.
-- [Understanding TinTin's Source Code](/ttsrc/index.md): Information on modifying TinTin's source.
+
+Contents
+--------
+
+- [Features](/tintin/features/index.md)
+    - [Sessions](/tintin/features/sessions.md)
+    - [Datatypes](/tintin/features/datatypes.md)
+    - [Command Files](/tintin/features/command-files.md)
+    - [Loops](/tintin/features/loops.md)
+    - [Colors](/tintin/features/colors.md)
+    - [Tab Completion](/tintin/features/tab-completion.md)
+    - [Mapper](/tintin/features/mapper.md)
+        - [Helpfile](/tintin/features/mapper/helpfile.md)
+        - [Automapper](/tintin/features/mapper/automapper.md)
+        - [Metadata](/tintin/features/mapper/metadata.md)
+        - [Editing](/tintin/features/mapper/editing.md)
+        - [Display](/tintin/features/mapper/display.md)
+- [Cookbook](/tintin/cookbook/index.md)
+    - [Class Guards](/tintin/cookbook/class-guards.md)
+    - [Clear Console](/tintin/cookbook/clear-console.md)
+    - [Executing Code in All Sessions](/tintin/cookbook/executing-code-in-all-sessions.md)
+    - [Parsing Tables by Reference](/tintin/cookbook/parsing-tables-by-reference.md)
+    - [Passing by Reference](/tintin/cookbook/passing-by-reference.md)
+    - [Read Verbose with Flag](/tintin/cookbook/read-verbose-with-flag.md)
+    - [Reload Command File](/tintin/cookbook/reload-command-file.md)
+    - [Getting a String's Length](/tintin/cookbook/string-get-length.md)
+    - [Repeating Characters in a String](/tintin/cookbook/string-repeat-character.md)
+    - [Splitting a String by Index](/tintin/cookbook/string-split-by-num-chars.md)
+    - [Variable Table Indexes](/tintin/cookbook/variable-table-indexes.md)
+    - [Variable Text Existence](/tintin/cookbook/variable-text-existence.md)
+- [Debugging](/tintin/debugging/index.md)
+- [Pitfalls](/tintin/pitfalls/index.md)
+- [Advanced](/tintin/advanced/index.md)
+    - [Terminal Colors](/tintin/advanced/terminal-colors.md)
+    - [Terminal Layouts](/tintin/advanced/terminal-layouts.md)
+        - [Building a tmux API](/tintin/advanced/terminal-layouts/tmux-api.md)
+        - [Building a tmuxp API](/tintin/advanced/terminal-layouts/tmuxp-api.md)
+    - [Chat Protocol](/tintin/advanced/chat.md)
+    - [Netcat Pipes](/tintin/advanced/netcat.md)
+    - [Python Integration](/tintin/advanced/python.md)
+        - [Executing Scripts with #SYSTEM](/tintin/advanced/python/execute-system.md)
+        - [Retrieving Values With #SCRIPT](/tintin/advanced/python/retrieve-script.md)
+        - [Attaching an Interpreter with #RUN](/tintin/advanced/python/attach-interpreter.md)
+    - [Understanding TinTin's Source Code](/tintin/advanced/tintin-source-code.md)
 
 
 Additional Resources
